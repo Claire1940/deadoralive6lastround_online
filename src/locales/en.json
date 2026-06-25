@@ -10,14 +10,7 @@
       "twitterDescription": "Complete Dead or Alive 6 Wiki: characters, tier list, combos, stages, Core Fighters, costumes, and Last Round guides for PS5, Xbox, and Steam."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
