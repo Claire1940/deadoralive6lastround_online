@@ -1,1 +1,1432 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Dead or Alive 6 - Personajes, Tier List y Combos",
+      "description": "La Wiki de Dead or Alive 6 cubre personajes, tier list, combos, escenarios, Core Fighters, actualizaciones de Last Round, desbloqueables, consejos del sistema y guías para principiantes.",
+      "keywords": "dead or alive 6, doa6, personajes, tier list, combos, escenarios, core fighters, last round",
+      "ogTitle": "Wiki de Dead or Alive 6 Last Round - Personajes, Tier List y Combos",
+      "ogDescription": "La Wiki de Dead or Alive 6 cubre personajes, tier list, combos, escenarios, Core Fighters, trajes y actualizaciones de Last Round con guías prácticas de juegos de lucha.",
+      "twitterTitle": "Wiki de Dead or Alive 6 Last Round - Personajes, Tier List y Combos",
+      "twitterDescription": "Wiki completa de Dead or Alive 6: personajes, tier list, combos, escenarios, Core Fighters, trajes y guías de Last Round para PS5, Xbox y Steam."
+    }
+  },
+  "nav": {
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "guide": "Guía",
+    "characters": "Personajes",
+    "dlc": "DLC",
+    "unlockables": "Desbloqueables"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Juego de lucha 3D de ritmo rápido",
+    "title": "Wiki de Dead or Alive 6 Last Round",
+    "description": "Domina los personajes, combos, escenarios, trajes, Core Fighters y actualizaciones de Last Round de Dead or Alive 6 con guías prácticas para luchadores nuevos y veteranos en PS5, Xbox Series X|S y Steam.",
+    "getFreeCodesCTA": "Ver luchadores",
+    "playOnSteamCTA": "Jugar en Steam / PS5 / Xbox",
+    "stats": {
+      "stat1": {
+        "value": "1 de marzo de 2019",
+        "label": "Lanzamiento original"
+      },
+      "stat2": {
+        "value": "25 de junio de 2026",
+        "label": "Lanzamiento de Last Round"
+      },
+      "stat3": {
+        "value": "29",
+        "label": "Luchadores de Last Round"
+      },
+      "stat4": {
+        "value": "36",
+        "label": "Logros de Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Dead or Alive 6 Last Round",
+    "description": "Domina el triángulo de golpes-proyecciones-agarres, la Break Gauge, el Fatal Rush, el Photo Mode y un plantel de 29 luchadores en PS5, Xbox Series X|S y Steam."
+  },
+  "tools": {
+    "title": "Dead or Alive 6",
+    "titleHighlight": "Guías",
+    "subtitle": "Salta a cualquier tema de Dead or Alive 6: detalles de lanzamiento, plantel, controles, combate, historia, DLC, versión gratuita y especificaciones de PC.",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Fecha de lanzamiento de Dead or Alive 6",
+        "description": "Plataformas, ediciones y cambios de Last Round"
+      },
+      {
+        "icon": "Users",
+        "title": "Tier List de Dead or Alive 6",
+        "description": "Plantel, estilos de lucha y niveles prácticos"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Dead or Alive 6",
+        "description": "Controles, defensa y flujo de práctica inicial"
+      },
+      {
+        "icon": "Swords",
+        "title": "Mecánicas de combate de Dead or Alive 6",
+        "description": "Break Gauge, Fatal Rush, agarres y peligros del escenario"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Historia y DOA Quest de Dead or Alive 6",
+        "description": "Historia, misiones, recompensas y orden de juego"
+      },
+      {
+        "icon": "Shirt",
+        "title": "Trajes y DLC de Dead or Alive 6",
+        "description": "Season Passes, DLC de personajes y transferencia"
+      },
+      {
+        "icon": "Gift",
+        "title": "Dead or Alive 6 Core Fighters",
+        "description": "Versión gratuita, ediciones y rutas de actualización"
+      },
+      {
+        "icon": "Cpu",
+        "title": "Especificaciones de PC y juego cruzado de Dead or Alive 6",
+        "description": "Requisitos, modos en línea y reglas de transferencia"
+      }
+    ]
+  },
+  "modules": {
+    "doa6ReleaseDatePlatforms": {
+      "eyebrow": "Información de lanzamiento",
+      "title": "Fecha de lanzamiento, plataformas y ediciones de Dead or Alive 6 Last Round",
+      "subtitle": "Dead or Alive 6 Last Round es la versión de generación actual de Dead or Alive 6 para PlayStation 5, Xbox Series X|S y Steam. Utiliza esta sección para separar el lanzamiento de Last Round de 2026 de los detalles de la plataforma original de 2019.",
+      "intro": "Este módulo ofrece a los jugadores los detalles prácticos del lanzamiento en primer lugar: dónde se puede jugar, qué edición elegir, qué incluye la versión estándar y qué se transfiere desde Dead or Alive 6. También destaca los principales cambios de Last Round: 29 luchadores jugables estándar, Photo Mode, soporte para hardware de generación actual y soporte de transferencia para datos de guardado y muchos trajes comprados anteriormente.",
+      "items": [
+        {
+          "label": "Estado actual",
+          "value": "Disponible ahora",
+          "detail": "Lanzamiento en descarga digital para PlayStation 5, Xbox Series X|S y Steam."
+        },
+        {
+          "label": "Fecha de lanzamiento oficial",
+          "value": "25 de junio de 2026",
+          "detail": "KOEI TECMO indica el lanzamiento el 25/06/2026. La página de la tienda de Steam muestra el 24 de junio de 2026 según el horario de su tienda."
+        },
+        {
+          "label": "Plataformas compatibles",
+          "value": "PS5, Xbox Series X|S, Steam",
+          "detail": "Last Round está actualizado para el hardware de generación actual y es independiente del lanzamiento original de Dead or Alive 6 de 2019 en PS4, Xbox One y Steam."
+        },
+        {
+          "label": "Edición Estándar",
+          "value": "29 personajes jugables",
+          "detail": "La lista estándar incluye DOA6 Last Round Core Fighters, la clave de desbloqueo de la historia y una clave de desbloqueo de 25 personajes."
+        },
+        {
+          "label": "Edición Core Fighters",
+          "value": "Gratuito",
+          "detail": "Core Fighters incluye a Kasumi, Marie Rose, Honoka y NiCO como luchadoras jugables. Photo Mode, DOA Quest, DOA Central y el juego en línea también están disponibles."
+        },
+        {
+          "label": "Antiguos luchadores de DLC incluidos",
+          "value": "Nyotengu, Phase 4, Momiji, Rachel, Tamaki",
+          "detail": "Estos cinco luchadores de DLC de DOA6 están incluidos en la plantilla estándar de Last Round, lo que eleva el total de la plantilla estándar a 29 personajes jugables."
+        },
+        {
+          "label": "Desbloqueos de invitados independientes",
+          "value": "Mai Shiranui y Kula Diamond",
+          "detail": "Mai Shiranui y Kula Diamond requieren claves de desbloqueo independientes y no forman parte del conjunto estándar de 29 personajes."
+        },
+        {
+          "label": "Soporte de transferencia",
+          "value": "Datos de guardado y muchos trajes de DOA6",
+          "detail": "La transferencia utiliza la misma cuenta de plataforma. Los datos de Last Round no se pueden transferir de vuelta al DOA6 original, y el DOA6 original no tiene juego cruzado con Last Round."
+        },
+        {
+          "label": "Nuevas funciones de Last Round",
+          "value": "Photo Mode, nuevos trajes, actualización de hardware",
+          "detail": "Photo Mode añade herramientas de posición y pose de personajes. Kasumi, Ayane, Marie Rose, Honoka y NiCO reciben nuevos trajes temáticos de Team NINJA."
+        },
+        {
+          "label": "Jugadores",
+          "value": "1-2 local, hasta 16 en línea",
+          "detail": "Las listas de la tienda muestran soporte para juego local y multijugador en línea, con un número de jugadores en línea de hasta 16."
+        }
+      ]
+    },
+    "doa6BeginnerGuideControls": {
+      "eyebrow": "Guía para principiantes",
+      "title": "Guía para principiantes de Dead or Alive 6: Controles, defensa y flujo de primera práctica",
+      "subtitle": "Comienza con los botones básicos, aprende el triángulo de golpes, agarres y llaves, luego añade el botón Especial y el indicador de ruptura. Esta guía ofrece a los nuevos jugadores una ruta clara desde los controles hasta los fundamentos del primer combate.",
+      "intro": "Dead or Alive 6 utiliza cinco acciones principales: Puñetazo, Patada, Llave, Agarre y Especial. Una vez comprendidas, los nuevos jugadores deben practicar el sistema de triángulo, la defensa alta/media/baja, la llave de ruptura, el golpe de ruptura, la embestida fatal y las rutas de combos simples en el Tutorial, Entrenamiento libre, Entrenamiento de comandos y Reto de combos.",
+      "steps": [
+        {
+          "title": "Aprende primero los botones predeterminados",
+          "description": "Memoriza Puñetazo, Patada, Llave, Agarre y Especial antes de aprender las combinaciones específicas de cada personaje."
+        },
+        {
+          "title": "Comprende el sistema de triángulo",
+          "description": "Los golpes vencen a los agarres, los agarres vencen a las llaves y las llaves vencen a los golpes. Ganar la interacción correcta inflige daño adicional, por lo que el objetivo no es solo presionar más rápido, sino leer lo que el oponente intenta hacer."
+        },
+        {
+          "title": "Practica la defensa alta, media y baja",
+          "description": "La guardia de pie bloquea golpes altos y medios, la guardia agachada bloquea golpes bajos, y las llaves deben coincidir con la altura del ataque. La llave alta responde a golpes altos, la llave de puñetazo medio responde a puñetazos medios, la llave de patada media responde a patadas medias, y la llave baja responde a golpes bajos."
+        },
+        {
+          "title": "Usa el botón Especial para las herramientas de principiante",
+          "description": "El botón Especial conecta acciones clave para principiantes: paso lateral, ataque lateral, embestida fatal, llave de ruptura y golpe de ruptura. Es la forma más rápida de acceder a los nuevos sistemas de DOA6 mientras aprendes la lista de comandos."
+        },
+        {
+          "title": "Usa el indicador de ruptura con cuidado",
+          "description": "El indicador de ruptura se llena durante la pelea. Al 50%, usa la llave de ruptura para contrarrestar cualquier altura de golpe. Al 100%, usa el golpe de ruptura para realizar un ataque poderoso a través del ataque del oponente."
+        },
+        {
+          "title": "Crea una primera ruta de combo",
+          "description": "Comienza con una combinación segura, un elevador, dos golpes aéreos y un remate de derribo. Mantén la ruta corta hasta que puedas repetirla desde ambos lados de la pantalla."
+        },
+        {
+          "title": "Usa los modos de entrenamiento en orden",
+          "description": "Ejecuta el Tutorial para los conceptos básicos del sistema, el Entrenamiento libre para el movimiento y la defensa, el Entrenamiento de comandos para las entradas de cada luchador, el Reto de combos para las rutas, y DOA Quest para misiones prácticas y recompensas."
+        },
+        {
+          "title": "Usa una lista de verificación simple para el primer combate",
+          "description": "Bloquea más de lo que presionas botones a lo loco, agarra a los oponentes que abusan de las llaves, realiza llaves a los oponentes que repiten golpes obvios, y guarda la llave de ruptura para la presión que de otro modo te dejaría aturdido."
+        }
+      ],
+      "controls": [
+        {
+          "platform": "PlayStation",
+          "punch": "Triángulo",
+          "kick": "Círculo",
+          "hold": "Cuadrado",
+          "throw": "Cruz",
+          "special": "R1"
+        },
+        {
+          "platform": "Xbox",
+          "punch": "Y",
+          "kick": "B",
+          "hold": "X",
+          "throw": "A",
+          "special": "RB"
+        },
+        {
+          "platform": "Steam Keyboard",
+          "punch": "K",
+          "kick": "L",
+          "hold": "J",
+          "throw": "M",
+          "special": "I"
+        }
+      ]
+    },
+    "doa6CombatSystemMechanics": {
+      "eyebrow": "Mecánicas de combate",
+      "title": "Sistema de combate de Dead or Alive 6: Break Gauge, Fatal Rush, Holds y peligros del escenario",
+      "subtitle": "Aprende cada sistema uno a la vez: primero las reglas del triángulo, segundo el Break Gauge, tercero el control del escenario. Este módulo divide el sistema de combate en tarjetas de mecánicas cortas para un aprendizaje rápido.",
+      "intro": "Dead or Alive 6 se basa en lecturas, contras y daño posicional. Los golpes, proyecciones y holds forman el triángulo principal; el Break Gauge añade el Break Hold y el Break Blow; el Fatal Rush ofrece a los principiantes una ruta de combo sencilla; y las Danger Zones convierten la posición en el escenario en daño real.",
+      "mechanics": [
+        {
+          "title": "Sistema del triángulo",
+          "summary": "El sistema de lectura principal: los golpes vencen a las proyecciones, las proyecciones vencen a los holds y los holds vencen a los golpes.",
+          "details": [
+            "Una interacción correcta inflige mayor daño.",
+            "Usa golpes cuando el oponente intente proyectar.",
+            "Usa proyecciones cuando el oponente dependa de los holds.",
+            "Usa holds cuando el oponente repita golpes predecibles."
+          ],
+          "example": "Después de bloquear una serie repetida, intenta una proyección si el oponente sigue buscando holds."
+        },
+        {
+          "title": "Ataques altos, medios y bajos",
+          "summary": "Cada altura de ataque importa porque los holds deben coincidir con el tipo de ataque entrante.",
+          "details": [
+            "Los ataques altos funcionan bien contra oponentes de pie.",
+            "Los ataques medios y bajos son efectivos contra oponentes agachados.",
+            "High Hold, Mid Punch Hold, Mid Kick Hold y Low Hold cubren diferentes tipos de golpes."
+          ],
+          "example": "Cuando un oponente repita un remate de patada baja, cambia de guardia de pie a guardia agachada o Low Hold."
+        },
+        {
+          "title": "Break Gauge",
+          "summary": "La barra especial utilizada para el Break Hold y el Break Blow.",
+          "details": [
+            "La barra se llena durante la pelea a medida que se infligen y reciben ataques.",
+            "El 50% del Break Gauge permite usar el Break Hold.",
+            "El 100% del Break Gauge permite usar el Break Blow."
+          ],
+          "example": "Guarda el 50% de la barra para escapar de una presión intensa, o guarda el 100% para un Break Blow que cambie el rumbo del asalto."
+        },
+        {
+          "title": "Fatal Rush",
+          "summary": "Un combo sencillo con el botón especial que puede alcanzar hasta cuatro golpes.",
+          "details": [
+            "El cuarto golpe manda a volar al oponente y causa Fatal Stun.",
+            "Con el Break Gauge lleno, el golpe final puede convertirse en un Break Blow.",
+            "Ofrece a los nuevos jugadores una ruta sencilla para infligir daño mientras aprenden comandos más complejos."
+          ],
+          "example": "Usa el Fatal Rush como ruta inicial, luego reemplaza partes con combos más fuertes específicos de cada personaje a medida que conozcas al luchador."
+        },
+        {
+          "title": "Break Blow",
+          "summary": "Un poderoso ataque de Break Gauge que se utiliza con el 100% de la barra.",
+          "details": [
+            "El Break Blow está diseñado para golpear a través del ataque del oponente.",
+            "Se puede cancelar después de que conecte el primer golpe, dejando al oponente expuesto a un combo de continuación.",
+            "Es mejor usarlo cuando el oponente está comprometido en una acción o cuando puedes confirmar la apertura."
+          ],
+          "example": "Usa el Break Blow para castigar un ataque predecible, luego practica la ruta de cancelación en el Entrenamiento libre."
+        },
+        {
+          "title": "Break Hold",
+          "summary": "Un hold universal que consume el 50% del Break Gauge.",
+          "details": [
+            "El Break Hold funciona contra golpes altos, medios y bajos.",
+            "Se puede usar durante el Critical Stun y el Fatal Stun.",
+            "Úsalo como una escapada defensiva cuando la presión o el aturdimiento te mantendrían bloqueado de otro modo."
+          ],
+          "example": "Cuando estés atrapado en un Fatal Stun, usa el Break Hold para detener la presión del oponente."
+        },
+        {
+          "title": "Side Attack y Sidestep",
+          "summary": "El Sidestep esquiva ataques en línea recta, y el Side Attack convierte ese movimiento en ofensiva.",
+          "details": [
+            "El Side Attack se realiza mientras se hace un sidestep.",
+            "Solo esquiva ataques en línea recta.",
+            "Úsalo contra presión lineal, no contra cada movimiento por instinto."
+          ],
+          "example": "Contra un jugador que repite un golpe directo hacia adelante, haz un sidestep para realizar un Side Attack en lugar de bloquear indefinidamente."
+        },
+        {
+          "title": "Guardias, proyecciones y castigos de hold",
+          "summary": "Bloquear es seguro contra los golpes, pero las proyecciones castigan el bloqueo pasivo y los holds fallidos.",
+          "details": [
+            "La guardia de pie cubre golpes altos y medios.",
+            "La guardia agachada cubre golpes bajos.",
+            "Las proyecciones vencen a los holds y no son efectivas contra los golpes.",
+            "Las proyecciones estándar se pueden escapar si se calcula bien el tiempo."
+          ],
+          "example": "Cuando el oponente se paralice tras tu presión, proyecta. Cuando presionen golpes rápidos repetidamente, bloquea o usa un hold."
+        },
+        {
+          "title": "Danger Zones y peligros del escenario",
+          "summary": "Muchos escenarios incluyen zonas que infligen daño adicional cuando los luchadores son lanzados contra ellas.",
+          "details": [
+            "Las Danger Zones incluyen paredes, suelos, explosiones, coches y otros peligros específicos del escenario.",
+            "El Rumble Danger puede empujar a un luchador de vuelta al ring y crear una oportunidad de ataque.",
+            "Los objetos de destrucción masiva, como cajas y vasijas, pueden romperse para infligir daño adicional."
+          ],
+          "example": "Usa series de empuje cerca de una pared o peligro en lugar de terminar siempre los combos en espacio abierto."
+        },
+        {
+          "title": "Lanzamiento y rutas básicas de combos",
+          "summary": "Las rutas sencillas son más fáciles de repetir: aturdimiento, lanzamiento, malabarismo (juggle), remate y luego restablecer la distancia.",
+          "details": [
+            "Usa la presión o un golpe de contra (counter hit) para crear aturdimiento.",
+            "Lanza al oponente después de que quede vulnerable.",
+            "Añade un combo aéreo corto y luego termina con un empuje o arrastre a la pared.",
+            "Mantén la consistencia en tus primeras rutas antes de buscar combos de máximo daño."
+          ],
+          "example": "Practica una ruta en el centro de la pantalla y otra cerca de una pared antes de añadir variantes específicas de cada personaje."
+        }
+      ]
+    },
+    "doa6CharactersTierList": {
+      "eyebrow": "Plantilla",
+      "title": "Plantilla de personajes y lista de niveles de Dead or Alive 6",
+      "subtitle": "Explora la plantilla de Last Round por luchador, estilo, estado de desbloqueo y colocación práctica en la lista de niveles. La cuadrícula separa a los luchadores de la plantilla estándar de los desbloqueos de invitados independientes.",
+      "intro": "La edición estándar de Dead or Alive 6 Last Round incluye a los 24 luchadores originales de DOA6 más Nyotengu, Phase 4, Momiji, Rachel y Tamaki. Core Fighters comienza con Kasumi, Marie Rose, Honoka y NiCO, mientras que Mai Shiranui y Kula Diamond se manejan como desbloqueos de personajes invitados independientes.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Elecciones de máxima prioridad",
+          "description": "Presión rápida, confirmaciones flexibles, herramientas de agarre fuertes o cobertura limpia de enfrentamientos.",
+          "fighters": [
+            {
+              "name": "Kasumi",
+              "style": "Ninjutsu Mugen Tenshin",
+              "role": "Presión constante de alta velocidad",
+              "unlock": "Jugable en Core Fighters; incluido en la versión estándar"
+            },
+            {
+              "name": "Ayane",
+              "style": "Ninjutsu estilo Mugen Tenshin Hajinmon",
+              "role": "Espaciado móvil y presión evasiva",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "NiCO",
+              "style": "Pencak Silat",
+              "role": "Presión técnica rápida con ataques mejorados por EMF",
+              "unlock": "Jugable en Core Fighters; incluido en la versión estándar"
+            },
+            {
+              "name": "Tamaki",
+              "style": "Aikido",
+              "role": "Control de agarres y sabaki",
+              "unlock": "Incluido en Last Round estándar"
+            },
+            {
+              "name": "Leifang",
+              "style": "T'ai Chi Ch'uan",
+              "role": "Desvíos, agarres y contra-control",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Momiji",
+              "style": "Aikijutsu estilo Hayabusa",
+              "role": "Movimiento rápido y presión aérea",
+              "unlock": "Incluido en Last Round estándar"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Elecciones principales fuertes",
+          "description": "Personajes confiables con rutas de daño fuertes, herramientas neutrales sólidas o planes de juego claros.",
+          "fighters": [
+            {
+              "name": "Hayate",
+              "style": "Ninjutsu Mugen Tenshin",
+              "role": "Presión ninja equilibrada",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Ryu Hayabusa",
+              "style": "Ninjutsu estilo Hayabusa",
+              "role": "Luchador de agarre ninja de alto daño",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Helena",
+              "style": "Pi Gua Quan",
+              "role": "Control de postura evasiva",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Jann Lee",
+              "style": "Jeet Kune Do",
+              "role": "Presión de pared y Danger Zone",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Rachel",
+              "style": "Combate contra demonios",
+              "role": "Poder de peso pesado y lanzamientos aéreos",
+              "unlock": "Incluido en Last Round estándar"
+            },
+            {
+              "name": "Phase 4",
+              "style": "Ninjutsu Mugen Tenshin (clon)",
+              "role": "Rushdown técnico",
+              "unlock": "Incluido en Last Round estándar"
+            },
+            {
+              "name": "Hitomi",
+              "style": "Karate",
+              "role": "Golpes equilibrados y fundamentos",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Marie Rose",
+              "style": "Systema",
+              "role": "Contrajuego evasivo de silueta pequeña",
+              "unlock": "Jugable en Core Fighters; incluido en la versión estándar"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Sólidos y listos para el enfrentamiento",
+          "description": "Buenas opciones de la plantilla que recompensan el conocimiento del enfrentamiento, la disciplina de espaciado o las rutas específicas de cada personaje.",
+          "fighters": [
+            {
+              "name": "Kokoro",
+              "style": "Ba Ji Quan",
+              "role": "Presión de codo y palma a media distancia",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Diego",
+              "style": "Estilo callejero",
+              "role": "Luchador centrado en la pared",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Mila",
+              "style": "Artes marciales mixtas",
+              "role": "Golpes agresivos y seguimientos de derribo",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Christie",
+              "style": "Puño de serpiente",
+              "role": "Ofensiva evasiva a corta distancia",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Bayman",
+              "style": "Sambo de combate",
+              "role": "Especialista en agarres y control a corta distancia",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Nyotengu",
+              "style": "Tengu-do",
+              "role": "Ataques aéreos y golpes pesados",
+              "unlock": "Incluido en Last Round estándar"
+            },
+            {
+              "name": "Rig",
+              "style": "Taekwondo",
+              "role": "Presión de patadas acrobáticas",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Honoka",
+              "style": "Honoka Fu",
+              "role": "Conjunto de movimientos mixto y poder de postura",
+              "unlock": "Jugable en Core Fighters; incluido en la versión estándar"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Elecciones de especialistas",
+          "description": "Personajes con una fuerte identidad que requieren un espaciado más deliberado, lectura de lanzamientos, uso de posturas o experiencia en enfrentamientos.",
+          "fighters": [
+            {
+              "name": "Tina",
+              "style": "Lucha libre profesional",
+              "role": "Luchador completo con lanzamientos fuertes",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Bass",
+              "style": "Lucha libre profesional",
+              "role": "Luchador de agarre de fuerza",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Zack",
+              "style": "Muay Thai (autodidacta)",
+              "role": "Presión impredecible de Muay Thai",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Eliot",
+              "style": "Xingyi Quan + Xinyi Liuhe Quan",
+              "role": "Secuencias de presión lineal",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Brad Wong",
+              "style": "Zui Quan",
+              "role": "Confusión de postura poco ortodoxa",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "La Mariposa",
+              "style": "Lucha libre",
+              "role": "Ataques aéreos y movimiento engañoso",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            },
+            {
+              "name": "Raidou",
+              "style": "Ninjutsu Mugen Tenshin modificado",
+              "role": "Estilo de imitación centrado en el poder",
+              "unlock": "Incluido mediante el acceso de desbloqueo de personajes"
+            }
+          ]
+        },
+        {
+          "tier": "Guest",
+          "label": "Desbloqueos de personajes independientes",
+          "description": "Luchadores invitados que se muestran en las páginas oficiales de personajes de Last Round y en los listados de complementos de la tienda, gestionados por separado de la plantilla estándar de 29 personajes.",
+          "fighters": [
+            {
+              "name": "Mai Shiranui",
+              "style": "Ninjutsu Shiranui",
+              "role": "Ofensiva rápida con abanico y fuego",
+              "unlock": "Requiere una clave de desbloqueo de personaje independiente"
+            },
+            {
+              "name": "Kula Diamond",
+              "style": "Artes Anti-K'",
+              "role": "Golpes rápidos y ataques basados en hielo",
+              "unlock": "Requiere una clave de desbloqueo de personaje independiente"
+            }
+          ]
+        }
+      ]
+    },
+    "doa6StoryModeDoaQuest": {
+      "eyebrow": "Modos y progresión",
+      "title": "Modo historia de Dead or Alive 6 y DOA Quest",
+      "subtitle": "Sigue el modo historia, las misiones de DOA Quest, las llaves de desbloqueo, las recompensas y el mejor orden para jugar cada modo.",
+      "intro": "El modo historia ofrece la narrativa principal, las escenas cinematográficas y las subhistorias de los personajes, mientras que DOA Quest convierte el sistema de lucha en desafíos basados en misiones con recompensas prácticas. Esta sección separa el acceso al juego completo del acceso a Core Fighters para que los jugadores sepan exactamente qué se puede jugar antes de comprar llaves de desbloqueo.",
+      "modes": [
+        {
+          "mode": "Modo historia",
+          "category": "Narrativa",
+          "bestFor": "Seguir la historia principal de DOA6, las escenas cinematográficas y las subhistorias centradas en los personajes.",
+          "access": "Incluido en las versiones de pago para PS4, Xbox One y Steam de DEAD OR ALIVE 6.",
+          "coreFightersAccess": "DEAD OR ALIVE 6: Core Fighters incluye acceso a la historia introductoria y requiere la llave de desbloqueo del modo historia para el modo historia completo.",
+          "lastRoundCoreFightersAccess": "DEAD OR ALIVE 6 Last Round Core Fighters excluye el modo historia hasta que se compre la llave de desbloqueo del modo historia.",
+          "characterRule": "El modo historia puede usar personajes requeridos por la historia incluso cuando no se poseen sus licencias de personaje de Core Fighters.",
+          "rewards": [
+            "Progresión de la historia principal",
+            "Subhistorias de personajes",
+            "Escenas cinematográficas"
+          ]
+        },
+        {
+          "mode": "DOA Quest",
+          "category": "Desafíos de misión",
+          "bestFor": "Aprender los sistemas del juego a través de objetivos de misión cortos.",
+          "access": "Disponible en el juego de pago, DEAD OR ALIVE 6: Core Fighters y DEAD OR ALIVE 6 Last Round Core Fighters.",
+          "missionStructure": "Las misiones se componen de varias misiones que piden a los jugadores completar objetivos específicos.",
+          "characterRule": "Todos los personajes se pueden usar en DOA Quest incluso sin sus licencias de personaje de Core Fighters.",
+          "rewards": [
+            "Trajes",
+            "Puntos de propietario",
+            "Práctica del sistema"
+          ]
+        },
+        {
+          "mode": "Soporte de entrenamiento",
+          "category": "Práctica",
+          "bestFor": "Prepararse para misiones de DOA Quest no completadas y tareas específicas de personajes.",
+          "access": "Los modos de entrenamiento incluyen entrenamiento libre, tutorial, entrenamiento de comandos y desafío de combos.",
+          "missionUse": "Se puede consultar el tutorial para encontrar temas de misiones no completadas antes de volver a intentar los objetivos de DOA Quest.",
+          "rewards": [
+            "Conocimiento de movimientos",
+            "Práctica de combos",
+            "Completar misiones de forma más limpia"
+          ]
+        },
+        {
+          "mode": "Recompensas de DOA Central",
+          "category": "Centro de colección",
+          "bestFor": "Gastar los puntos de propietario ganados y gestionar el contenido desbloqueado.",
+          "access": "Disponible en el juego completo y en las versiones de Core Fighters.",
+          "features": [
+            "Armario",
+            "Base de datos",
+            "Teatro",
+            "Música",
+            "Biblioteca"
+          ],
+          "rewardUse": "Los puntos de propietario se pueden usar para desbloquear y comprar trajes, peinados, accesorios, títulos, música de fondo (BGM), entradas de la enciclopedia y datos curiosos.",
+          "rewards": [
+            "Trajes",
+            "Peinados",
+            "Accesorios",
+            "Títulos",
+            "Música de fondo (BGM)",
+            "Entradas de la enciclopedia y datos curiosos"
+          ]
+        },
+        {
+          "mode": "Ruta inicial recomendada",
+          "category": "Orden de juego",
+          "bestFor": "Nuevos jugadores que quieren progresión y recompensas sin desperdiciar compras de desbloqueo.",
+          "access": "Comienza con el tutorial, pasa a DOA Quest y luego juega al modo historia después de confirmar el acceso a la historia.",
+          "route": [
+            "Tutorial para controles básicos",
+            "DOA Quest para misiones y recompensas",
+            "Modo historia para escenas cinematográficas y subhistorias",
+            "DOA Central para gastar puntos de propietario"
+          ]
+        }
+      ]
+    },
+    "doa6CostumesDlcSeasonPasses": {
+      "eyebrow": "DLC y trajes",
+      "title": "DLC de trajes y Season Passes de Dead or Alive 6",
+      "subtitle": "Compara Season Passes, sets de trajes, DLC de personajes, Tickets Premium y reglas de transferencia de Last Round.",
+      "intro": "El DLC de DEAD OR ALIVE 6 se divide en Season Passes, desbloqueos de personajes, sets de trajes, Tickets Premium y reglas de transferencia de Last Round. Este módulo agrupa los packs oficiales por propósito para que los jugadores puedan evitar compras duplicadas, trajes bloqueados y errores de transferencia de cuenta.",
+      "packs": [
+        {
+          "name": "Season Pass 1",
+          "releaseDate": "1 de marzo de 2019",
+          "platforms": [
+            "PS4",
+            "Xbox One",
+            "Steam"
+          ],
+          "mainContents": [
+            "62 trajes",
+            "Mai Shiranui",
+            "Trajes de debut de Mai Shiranui",
+            "Kula Diamond",
+            "Trajes de debut de Kula Diamond"
+          ],
+          "costumeSets": [
+            "Trajes Happy Wedding Vol. 1",
+            "Trajes Happy Wedding Vol. 2",
+            "Trajes de Piratas de los 7 mares Vol. 1",
+            "Trajes de Piratas de los 7 mares Vol. 2"
+          ],
+          "note": "Season Pass 1 incluye el contenido de personajes y trajes listado, por lo que los jugadores no deben comprar los mismos packs incluidos por separado."
+        },
+        {
+          "name": "Season Pass 2",
+          "releaseDate": "23 de julio de 2019",
+          "platforms": [
+            "PS4",
+            "Xbox One",
+            "Steam"
+          ],
+          "mainContents": [
+            "72 trajes",
+            "12 pistas de BGM",
+            "Momiji",
+            "Trajes de debut de Momiji"
+          ],
+          "costumeSets": [
+            "Trajes Seaside Eden",
+            "Colección Summer Breeze",
+            "Traje de Ninja transformable"
+          ],
+          "extraContent": [
+            "Set de BGM Vacation to Paradise"
+          ],
+          "note": "El set de BGM Vacation to Paradise y los packs de trajes listados forman parte del Season Pass 2."
+        },
+        {
+          "name": "Season Pass 3",
+          "releaseDate": "29 de octubre de 2019",
+          "platforms": [
+            "PS4",
+            "Xbox One",
+            "Steam"
+          ],
+          "mainContents": [
+            "53 trajes",
+            "Rachel",
+            "Trajes de debut de Rachel"
+          ],
+          "costumeSets": [
+            "Trajes Witch Party",
+            "Ropa de entrenamiento Energy Up!",
+            "Bikini de Santa"
+          ],
+          "bonusContent": [
+            "Traje exclusivo para Ayane",
+            "Traje exclusivo para Kasumi"
+          ],
+          "note": "Rachel y su set de trajes de debut están incluidos en el Season Pass 3."
+        },
+        {
+          "name": "Season Pass 4",
+          "releaseDate": "21 de enero de 2020",
+          "platforms": [
+            "PS4",
+            "Xbox One",
+            "Steam"
+          ],
+          "mainContents": [
+            "50 trajes",
+            "Tamaki",
+            "Trajes de debut de Tamaki"
+          ],
+          "costumeSets": [
+            "Traje Nova Sci-Fi Body Suit",
+            "Trajes Mashup de Atelier Ryza",
+            "Trajes Mashup de Gust",
+            "Trajes del concurso de diseño de 2019"
+          ],
+          "bonusContent": [
+            "Vestido elegante - Kasumi",
+            "Vestido elegante - Marie Rose",
+            "Gafas 2020 rojas y doradas"
+          ],
+          "note": "Tamaki y sus trajes de debut están incluidos en el Season Pass 4."
+        },
+        {
+          "name": "Original DOA6 Character DLC",
+          "platforms": [
+            "PS4",
+            "Xbox One",
+            "Steam"
+          ],
+          "characters": [
+            "Nyotengu",
+            "Phase 4",
+            "Mai Shiranui",
+            "Kula Diamond",
+            "Momiji",
+            "Rachel",
+            "Tamaki"
+          ],
+          "coreFightersUnlocks": [
+            "20 personajes de Core Fighters",
+            "11 personajes femeninos de Core Fighters",
+            "9 personajes masculinos de Core Fighters",
+            "Licencias de personajes individuales"
+          ],
+          "note": "Los jugadores de Core Fighters necesitan licencias de personajes para usar personajes bloqueados fuera de los modos que permiten todos los personajes."
+        },
+        {
+          "name": "Premium Tickets",
+          "platforms": [
+            "PS4"
+          ],
+          "use": "Los Tickets Premium se introdujeron para desbloquear trajes DLC individuales en el armario en PS4.",
+          "limitations": [
+            "Los Tickets Premium están vinculados a la cuenta de compra.",
+            "No se comparten entre diferentes cuentas de PS4.",
+            "Los sets de 20 y 50 tickets fueron descontinuados.",
+            "Los Tickets Premium de DEAD OR ALIVE 6 en PS4 no se pueden usar en DEAD OR ALIVE 6 Last Round."
+          ],
+          "note": "Comprueba los Tickets Premium restantes antes de comprar DLC de trajes directamente, ya que las compras directas de trajes pueden dejar tickets sin usar."
+        },
+        {
+          "name": "DEAD OR ALIVE 6 Last Round Carry-over",
+          "platforms": [
+            "PS5",
+            "Xbox Series X|S",
+            "Steam"
+          ],
+          "carryOver": [
+            "Trajes transferibles comprados previamente",
+            "Trajes en propiedad",
+            "Peinados",
+            "Gafas",
+            "BGM",
+            "Progreso de la historia",
+            "Progreso de DOA Quest",
+            "Progreso del tutorial",
+            "Progreso del entrenamiento de comandos",
+            "Progreso del entrenamiento de combos",
+            "Enciclopedia de DOA",
+            "Trivia"
+          ],
+          "notCarriedOver": [
+            "Trajes DLC de Mai Shiranui",
+            "Trajes DLC de Kula Diamond",
+            "Licencias de personajes adicionales",
+            "Tickets Premium",
+            "Cambio de color de pelo",
+            "Clasificaciones",
+            "Puntos de clasificación",
+            "Nivel de luchador",
+            "Puntos de luchador",
+            "Puntos de jugador",
+            "Récords de combate",
+            "Tendencias de combate",
+            "Ajustes de opciones",
+            "Ajustes de trajes del armario",
+            "Repeticiones"
+          ],
+          "note": "Se requiere una llave de desbloqueo de personaje para usar los trajes transferidos de un personaje bloqueado."
+        },
+        {
+          "name": "Last Round KOF Collaboration DLC",
+          "releaseDate": "25 de junio de 2026",
+          "platforms": [
+            "PS5",
+            "Xbox Series X|S",
+            "Steam"
+          ],
+          "characters": [
+            "Mai Shiranui",
+            "Kula Diamond"
+          ],
+          "contents": [
+            "Llave de desbloqueo de personaje de Mai Shiranui",
+            "Set de trajes de debut de Mai Shiranui",
+            "Paquete de llave de desbloqueo de personaje y trajes de debut de Mai Shiranui",
+            "Llave de desbloqueo de personaje de Kula Diamond",
+            "Set de trajes de debut de Kula Diamond",
+            "Paquete de llave de desbloqueo de personaje y trajes de debut de Kula Diamond"
+          ],
+          "debutCostumes": [
+            "Traje Happy Wedding",
+            "Traje de Piratas de los 7 mares",
+            "Traje de enfermera",
+            "Traje de sirvienta",
+            "Traje de conejita sexy"
+          ],
+          "note": "Mai Shiranui y Kula Diamond no están incluidas en la versión completa de Last Round y deben comprarse por separado."
+        }
+      ]
+    },
+    "doa6PcRequirementsOnlineCrossplay": {
+      "eyebrow": "Especificaciones y online",
+      "title": "Requisitos de PC, modos online y juego cruzado de Dead or Alive 6",
+      "subtitle": "Consulta los requisitos de Steam, los límites del modo online, la transferencia de partidas guardadas, el traspaso de DLC y las restricciones de juego cruzado antes de comprar o cambiar a Last Round.",
+      "intro": "DEAD OR ALIVE 6 y DEAD OR ALIVE 6 Last Round tienen diferentes requisitos de PC, estado en la tienda y reglas de transferencia. Esta tabla mantiene los detalles importantes de las plataformas en un solo lugar para los jugadores de Steam, PlayStation y Xbox.",
+      "groups": [
+        {
+          "group": "Estado de la tienda de Steam",
+          "rows": [
+            {
+              "item": "DEAD OR ALIVE 6",
+              "details": "La página original de Steam sigue visible, pero el juego ya no está disponible para su compra en la tienda de Steam.",
+              "platforms": [
+                "Steam"
+              ]
+            },
+            {
+              "item": "DEAD OR ALIVE 6 Last Round",
+              "details": "Disponible digitalmente en PlayStation 5, Xbox Series X|S y Steam.",
+              "platforms": [
+                "PS5",
+                "Xbox Series X|S",
+                "Steam"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Requisitos mínimos de PC para el DOA6 original",
+          "rows": [
+            {
+              "item": "Requisitos mínimos",
+              "platforms": [
+                "Steam"
+              ],
+              "specs": [
+                {
+                  "label": "SO",
+                  "value": "Windows 10 de 64 bits"
+                },
+                {
+                  "label": "CPU",
+                  "value": "Intel Core i5-4690 o superior"
+                },
+                {
+                  "label": "Memoria",
+                  "value": "8 GB de RAM"
+                },
+                {
+                  "label": "GPU",
+                  "value": "NVIDIA GeForce GTX 770 o superior"
+                },
+                {
+                  "label": "DirectX",
+                  "value": "DirectX 11"
+                },
+                {
+                  "label": "Almacenamiento",
+                  "value": "50 GB de espacio disponible"
+                },
+                {
+                  "label": "Red",
+                  "value": "Conexión a internet de banda ancha"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Requisitos recomendados de PC para el DOA6 original",
+          "rows": [
+            {
+              "item": "Requisitos recomendados",
+              "platforms": [
+                "Steam"
+              ],
+              "specs": [
+                {
+                  "label": "SO",
+                  "value": "Windows 10 de 64 bits"
+                },
+                {
+                  "label": "CPU",
+                  "value": "Intel Core i7 8700K o superior"
+                },
+                {
+                  "label": "Memoria",
+                  "value": "16 GB de RAM"
+                },
+                {
+                  "label": "GPU",
+                  "value": "NVIDIA GeForce GTX 1060 o superior"
+                },
+                {
+                  "label": "DirectX",
+                  "value": "DirectX 11"
+                },
+                {
+                  "label": "Almacenamiento",
+                  "value": "50 GB de espacio disponible"
+                },
+                {
+                  "label": "Red",
+                  "value": "Conexión a internet de banda ancha"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Requisitos mínimos de PC para Last Round",
+          "rows": [
+            {
+              "item": "Requisitos mínimos",
+              "platforms": [
+                "Steam"
+              ],
+              "specs": [
+                {
+                  "label": "SO",
+                  "value": "Windows 11"
+                },
+                {
+                  "label": "CPU",
+                  "value": "Intel Core i5-8400 o superior / AMD Ryzen 3 3100 o superior"
+                },
+                {
+                  "label": "Memoria",
+                  "value": "8 GB de RAM"
+                },
+                {
+                  "label": "GPU",
+                  "value": "GeForce GTX 1060 con 6 GB de VRAM o superior / Radeon RX 590 con 8 GB de VRAM o superior"
+                },
+                {
+                  "label": "DirectX",
+                  "value": "DirectX 12"
+                },
+                {
+                  "label": "Almacenamiento",
+                  "value": "80 GB de espacio disponible, se requiere SSD"
+                },
+                {
+                  "label": "Sonido",
+                  "value": "Estéreo de 16 bits a 48000 Hz"
+                },
+                {
+                  "label": "Objetivo",
+                  "value": "1280x720 a 60 FPS con opciones gráficas bajas o desactivadas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Requisitos recomendados de PC para Last Round",
+          "rows": [
+            {
+              "item": "Requisitos recomendados",
+              "platforms": [
+                "Steam"
+              ],
+              "specs": [
+                {
+                  "label": "SO",
+                  "value": "Windows 11"
+                },
+                {
+                  "label": "CPU",
+                  "value": "Intel Core i7-8700 o superior / AMD Ryzen 5 3600XT o superior"
+                },
+                {
+                  "label": "Memoria",
+                  "value": "16 GB de RAM"
+                },
+                {
+                  "label": "GPU",
+                  "value": "GeForce GTX 1070 con 8 GB de VRAM o superior / Radeon RX 5700 XT con 8 GB de VRAM o superior"
+                },
+                {
+                  "label": "DirectX",
+                  "value": "DirectX 12"
+                },
+                {
+                  "label": "Almacenamiento",
+                  "value": "80 GB de espacio disponible, se requiere SSD"
+                },
+                {
+                  "label": "Sonido",
+                  "value": "Estéreo de 16 bits a 48000 Hz"
+                },
+                {
+                  "label": "Objetivo",
+                  "value": "1920x1080 a 60 FPS con opciones gráficas altas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Modos online",
+          "rows": [
+            {
+              "item": "Partida igualada",
+              "details": "Lucha contra jugadores del mismo rango online. El jugador puede cambiar la calidad de la conexión en PS4, Xbox One usa Xbox Live Smart Match y la calidad de la conexión en Steam no se puede cambiar.",
+              "platforms": [
+                "PS4",
+                "Xbox One",
+                "Steam"
+              ]
+            },
+            {
+              "item": "Partida de sala",
+              "details": "Crea salas con reglas personalizadas y salas privadas. No se ganan ni se pierden puntos de rango (Grade Points) en las partidas de sala.",
+              "platforms": [
+                "PS4",
+                "Xbox One",
+                "Steam"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Capacidad online de Last Round",
+          "rows": [
+            {
+              "item": "Juego online en consola",
+              "details": "PlayStation Store indica que se requiere PS Plus para el juego online en PS5 y admite hasta 16 jugadores online. Xbox indica multijugador online de 2 a 16 jugadores.",
+              "platforms": [
+                "PS5",
+                "Xbox Series X|S"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Límites de juego cruzado",
+          "rows": [
+            {
+              "item": "Juego multiplataforma",
+              "details": "El juego cruzado entre diferentes plataformas no es compatible en DEAD OR ALIVE 6 Last Round.",
+              "platforms": [
+                "PS5",
+                "Xbox Series X|S",
+                "Steam"
+              ]
+            },
+            {
+              "item": "División de red entre DOA6 y Last Round",
+              "details": "No hay juego cruzado entre DEAD OR ALIVE 6 y DEAD OR ALIVE 6 Last Round.",
+              "platforms": [
+                "PS4",
+                "Xbox One",
+                "Steam",
+                "PS5",
+                "Xbox Series X|S"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Transferencia de partidas guardadas",
+          "rows": [
+            {
+              "item": "Regla general de transferencia",
+              "details": "Los datos de guardado, el progreso y los objetos de DEAD OR ALIVE 6 se pueden transferir a Last Round desde la misma cuenta. La transferencia requiere la misma cuenta de plataforma, no se puede volver al DOA6 original y los datos de guardado existentes de Last Round deben eliminarse primero.",
+              "platforms": [
+                "PS5",
+                "Xbox Series X|S",
+                "Steam"
+              ]
+            },
+            {
+              "item": "Métodos por plataforma",
+              "details": "PS5 detecta los datos de guardado locales y recibe los datos de guardado de PS4 a través de USB o de la nube de PS Plus. Xbox Series X|S realiza la transferencia a través de Xbox Network. Steam realiza la transferencia desde el mismo PC, Steam Cloud o la carpeta de guardado local.",
+              "platforms": [
+                "PS5",
+                "Xbox Series X|S",
+                "Steam"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Traspaso de DLC",
+          "rows": [
+            {
+              "item": "Trajes y claves de desbloqueo",
+              "details": "La mayoría de los trajes de DOA6 comprados anteriormente se transfieren a Last Round, pero se requiere la clave de desbloqueo del personaje correspondiente para usar un traje transferido en un personaje bloqueado.",
+              "platforms": [
+                "PS5",
+                "Xbox Series X|S",
+                "Steam"
+              ]
+            },
+            {
+              "item": "Regla de DLC de una sola dirección",
+              "details": "El contenido descargable (DLC) adquirido para DEAD OR ALIVE 6 Last Round no se puede transferir de vuelta a DEAD OR ALIVE 6.",
+              "platforms": [
+                "PS5",
+                "Xbox Series X|S",
+                "Steam"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "doa6CoreFightersFreeVersion": {
+      "eyebrow": "Versión gratuita",
+      "title": "Dead or Alive 6 Core Fighters y versión gratuita",
+      "subtitle": "Compara la versión original de Core Fighters, Last Round Core Fighters y las ediciones de pago antes de elegir una ruta de actualización.",
+      "intro": "Core Fighters es el punto de entrada gratuito para DEAD OR ALIVE 6, pero el plantel gratuito y las reglas del modo historia cambiaron en DEAD OR ALIVE 6 Last Round. Esta tabla muestra qué pueden usar los jugadores de inmediato, qué requiere una clave de desbloqueo y qué incluyen las versiones de pago.",
+      "editions": [
+        "DOA6 de pago",
+        "DOA6 Core Fighters",
+        "Last Round de pago",
+        "Last Round Core Fighters"
+      ],
+      "rows": [
+        {
+          "feature": "Plataformas",
+          "paid": "PS4, Xbox One, Steam",
+          "core": "PS4, Xbox One, Steam",
+          "lrPaid": "PS5, Xbox Series X|S, Steam",
+          "lrCore": "PS5, Xbox Series X|S, Steam"
+        },
+        {
+          "feature": "Personajes iniciales",
+          "paid": "Plantel base incluido, con Nyotengu y Phase 4 requiriendo acceso por separado según la edición y la ruta de compra.",
+          "core": "Kasumi, Hitomi, Diego, Bass",
+          "lrPaid": "29 personajes: los 24 personajes originales más Nyotengu, Phase 4, Momiji, Rachel y Tamaki.",
+          "lrCore": "Kasumi, Marie Rose, Honoka, NiCO"
+        },
+        {
+          "feature": "Personajes bloqueados",
+          "paid": "Nyotengu, Phase 4 y los personajes DLC posteriores requieren la compra del personaje correspondiente cuando no están incluidos en la edición adquirida.",
+          "core": "La mayoría de los personajes requieren licencias de personaje o conjuntos de personajes por separado.",
+          "lrPaid": "Mai Shiranui y Kula Diamond requieren Claves de Desbloqueo de Personaje por separado.",
+          "lrCore": "Todos los personajes excepto Kasumi, Marie Rose, Honoka y NiCO requieren una Clave de Desbloqueo de Personaje."
+        },
+        {
+          "feature": "Acceso al Modo Historia",
+          "paid": "Incluido.",
+          "core": "El acceso a la historia introductoria es jugable; se requiere la Clave de Desbloqueo de Historia para el Modo Historia completo.",
+          "lrPaid": "Incluido a través de la Clave de Desbloqueo de Historia de la versión completa.",
+          "lrCore": "El Modo Historia requiere la Clave de Desbloqueo de Historia."
+        },
+        {
+          "feature": "Acceso a DOA Quest",
+          "paid": "Jugable.",
+          "core": "Jugable.",
+          "lrPaid": "Jugable.",
+          "lrCore": "Jugable."
+        },
+        {
+          "feature": "Acceso en línea",
+          "paid": "Las partidas igualadas y las partidas de sala están disponibles.",
+          "core": "Las partidas igualadas y las partidas de sala están disponibles con el plantel gratuito y los personajes adquiridos.",
+          "lrPaid": "Las partidas igualadas y las partidas de sala están disponibles.",
+          "lrCore": "Las partidas igualadas y las partidas de sala están disponibles con el plantel gratuito y los personajes adquiridos."
+        },
+        {
+          "feature": "Acceso al entrenamiento",
+          "paid": "Entrenamiento libre, Tutorial, Entrenamiento de comandos y Reto de combos están disponibles.",
+          "core": "Los modos de entrenamiento están disponibles, y el Tutorial puede usar todos los personajes incluso sin sus licencias.",
+          "lrPaid": "Entrenamiento libre, Tutorial, Entrenamiento de comandos y Entrenamiento de combos están disponibles.",
+          "lrCore": "Los modos de entrenamiento están disponibles; el Tutorial puede usar todos los personajes incluso sin Claves de Desbloqueo."
+        },
+        {
+          "feature": "Acceso a DOA Central",
+          "paid": "Armario, Base de datos, Cine, Música y Biblioteca están disponibles.",
+          "core": "DOA Central está disponible.",
+          "lrPaid": "Armario, Base de datos, Cine, Música, Biblioteca y Photo Mode están disponibles.",
+          "lrCore": "DOA Central y Photo Mode están disponibles."
+        },
+        {
+          "feature": "Ruta de actualización",
+          "paid": "Compra DLC de personajes, DLC de trajes, Season Passes o paquetes de ediciones según sea necesario.",
+          "core": "Compra la Clave de Desbloqueo de Historia, licencias de personajes, conjuntos de personajes, DLC de trajes o contenido Deluxe.",
+          "lrPaid": "La versión completa incluye la Clave de Desbloqueo de Historia y las Claves de Desbloqueo de Personaje para los 29 personajes incluidos.",
+          "lrCore": "Compra la Clave de Desbloqueo de Historia, Claves de Desbloqueo de Personaje individuales, desbloqueos de personajes de KOF o la versión completa de Last Round."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Dead or Alive 6 Last Round",
+    "questions": [
+      {
+        "question": "¿Es Dead or Alive 6 Last Round una actualización gratuita desde Dead or Alive 6?",
+        "answer": "No. Dead or Alive 6 Last Round es la versión independiente de la generación actual para PS5, Xbox Series X|S y Steam, con su propia ficha en la tienda, un plantel estándar de 29 personajes y Photo Mode."
+      },
+      {
+        "question": "¿Cuántos personajes jugables hay en Dead or Alive 6 Last Round?",
+        "answer": "Dead or Alive 6 Last Round incluye 29 personajes jugables estándar: los 24 luchadores originales de DOA6 más Nyotengu, Phase 4, Momiji, Rachel y Tamaki. Mai Shiranui y Kula Diamond son desbloqueables de invitados independientes."
+      },
+      {
+        "question": "¿En qué plataformas está disponible Dead or Alive 6 Last Round?",
+        "answer": "Dead or Alive 6 Last Round está disponible en PlayStation 5, Xbox Series X|S y Steam. El Dead or Alive 6 original se lanzó en PS4, Xbox One y Steam."
+      },
+      {
+        "question": "¿Soporta Dead or Alive 6 juego cruzado entre plataformas?",
+        "answer": "No. Dead or Alive 6 Last Round no soporta juego cruzado entre diferentes plataformas, y no hay juego cruzado entre Dead or Alive 6 y Dead or Alive 6 Last Round."
+      },
+      {
+        "question": "¿Qué es Dead or Alive 6 Core Fighters?",
+        "answer": "Dead or Alive 6 Core Fighters es la versión gratuita (free-to-play). Last Round Core Fighters incluye a Kasumi, Marie Rose, Honoka y NiCO, además de DOA Quest, DOA Central, Photo Mode y combates en línea de clasificación (Ranked) y de sala (Lobby)."
+      },
+      {
+        "question": "¿Puedo transferir mis datos de guardado de Dead or Alive 6 a Last Round?",
+        "answer": "Sí. Los datos de guardado, el progreso y la mayoría de los trajes de Dead or Alive 6 se transfieren a Last Round desde la cuenta de la misma plataforma. La transferencia es de un solo sentido y la mayoría de los trajes de DLC se transfieren con la clave de desbloqueo (Unlock Key) del personaje correspondiente."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para dominar Dead or Alive 6?",
+    "description": "¡Únete a la comunidad de Dead or Alive 6 en Discord para ver listas de niveles, combos y las últimas actualizaciones de Last Round!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam / PS5 / Xbox"
+  },
+  "footer": {
+    "title": "Dead or Alive 6 Wiki",
+    "description": "Tu centro de recursos completo para personajes, listas de niveles, combos, escenarios, trajes de Dead or Alive 6, Core Fighters y guías de Last Round.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Dead or Alive 6 Wiki. No afiliado con Team NINJA, Koei Tecmo ni los desarrolladores de Dead or Alive 6.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Lanzamiento de Dead or Alive 6 Last Round",
+      "description": "Sigue cada fecha de lanzamiento de Dead or Alive 6 Last Round, la actualización de la versión 1.30, los lanzamientos en plataformas de generación actual y las rutas de actualización desde el DOA6 original.",
+      "metaTitle": "Fecha de lanzamiento y actualizaciones de versión de Dead or Alive 6 Last Round",
+      "metaDescription": "Encuentra la fecha de lanzamiento de Dead or Alive 6 Last Round, la actualización de la versión 1.30, los lanzamientos en PS5 y Xbox Series, y las rutas de actualización desde el Dead or Alive 6 original.",
+      "categoryLabel": "LANZAMIENTO Y ACTUALIZACIONES",
+      "whatIs": "¿Qué es Dead or Alive 6 Last Round?",
+      "whatIsDescription": "Dead or Alive 6 Last Round es el lanzamiento de generación actual de 2026 de Dead or Alive 6, que lleva el juego de lucha completo a PS5, Xbox Series X|S y Steam con la actualización de la versión 1.30, Photo Mode y la transferencia de datos de guardado y DLC desde el DOA6 original.",
+      "why": "¿Por qué seguir la cronología de lanzamientos?",
+      "whySteps": {
+        "step1Title": "Conoce las fechas de lanzamiento",
+        "step1Description": "Mira cuándo se lanzó Last Round en PS5, Xbox Series X|S y Steam",
+        "step2Title": "Sigue la versión 1.30",
+        "step2Description": "Comprende lo que añade y corrige la última actualización",
+        "step3Title": "Planifica tu actualización",
+        "step3Description": "Comprueba qué se transfiere y cómo actualizar desde DOA6"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de lanzamiento"
+    },
+    "platforms": {
+      "title": "Plataformas de Dead or Alive 6 Last Round",
+      "description": "Cobertura completa de plataformas de Dead or Alive 6 Last Round: Steam, PS5, Xbox Series X|S, PC, PS4, compatibilidad con Steam Deck, detalles de juego cruzado y la ruta de actualización a PS5.",
+      "metaTitle": "Plataformas de Dead or Alive 6 Last Round - Steam, PS5, Xbox y PC",
+      "metaDescription": "Guías de plataformas de Dead or Alive 6 Last Round para Steam, PS5, Xbox Series X|S, PC, PS4, Steam Deck, soporte de juego cruzado y la ruta de actualización a PS5.",
+      "categoryLabel": "PLATAFORMAS Y VERSIONES",
+      "whatIs": "¿En qué plataformas está disponible Dead or Alive 6 Last Round?",
+      "whatIsDescription": "Dead or Alive 6 Last Round se ejecuta en PS5, Xbox Series X|S y Steam, con guías para PS4 y PC, notas de compatibilidad con Steam Deck y detalles claros sobre el juego cruzado y la ruta de actualización a PS5 desde el DOA6 original.",
+      "why": "¿Por qué consultar las guías de plataformas?",
+      "whySteps": {
+        "step1Title": "Elige tu plataforma",
+        "step1Description": "Compara las versiones de PS5, Xbox Series X|S, Steam y PC",
+        "step2Title": "Listo para Steam Deck",
+        "step2Description": "Descubre cómo funciona DOA6 Last Round en Steam Deck",
+        "step3Title": "Claridad sobre el juego cruzado",
+        "step3Description": "Descubre lo que permiten la ruta de actualización a PS5 y el juego cruzado"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de plataformas"
+    },
+    "guide": {
+      "title": "Guía de Dead or Alive 6 Last Round",
+      "description": "Guías completas de Dead or Alive 6 Last Round, desde controles para principiantes y distribución de botones hasta Break Blow, Offensive Hold, movimientos especiales y controles de teclado.",
+      "metaTitle": "Guía de Dead or Alive 6 Last Round - Controles, Break Blow y especiales",
+      "metaDescription": "Guías de Dead or Alive 6 Last Round que cubren controles para principiantes, distribución de botones, controles de teclado, Break Blow, Offensive Hold y movimientos especiales para PS5, Xbox y Steam.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las guías de Dead or Alive 6 Last Round?",
+      "whatIsDescription": "Las guías de Dead or Alive 6 Last Round explican los controles, la distribución de botones y los sistemas principales, incluyendo el sistema de triángulo, Break Gauge, Break Blow, Offensive Hold, Fatal Rush y movimientos especiales para luchadores nuevos y recurrentes.",
+      "why": "¿Por qué leer las guías de Dead or Alive 6 Last Round?",
+      "whySteps": {
+        "step1Title": "Aprende los controles básicos",
+        "step1Description": "Domina Punch, Kick, Hold, Throw y Special, además de la distribución de botones",
+        "step2Title": "Domina el Break Blow",
+        "step2Description": "Usa el Break Gauge, Fatal Rush y Offensive Hold en el momento adecuado",
+        "step3Title": "Teclado y mando",
+        "step3Description": "Sigue los controles de teclado y las configuraciones de mando que se adapten a tu hardware"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "characters": {
+      "title": "Personajes de Dead or Alive 6 Last Round",
+      "description": "Explora el plantel completo de Dead or Alive 6 Last Round: 29 luchadores jugables, estilos de lucha, personajes invitados como Mai y Honoka, y la lista completa de personajes.",
+      "metaTitle": "Personajes de Dead or Alive 6 Last Round - Plantel completo e invitados",
+      "metaDescription": "Plantel completo de personajes de Dead or Alive 6 Last Round con estilos de lucha, luchadores invitados como Mai Shiranui y Honoka, Kasumi y la lista completa de 29 luchadores.",
+      "categoryLabel": "PERSONAJES Y PLANTEL",
+      "whatIs": "¿Qué es el plantel de Dead or Alive 6 Last Round?",
+      "whatIsDescription": "El plantel de Last Round incluye 29 luchadores jugables estándar más personajes invitados como Mai Shiranui, y cada luchador aporta un estilo de lucha, rol y regla de desbloqueo únicos en las versiones de PS5, Xbox Series X|S y Steam.",
+      "why": "¿Por qué estudiar el plantel?",
+      "whySteps": {
+        "step1Title": "Elige un personaje principal",
+        "step1Description": "Encuentra un luchador cuyo estilo y rol se adapten a tu estilo de juego",
+        "step2Title": "Conoce a los invitados",
+        "step2Description": "Descubre cómo juegan Honoka, Mai y otros luchadores invitados",
+        "step3Title": "Estudia los enfrentamientos",
+        "step3Description": "Usa las notas de estilo para planificar enfrentamientos en todo el plantel"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los personajes"
+    },
+    "dlc": {
+      "title": "DLC de Dead or Alive 6 Last Round",
+      "description": "Cobertura completa del DLC de Dead or Alive 6 Last Round: Season Passes, sets de trajes, contenido de la Digital Deluxe Edition, Core Fighters, personajes gratuitos y la versión gratuita.",
+      "metaTitle": "DLC de Dead or Alive 6 Last Round - Season Passes y trajes",
+      "metaDescription": "Guías del DLC de Dead or Alive 6 Last Round que cubren Season Passes, sets de trajes, contenido de la Digital Deluxe Edition, Core Fighters, personajes gratuitos y la versión gratuita.",
+      "categoryLabel": "DLC Y EDICIONES",
+      "whatIs": "¿Qué es el DLC de Dead or Alive 6 Last Round?",
+      "whatIsDescription": "El DLC de Dead or Alive 6 Last Round abarca Season Passes, sets de trajes, el contenido de la Digital Deluxe Edition, Core Fighters, personajes gratuitos y la versión gratuita, con reglas claras de transferencia para que los jugadores eviten compras duplicadas.",
+      "why": "¿Por qué consultar la guía de DLC?",
+      "whySteps": {
+        "step1Title": "Evita duplicados",
+        "step1Description": "Mira lo que ya incluye cada Season Pass y edición",
+        "step2Title": "Reglas de transferencia",
+        "step2Description": "Aprende qué trajes y DLC se transfieren a Last Round",
+        "step3Title": "Primero la versión gratuita",
+        "step3Description": "Prueba Core Fighters y los personajes gratuitos antes de comprar"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de DLC"
+    },
+    "unlockables": {
+      "title": "Desbloqueables de Dead or Alive 6 Last Round",
+      "description": "Desbloquea cada traje, atuendo y personaje de Dead or Alive 6 Last Round con guías paso a paso claras para desbloquearlos en PS5, Xbox Series X|S y Steam.",
+      "metaTitle": "Desbloqueables de Dead or Alive 6 Last Round - Trajes y personajes",
+      "metaDescription": "Guías de desbloqueables de Dead or Alive 6 Last Round que muestran cómo desbloquear trajes, atuendos y personajes en PS5, Xbox Series X|S y Steam.",
+      "categoryLabel": "DESBLOQUEABLES Y ATUENDOS",
+      "whatIs": "¿Qué son los desbloqueables de Dead or Alive 6 Last Round?",
+      "whatIsDescription": "Los desbloqueables de Dead or Alive 6 Last Round cubren trajes, atuendos y personajes que se abren a través del juego, misiones y DLC, ofreciendo a los jugadores pasos claros para expandir su plantilla y armario en cada plataforma.",
+      "why": "¿Por qué usar las guías de desbloqueo?",
+      "whySteps": {
+        "step1Title": "Desbloquea personajes",
+        "step1Description": "Sigue pasos claros para añadir luchadores bloqueados a tu plantilla",
+        "step2Title": "Consigue trajes",
+        "step2Description": "Descubre cómo desbloquear atuendos jugando y completando misiones",
+        "step3Title": "Realiza un seguimiento de cada atuendo",
+        "step3Description": "Lleva una lista de control para que no se te escape ningún desbloqueable"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de desbloqueables"
+    }
+  }
+}
