@@ -280,11 +280,49 @@
       "subtitle": "Track Story Mode, DOA Quest missions, unlock keys, rewards, and the best order to play each mode.",
       "intro": "Story Mode delivers the main narrative, cinematics, and character substories, while DOA Quest turns the fighting system into mission-based challenges with practical rewards. This section separates full-game access from Core Fighters access so players know exactly what is playable before buying unlock keys.",
       "modes": [
-        { "mode": "Story Mode", "category": "Narrative", "bestFor": "Following the main DOA6 story, cinematics, and character-focused substories.", "access": "Included in the paid PS4, Xbox One, and Steam versions of DEAD OR ALIVE 6. Core Fighters includes introductory story access and requires the Story Unlock Key for full Story Mode.", "rewards": ["Main story progression", "Character substories", "Cinematic scenes"] },
-        { "mode": "DOA Quest", "category": "Mission Challenges", "bestFor": "Learning game systems through short mission objectives.", "access": "Available in the paid game, Core Fighters, and Last Round Core Fighters. All characters can be used in DOA Quest even without their Core Fighters character licenses.", "rewards": ["Costumes", "Owner Points", "System practice"] },
-        { "mode": "Training Support", "category": "Practice", "bestFor": "Preparing for uncleared DOA Quest missions and character-specific tasks.", "access": "Training modes include Free Training, Tutorial, Command Training, and Combo Challenge. Tutorial can be checked to find uncleared mission topics before retrying DOA Quest objectives.", "rewards": ["Move knowledge", "Combo practice", "Cleaner mission clears"] },
-        { "mode": "DOA Central Rewards", "category": "Collection Hub", "bestFor": "Spending earned Owner Points and managing unlocked content.", "access": "Available in the full game and Core Fighters versions. Features include Wardrobe, Database, Theater, Music, and Library.", "rewards": ["Costumes", "Hairstyles", "Accessories", "Titles", "BGM", "Encyclopedia and trivia entries"] },
-        { "mode": "Recommended First Route", "category": "Play Order", "bestFor": "New players who want progression and rewards without wasting unlock purchases.", "access": "Start with Tutorial, move into DOA Quest, then play Story Mode after confirming Story access.", "rewards": ["Tutorial for core controls", "DOA Quest for missions and rewards", "Story Mode for cinematics and substories", "DOA Central for spending Owner Points"] }
+        {
+          "mode": "Story Mode",
+          "category": "Narrative",
+          "bestFor": "Following the main DOA6 story, cinematics, and character-focused substories.",
+          "access": "Included in the paid PS4, Xbox One, and Steam versions of DEAD OR ALIVE 6.",
+          "coreFightersAccess": "DEAD OR ALIVE 6: Core Fighters includes introductory story access and requires the Story Unlock Key for full Story Mode.",
+          "lastRoundCoreFightersAccess": "DEAD OR ALIVE 6 Last Round Core Fighters excludes Story Mode until the Story Unlock Key is purchased.",
+          "characterRule": "Story Mode can use story-required characters even when their Core Fighters character licenses are not owned.",
+          "rewards": ["Main story progression", "Character substories", "Cinematic scenes"]
+        },
+        {
+          "mode": "DOA Quest",
+          "category": "Mission Challenges",
+          "bestFor": "Learning game systems through short mission objectives.",
+          "access": "Available in the paid game, DEAD OR ALIVE 6: Core Fighters, and DEAD OR ALIVE 6 Last Round Core Fighters.",
+          "missionStructure": "Quests are made up of several missions that ask players to clear specific objectives.",
+          "characterRule": "All characters can be used in DOA Quest even without their Core Fighters character licenses.",
+          "rewards": ["Costumes", "Owner Points", "System practice"]
+        },
+        {
+          "mode": "Training Support",
+          "category": "Practice",
+          "bestFor": "Preparing for uncleared DOA Quest missions and character-specific tasks.",
+          "access": "Training modes include Free Training, Tutorial, Command Training, and Combo Challenge.",
+          "missionUse": "Tutorial can be checked to find uncleared mission topics before retrying DOA Quest objectives.",
+          "rewards": ["Move knowledge", "Combo practice", "Cleaner mission clears"]
+        },
+        {
+          "mode": "DOA Central Rewards",
+          "category": "Collection Hub",
+          "bestFor": "Spending earned Owner Points and managing unlocked content.",
+          "access": "Available in the full game and Core Fighters versions.",
+          "features": ["Wardrobe", "Database", "Theater", "Music", "Library"],
+          "rewardUse": "Owner Points can be used to unlock and purchase costumes, hairstyles, accessories, titles, BGM, encyclopedia entries, and trivia entries.",
+          "rewards": ["Costumes", "Hairstyles", "Accessories", "Titles", "BGM", "Encyclopedia and trivia entries"]
+        },
+        {
+          "mode": "Recommended First Route",
+          "category": "Play Order",
+          "bestFor": "New players who want progression and rewards without wasting unlock purchases.",
+          "access": "Start with Tutorial, move into DOA Quest, then play Story Mode after confirming Story access.",
+          "route": ["Tutorial for core controls", "DOA Quest for missions and rewards", "Story Mode for cinematics and substories", "DOA Central for spending Owner Points"]
+        }
       ]
     },
     "doa6CostumesDlcSeasonPasses": {
@@ -293,14 +331,71 @@
       "subtitle": "Compare Season Passes, costume sets, character DLC, Premium Tickets, and Last Round carry-over rules.",
       "intro": "DEAD OR ALIVE 6 DLC is split across Season Passes, character unlocks, costume sets, Premium Tickets, and Last Round carry-over rules. This module groups the official packs by purpose so players can avoid duplicate purchases, locked costumes, and account-transfer mistakes.",
       "packs": [
-        { "name": "Season Pass 1", "highlights": "62 costumes, Mai Shiranui, Kula Diamond, Happy Wedding and Pirates costume sets", "platforms": ["PS4", "Xbox One", "Steam"], "note": "Season Pass 1 includes its listed character and costume content, so the same included packs should not be bought separately." },
-        { "name": "Season Pass 2", "highlights": "72 costumes, 12 BGM tracks, Momiji, Seaside Eden and Summer Breeze sets", "platforms": ["PS4", "Xbox One", "Steam"], "note": "Vacation to Paradise BGM Set and the listed costume packs are part of Season Pass 2." },
-        { "name": "Season Pass 3", "highlights": "53 costumes, Rachel, Witch Party and Energy Up sets, exclusive Kasumi and Ayane costumes", "platforms": ["PS4", "Xbox One", "Steam"], "note": "Rachel and her debut costume set are included in Season Pass 3." },
-        { "name": "Season Pass 4", "highlights": "50 costumes, Tamaki, Nova Sci-Fi and Atelier Ryza mashup sets", "platforms": ["PS4", "Xbox One", "Steam"], "note": "Tamaki and her debut costumes are included in Season Pass 4." },
-        { "name": "Original DOA6 Character DLC", "highlights": "Nyotengu, Phase 4, Mai Shiranui, Kula Diamond, Momiji, Rachel, Tamaki", "platforms": ["PS4", "Xbox One", "Steam"], "note": "Core Fighters players need character licenses to use locked characters outside modes that allow all characters." },
-        { "name": "Premium Tickets", "highlights": "Individual DLC costume unlocks in the Wardrobe on PS4", "platforms": ["PS4"], "note": "Premium Tickets are tied to the purchasing account and cannot be used in DEAD OR ALIVE 6 Last Round. The 20-ticket and 50-ticket sets were discontinued." },
-        { "name": "Last Round Carry-over", "highlights": "Transferable costumes, hairstyles, glasses, BGM, story and training progression, DOA Encyclopedia", "platforms": ["PS5", "Xbox Series X|S", "Steam"], "note": "Mai Shiranui and Kula DLC costumes, additional character licenses, Premium Tickets, rankings, and replays do not carry over. A character Unlock Key is required to use carried-over costumes for a locked character." },
-        { "name": "Last Round KOF Collaboration DLC", "highlights": "Mai Shiranui and Kula Diamond unlock keys, debut costumes, and bundles", "platforms": ["PS5", "Xbox Series X|S", "Steam"], "note": "Mai Shiranui and Kula Diamond are not included in the Last Round full version and must be purchased separately." }
+        {
+          "name": "Season Pass 1",
+          "releaseDate": "March 1, 2019",
+          "platforms": ["PS4", "Xbox One", "Steam"],
+          "mainContents": ["62 costumes", "Mai Shiranui", "Mai Shiranui debut costumes", "Kula Diamond", "Kula Diamond debut costumes"],
+          "costumeSets": ["Happy Wedding Costumes Vol. 1", "Happy Wedding Costumes Vol. 2", "Pirates of the 7 Seas Costumes Vol. 1", "Pirates of the 7 Seas Costumes Vol. 2"],
+          "note": "Season Pass 1 includes its listed character and costume content, so players should not buy the same included packs separately."
+        },
+        {
+          "name": "Season Pass 2",
+          "releaseDate": "July 23, 2019",
+          "platforms": ["PS4", "Xbox One", "Steam"],
+          "mainContents": ["72 costumes", "12 BGM tracks", "Momiji", "Momiji debut costumes"],
+          "costumeSets": ["Seaside Eden Costumes", "Summer Breeze Collection", "Morphing Ninja Costume"],
+          "extraContent": ["Vacation to Paradise BGM Set"],
+          "note": "Vacation to Paradise BGM Set and the listed costume packs are part of Season Pass 2."
+        },
+        {
+          "name": "Season Pass 3",
+          "releaseDate": "October 29, 2019",
+          "platforms": ["PS4", "Xbox One", "Steam"],
+          "mainContents": ["53 costumes", "Rachel", "Rachel debut costumes"],
+          "costumeSets": ["Witch Party Costumes", "Energy Up! Training Wear", "Santa Bikini"],
+          "bonusContent": ["Exclusive costume for Ayane", "Exclusive costume for Kasumi"],
+          "note": "Rachel and her debut costume set are included in Season Pass 3."
+        },
+        {
+          "name": "Season Pass 4",
+          "releaseDate": "January 21, 2020",
+          "platforms": ["PS4", "Xbox One", "Steam"],
+          "mainContents": ["50 costumes", "Tamaki", "Tamaki debut costumes"],
+          "costumeSets": ["Nova Sci-Fi Body Suit", "Atelier Ryza Mashup Costumes", "Gust Mashup Costumes", "Design Contest 2019 Costumes"],
+          "bonusContent": ["Gorgeous Dress - Kasumi", "Gorgeous Dress - Marie Rose", "2020 Glasses Red & Gold"],
+          "note": "Tamaki and her debut costumes are included in Season Pass 4."
+        },
+        {
+          "name": "Original DOA6 Character DLC",
+          "platforms": ["PS4", "Xbox One", "Steam"],
+          "characters": ["Nyotengu", "Phase 4", "Mai Shiranui", "Kula Diamond", "Momiji", "Rachel", "Tamaki"],
+          "coreFightersUnlocks": ["Core Fighters 20 Characters", "Core Fighters Female Fighters 11 Characters", "Core Fighters Male Fighters 9 Characters", "Individual character licenses"],
+          "note": "Core Fighters players need character licenses to use locked characters outside modes that allow all characters."
+        },
+        {
+          "name": "Premium Tickets",
+          "platforms": ["PS4"],
+          "use": "Premium Tickets were introduced for unlocking individual DLC costumes in the Wardrobe on PS4.",
+          "limitations": ["Premium Tickets are tied to the purchasing account.", "They are not shared across different PS4 accounts.", "The 20-ticket and 50-ticket sets were discontinued.", "Premium Tickets from DEAD OR ALIVE 6 on PS4 cannot be used in DEAD OR ALIVE 6 Last Round."],
+          "note": "Check remaining Premium Tickets before buying direct costume DLC, because direct costume purchases can leave unused tickets behind."
+        },
+        {
+          "name": "DEAD OR ALIVE 6 Last Round Carry-over",
+          "platforms": ["PS5", "Xbox Series X|S", "Steam"],
+          "carryOver": ["Previously purchased transferable costumes", "Owned costumes", "Hairstyles", "Glasses", "BGM", "Story progression", "DOA Quest progression", "Tutorial progression", "Command Training progression", "Combo Training progression", "DOA Encyclopedia", "Trivia"],
+          "notCarriedOver": ["Mai Shiranui DLC costumes", "Kula Diamond DLC costumes", "Additional character licenses", "Premium Tickets", "Hair color change", "Rankings", "Ranking Points", "Fighter Level", "Fighter Points", "Player Points", "Fight Records", "Fight Trends", "Option settings", "Closet costume settings", "Replays"],
+          "note": "A character Unlock Key is required to use carried-over costumes for a locked character."
+        },
+        {
+          "name": "Last Round KOF Collaboration DLC",
+          "releaseDate": "June 25, 2026",
+          "platforms": ["PS5", "Xbox Series X|S", "Steam"],
+          "characters": ["Mai Shiranui", "Kula Diamond"],
+          "contents": ["Mai Shiranui Character Unlock Key", "Mai Shiranui Debut Costume Set", "Mai Shiranui Character Unlock Key & Debut Costume Bundle", "Kula Diamond Character Unlock Key", "Kula Diamond Debut Costume Set", "Kula Diamond Character Unlock Key & Debut Costume Bundle"],
+          "debutCostumes": ["Happy Wedding Costume", "Pirates of the 7 Seas Costume", "Nurse Costume", "Maid Costume", "Sexy Bunny Costume"],
+          "note": "Mai Shiranui and Kula Diamond are not included in the Last Round full version and must be purchased separately."
+        }
       ]
     },
     "doa6CoreFightersFreeVersion": {
@@ -311,14 +406,14 @@
       "editions": ["DOA6 Paid", "DOA6 Core Fighters", "Last Round Paid", "Last Round Core Fighters"],
       "rows": [
         { "feature": "Platforms", "paid": "PS4, Xbox One, Steam", "core": "PS4, Xbox One, Steam", "lrPaid": "PS5, Xbox Series X|S, Steam", "lrCore": "PS5, Xbox Series X|S, Steam" },
-        { "feature": "Starting characters", "paid": "Base roster included", "core": "Kasumi, Hitomi, Diego, Bass", "lrPaid": "29 characters: original 24 plus Nyotengu, Phase 4, Momiji, Rachel, Tamaki", "lrCore": "Kasumi, Marie Rose, Honoka, NiCO" },
-        { "feature": "Locked characters", "paid": "Nyotengu, Phase 4, and later DLC need relevant character purchase when not included", "core": "Most characters require separate character licenses or sets", "lrPaid": "Mai Shiranui and Kula Diamond require separate Character Unlock Keys", "lrCore": "Every character outside Kasumi, Marie Rose, Honoka, and NiCO requires a Character Unlock Key" },
-        { "feature": "Story Mode access", "paid": "Included", "core": "Introductory story access; Story Unlock Key required for full Story Mode", "lrPaid": "Included through the full version's Story Unlock Key", "lrCore": "Story Mode requires the Story Unlock Key" },
-        { "feature": "DOA Quest access", "paid": "Playable", "core": "Playable", "lrPaid": "Playable", "lrCore": "Playable" },
-        { "feature": "Online access", "paid": "Ranked Match and Lobby Match available", "core": "Ranked Match and Lobby Match with free roster and owned characters", "lrPaid": "Ranked Match and Lobby Match available", "lrCore": "Ranked Match and Lobby Match with free roster and owned characters" },
-        { "feature": "Training access", "paid": "Free Training, Tutorial, Command Training, and Combo Challenge", "core": "Training modes available; Tutorial can use all characters even without licenses", "lrPaid": "Free Training, Tutorial, Command Training, and Combo Training", "lrCore": "Training modes available; Tutorial can use all characters even without Unlock Keys" },
-        { "feature": "DOA Central access", "paid": "Wardrobe, Database, Theater, Music, and Library", "core": "DOA Central available", "lrPaid": "Wardrobe, Database, Theater, Music, Library, and Photo Mode", "lrCore": "DOA Central and Photo Mode available" },
-        { "feature": "Upgrade path", "paid": "Buy character DLC, costume DLC, Season Passes, or edition bundles", "core": "Buy Story Unlock Key, character licenses, costume DLC, or Deluxe content", "lrPaid": "Full version includes Story Unlock Key and Character Unlock Keys for the 29 characters", "lrCore": "Buy Story Unlock Key, individual Character Unlock Keys, KOF character unlocks, or the full Last Round version" }
+        { "feature": "Starting characters", "paid": "Base roster included, with Nyotengu and Phase 4 requiring separate access depending on edition and purchase path.", "core": "Kasumi, Hitomi, Diego, Bass", "lrPaid": "29 characters: the original 24 characters plus Nyotengu, Phase 4, Momiji, Rachel, and Tamaki.", "lrCore": "Kasumi, Marie Rose, Honoka, NiCO" },
+        { "feature": "Locked characters", "paid": "Nyotengu, Phase 4, and later DLC characters require the relevant character purchase when not included in the owned edition.", "core": "Most characters require separate character licenses or character sets.", "lrPaid": "Mai Shiranui and Kula Diamond require separate Character Unlock Keys.", "lrCore": "Every character outside Kasumi, Marie Rose, Honoka, and NiCO requires a Character Unlock Key." },
+        { "feature": "Story Mode access", "paid": "Included.", "core": "Introductory story access is playable; the Story Unlock Key is required for full Story Mode.", "lrPaid": "Included through the full version's Story Unlock Key.", "lrCore": "Story Mode requires the Story Unlock Key." },
+        { "feature": "DOA Quest access", "paid": "Playable.", "core": "Playable.", "lrPaid": "Playable.", "lrCore": "Playable." },
+        { "feature": "Online access", "paid": "Ranked Match and Lobby Match are available.", "core": "Ranked Match and Lobby Match are available with the free roster and owned characters.", "lrPaid": "Ranked Match and Lobby Match are available.", "lrCore": "Ranked Match and Lobby Match are available with the free roster and owned characters." },
+        { "feature": "Training access", "paid": "Free Training, Tutorial, Command Training, and Combo Challenge are available.", "core": "Training modes are available, and Tutorial can use all characters even without their licenses.", "lrPaid": "Free Training, Tutorial, Command Training, and Combo Training are available.", "lrCore": "Training modes are available; Tutorial can use all characters even without Unlock Keys." },
+        { "feature": "DOA Central access", "paid": "Wardrobe, Database, Theater, Music, and Library are available.", "core": "DOA Central is available.", "lrPaid": "Wardrobe, Database, Theater, Music, Library, and Photo Mode are available.", "lrCore": "DOA Central and Photo Mode are available." },
+        { "feature": "Upgrade path", "paid": "Buy character DLC, costume DLC, Season Passes, or edition bundles as needed.", "core": "Buy the Story Unlock Key, character licenses, character sets, costume DLC, or Deluxe content.", "lrPaid": "Full version includes Story Unlock Key and Character Unlock Keys for the 29 included characters.", "lrCore": "Buy the Story Unlock Key, individual Character Unlock Keys, KOF character unlocks, or the full Last Round version." }
       ]
     },
     "doa6PcRequirementsOnlineCrossplay": {
@@ -337,25 +432,75 @@
         {
           "group": "Original DOA6 PC Minimum",
           "rows": [
-            { "item": "Minimum requirements", "details": "Windows 10 64-bit, Intel Core i5-4690+, 8 GB RAM, NVIDIA GTX 770+, DirectX 11, 50 GB space, broadband internet.", "platforms": ["Steam"] }
+            {
+              "item": "Minimum requirements",
+              "platforms": ["Steam"],
+              "specs": [
+                { "label": "OS", "value": "Windows 10 64-bit" },
+                { "label": "CPU", "value": "Intel Core i5-4690 or higher" },
+                { "label": "Memory", "value": "8 GB RAM" },
+                { "label": "GPU", "value": "NVIDIA GeForce GTX 770 or higher" },
+                { "label": "DirectX", "value": "DirectX 11" },
+                { "label": "Storage", "value": "50 GB available space" },
+                { "label": "Network", "value": "Broadband internet connection" }
+              ]
+            }
           ]
         },
         {
           "group": "Original DOA6 PC Recommended",
           "rows": [
-            { "item": "Recommended requirements", "details": "Windows 10 64-bit, Intel Core i7 8700K+, 16 GB RAM, NVIDIA GTX 1060+, DirectX 11, 50 GB space.", "platforms": ["Steam"] }
+            {
+              "item": "Recommended requirements",
+              "platforms": ["Steam"],
+              "specs": [
+                { "label": "OS", "value": "Windows 10 64-bit" },
+                { "label": "CPU", "value": "Intel Core i7 8700K or higher" },
+                { "label": "Memory", "value": "16 GB RAM" },
+                { "label": "GPU", "value": "NVIDIA GeForce GTX 1060 or higher" },
+                { "label": "DirectX", "value": "DirectX 11" },
+                { "label": "Storage", "value": "50 GB available space" },
+                { "label": "Network", "value": "Broadband internet connection" }
+              ]
+            }
           ]
         },
         {
           "group": "Last Round PC Minimum",
           "rows": [
-            { "item": "Minimum requirements", "details": "Windows 11, Intel Core i5-8400+ / AMD Ryzen 3 3100+, 8 GB RAM, GTX 1060 6GB / RX 590 8GB+, DirectX 12, 80 GB SSD, 1280x720 at 60 FPS low.", "platforms": ["Steam"] }
+            {
+              "item": "Minimum requirements",
+              "platforms": ["Steam"],
+              "specs": [
+                { "label": "OS", "value": "Windows 11" },
+                { "label": "CPU", "value": "Intel Core i5-8400 or higher / AMD Ryzen 3 3100 or higher" },
+                { "label": "Memory", "value": "8 GB RAM" },
+                { "label": "GPU", "value": "GeForce GTX 1060 VRAM 6GB or higher / Radeon RX 590 VRAM 8GB or higher" },
+                { "label": "DirectX", "value": "DirectX 12" },
+                { "label": "Storage", "value": "80 GB available space, SSD required" },
+                { "label": "Sound", "value": "48000Hz 16bit Stereo" },
+                { "label": "Target", "value": "1280x720 at 60 FPS with low or disabled graphics options" }
+              ]
+            }
           ]
         },
         {
           "group": "Last Round PC Recommended",
           "rows": [
-            { "item": "Recommended requirements", "details": "Windows 11, Intel Core i7-8700+ / AMD Ryzen 5 3600XT+, 16 GB RAM, GTX 1070 8GB / RX 5700 XT 8GB+, DirectX 12, 80 GB SSD, 1920x1080 at 60 FPS high.", "platforms": ["Steam"] }
+            {
+              "item": "Recommended requirements",
+              "platforms": ["Steam"],
+              "specs": [
+                { "label": "OS", "value": "Windows 11" },
+                { "label": "CPU", "value": "Intel Core i7-8700 or higher / AMD Ryzen 5 3600XT or higher" },
+                { "label": "Memory", "value": "16 GB RAM" },
+                { "label": "GPU", "value": "GeForce GTX 1070 VRAM 8GB or higher / Radeon RX 5700 XT VRAM 8GB or higher" },
+                { "label": "DirectX", "value": "DirectX 12" },
+                { "label": "Storage", "value": "80 GB available space, SSD required" },
+                { "label": "Sound", "value": "48000Hz 16bit Stereo" },
+                { "label": "Target", "value": "1920x1080 at 60 FPS with high graphics options" }
+              ]
+            }
           ]
         },
         {

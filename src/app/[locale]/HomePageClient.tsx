@@ -18,6 +18,7 @@ import {
   Swords,
   Tag,
   Users,
+  X,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -567,25 +568,89 @@ export default function HomePageClient({
                 key={mi}
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
-                <div className="flex items-center gap-2 mb-2">
+                <div className="flex items-center gap-2 mb-2 flex-wrap">
                   <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">{mode.mode}</h3>
                   <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                     {mode.category}
                   </span>
                 </div>
-                <p className="text-sm mb-2"><span className="font-medium">Best for: </span>{mode.bestFor}</p>
+                <p className="text-sm mb-3"><span className="font-medium">Best for: </span>{mode.bestFor}</p>
                 <p className="text-sm text-muted-foreground mb-3">{mode.access}</p>
-                <div className="flex flex-wrap gap-1.5">
-                  {mode.rewards.map((r: string, ri: number) => (
-                    <span
-                      key={ri}
-                      className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs"
-                    >
-                      <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
-                      {r}
-                    </span>
-                  ))}
-                </div>
+                {mode.coreFightersAccess && (
+                  <p className="flex items-start gap-1.5 text-xs text-muted-foreground mb-2 p-2.5 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.2)]">
+                    <Lightbulb className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span><span className="font-medium">Core Fighters: </span>{mode.coreFightersAccess}</span>
+                  </p>
+                )}
+                {mode.lastRoundCoreFightersAccess && (
+                  <p className="flex items-start gap-1.5 text-xs text-muted-foreground mb-2 p-2.5 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.2)]">
+                    <Lightbulb className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span><span className="font-medium">Last Round Core Fighters: </span>{mode.lastRoundCoreFightersAccess}</span>
+                  </p>
+                )}
+                {mode.missionStructure && (
+                  <p className="flex items-start gap-1.5 text-xs text-muted-foreground mb-2 p-2.5 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.2)]">
+                    <ScrollText className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span><span className="font-medium">Structure: </span>{mode.missionStructure}</span>
+                  </p>
+                )}
+                {mode.missionUse && (
+                  <p className="flex items-start gap-1.5 text-xs text-muted-foreground mb-2 p-2.5 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.2)]">
+                    <Lightbulb className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span><span className="font-medium">Mission use: </span>{mode.missionUse}</span>
+                  </p>
+                )}
+                {mode.characterRule && (
+                  <p className="flex items-start gap-1.5 text-xs text-muted-foreground mb-2 p-2.5 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.2)]">
+                    <Users className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span><span className="font-medium">Characters: </span>{mode.characterRule}</span>
+                  </p>
+                )}
+                {mode.rewardUse && (
+                  <p className="flex items-start gap-1.5 text-xs text-muted-foreground mb-2 p-2.5 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.2)]">
+                    <Gift className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span><span className="font-medium">Reward use: </span>{mode.rewardUse}</span>
+                  </p>
+                )}
+                {mode.features?.length > 0 && (
+                  <div className="mb-2">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Features</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {mode.features.map((f: string, fi: number) => (
+                        <span key={fi} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full border border-border text-xs text-muted-foreground">
+                          <Tag className="w-3 h-3" />
+                          {f}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {mode.route?.length > 0 && (
+                  <div className="mb-2">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Recommended route</p>
+                    <ol className="space-y-1.5">
+                      {mode.route.map((r: string, ri: number) => (
+                        <li key={ri} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.2)] text-xs font-bold text-[hsl(var(--nav-theme-light))]">{ri + 1}</span>
+                          {r}
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
+                )}
+                {mode.rewards?.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5">
+                    {mode.rewards.map((r: string, ri: number) => (
+                      <span
+                        key={ri}
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs"
+                      >
+                        <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+                        {r}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -614,12 +679,20 @@ export default function HomePageClient({
             {t.modules.doa6CostumesDlcSeasonPasses.packs.map((pack: any, pi: number) => (
               <div
                 key={pi}
-                className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
               >
-                <h3 className="font-bold text-base mb-1.5 text-[hsl(var(--nav-theme-light))]">{pack.name}</h3>
-                <p className="text-sm mb-3">{pack.highlights}</p>
+                <div className="flex items-start justify-between gap-2 mb-1.5">
+                  <h3 className="font-bold text-base text-[hsl(var(--nav-theme-light))]">{pack.name}</h3>
+                  {pack.releaseDate && (
+                    <span className="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                      <Calendar className="w-3 h-3" />
+                      {pack.releaseDate}
+                    </span>
+                  )}
+                </div>
+                {pack.use && <p className="text-sm mb-3">{pack.use}</p>}
                 <div className="flex flex-wrap gap-1.5 mb-3">
-                  {pack.platforms.map((p: string, pi2: number) => (
+                  {pack.platforms?.map((p: string, pi2: number) => (
                     <span
                       key={pi2}
                       className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full border border-border text-xs text-muted-foreground"
@@ -629,10 +702,155 @@ export default function HomePageClient({
                     </span>
                   ))}
                 </div>
-                <p className="flex items-start gap-1.5 text-xs text-muted-foreground">
-                  <Lightbulb className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
-                  {pack.note}
-                </p>
+                {pack.mainContents?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Main contents</p>
+                    <ul className="space-y-1">
+                      {pack.mainContents.map((c: string, ci: number) => (
+                        <li key={ci} className="flex items-start gap-1.5 text-sm">
+                          <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          {c}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {pack.costumeSets?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Costume sets</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {pack.costumeSets.map((c: string, ci: number) => (
+                        <span key={ci} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full border border-border text-xs text-muted-foreground">
+                          <Shirt className="w-3 h-3" />
+                          {c}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {pack.extraContent?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Extra content</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {pack.extraContent.map((c: string, ci: number) => (
+                        <span key={ci} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full border border-border text-xs text-muted-foreground">
+                          <Sparkles className="w-3 h-3" />
+                          {c}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {pack.bonusContent?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Bonus content</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {pack.bonusContent.map((c: string, ci: number) => (
+                        <span key={ci} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full border border-border text-xs text-muted-foreground">
+                          <Gift className="w-3 h-3" />
+                          {c}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {pack.characters?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Characters</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {pack.characters.map((c: string, ci: number) => (
+                        <span key={ci} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs">
+                          <Users className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+                          {c}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {pack.contents?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Contents</p>
+                    <ul className="space-y-1">
+                      {pack.contents.map((c: string, ci: number) => (
+                        <li key={ci} className="flex items-start gap-1.5 text-sm">
+                          <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          {c}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {pack.debutCostumes?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Debut costumes</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {pack.debutCostumes.map((c: string, ci: number) => (
+                        <span key={ci} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full border border-border text-xs text-muted-foreground">
+                          <Shirt className="w-3 h-3" />
+                          {c}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {pack.coreFightersUnlocks?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Core Fighters unlocks</p>
+                    <ul className="space-y-1">
+                      {pack.coreFightersUnlocks.map((c: string, ci: number) => (
+                        <li key={ci} className="flex items-start gap-1.5 text-sm">
+                          <Gift className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          {c}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {pack.carryOver?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1.5">Carries over</p>
+                    <ul className="space-y-1">
+                      {pack.carryOver.map((c: string, ci: number) => (
+                        <li key={ci} className="flex items-start gap-1.5 text-sm text-muted-foreground">
+                          <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          {c}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {pack.notCarriedOver?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Does not carry over</p>
+                    <ul className="space-y-1">
+                      {pack.notCarriedOver.map((c: string, ci: number) => (
+                        <li key={ci} className="flex items-start gap-1.5 text-sm text-muted-foreground">
+                          <X className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
+                          {c}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {pack.limitations?.length > 0 && (
+                  <div className="mb-2.5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">Limitations</p>
+                    <ul className="space-y-1">
+                      {pack.limitations.map((c: string, ci: number) => (
+                        <li key={ci} className="flex items-start gap-1.5 text-sm text-muted-foreground">
+                          <X className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
+                          {c}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {pack.note && (
+                  <p className="flex items-start gap-1.5 text-xs text-muted-foreground mt-auto pt-2 border-t border-border">
+                    <Lightbulb className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    {pack.note}
+                  </p>
+                )}
               </div>
             ))}
           </div>
@@ -713,7 +931,7 @@ export default function HomePageClient({
                       <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-2 mb-1">
                         <p className="font-semibold text-sm">{r.item}</p>
                         <div className="flex flex-wrap gap-1">
-                          {r.platforms.map((p: string, pi: number) => (
+                          {r.platforms?.map((p: string, pi: number) => (
                             <span
                               key={pi}
                               className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full border border-border text-xs text-muted-foreground"
@@ -724,7 +942,18 @@ export default function HomePageClient({
                           ))}
                         </div>
                       </div>
-                      <p className="text-sm text-muted-foreground">{r.details}</p>
+                      {r.specs?.length > 0 ? (
+                        <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-0.5 text-sm">
+                          {r.specs.map((s: any, si: number) => (
+                            <div key={si} className="flex justify-between gap-2 py-0.5 border-b border-border/50">
+                              <dt className="text-muted-foreground whitespace-nowrap">{s.label}</dt>
+                              <dd className="font-medium text-right">{s.value}</dd>
+                            </div>
+                          ))}
+                        </dl>
+                      ) : (
+                        <p className="text-sm text-muted-foreground">{r.details}</p>
+                      )}
                     </div>
                   ))}
                 </div>
