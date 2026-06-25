@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://deadoralive6lastround.online";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Dead or Alive 6 Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Dead or Alive 6 Wiki covering characters, tier list, combos, stages, Core Fighters, costumes, and Last Round updates for PS5, Xbox Series X|S, and Steam.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          width: 460,
+          height: 215,
+          caption: "Dead or Alive 6 Last Round - 3D Fighting Game",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Dead or Alive 6 Wiki",
+        alternateName: "Dead or Alive 6",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Dead or Alive 6 Wiki resource hub for characters, tier list, combos, stages, costumes, Core Fighters, and Last Round guides",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -128,43 +128,44 @@ export default function HomePageClient({
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          width: 460,
+          height: 215,
+          caption: "Dead or Alive 6 Wiki - 3D Fighting Game",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://teamninja-studio.com/doa6/lastround/us/",
+          "https://store.steampowered.com/app/4144680/DEAD_OR_ALIVE_6_Last_Round/",
+          "https://discord.com/invite/ktfamily",
+          "https://www.reddit.com/r/DeadOrAlive/",
+          "https://www.youtube.com/user/TecmoKoeiAmerica",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Dead or Alive 6",
+        gamePlatform: ["PlayStation 5", "Xbox Series X|S", "PC"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Fighting", "Action", "3D Fighting"],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
+          maxValue: 2,
         },
         offers: {
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://store.steampowered.com/app/4144680/DEAD_OR_ALIVE_6_Last_Round/",
         },
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "DEAD OR ALIVE 6 Last Round Announcement Trailer",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official Dead or Alive 6 Last Round announcement trailer showcasing the new-generation fighting game.",
+        uploadDate: "2026-06-25",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/HDjAfazoqGI",
+        url: "https://www.youtube.com/watch?v=HDjAfazoqGI",
       },
     ],
   };
@@ -247,7 +248,7 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://store.steampowered.com/app/4144680/DEAD_OR_ALIVE_6_Last_Round/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -267,24 +268,24 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Video Section - 紧跟 Hero 区域 */}
+      <section className="px-4 py-10 md:py-12">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
+          <div className="relative overflow-hidden rounded-2xl">
+            <VideoFeature
+              videoId="HDjAfazoqGI"
+              title="DEAD OR ALIVE 6 Last Round Announcement Trailer"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Latest Updates Section */}
       <LatestGuidesAccordion
         articles={latestArticles}
         locale={locale}
         max={12}
       />
-
-      {/* Video Section */}
-      <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
-          <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
