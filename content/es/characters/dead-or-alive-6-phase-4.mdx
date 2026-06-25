@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dead or Alive 6 Phase 4: Guía de Combate 2026 y Posturas Avanzadas",
+  description: "Domina a Phase 4 en Dead or Alive 6 con nuestra guía de combate avanzada. Aprende cancelaciones de teletransporte, posturas Chifu y Tenfu, datos de frames y combos de alto daño.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Phase+4+Combat+Guide",
+  date: "2026-06-26",
+  author: "Equipo de Wiki de Dead or Alive 6",
+  keywords: "Dead or Alive 6, Phase 4, guía de combate, teletransporte, posturas, combos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal**: Domina el complejo estilo de juego de **Dead or Alive 6 Phase 4** para dominar la arena con cancelaciones de teletransporte de alta velocidad.
+- **Mecánica Clave**: Utiliza las posturas Chifu y Tenfu para mantener a los oponentes adivinando y evitar sus llaves defensivas (holds).
+- **Mejor Estrategia**: Concéntrate en confirmar los impactos (hit-confirm) de tus golpes antes de comprometerte con transiciones de teletransporte inseguras al ser bloqueadas.
+- **Consejo Crítico**: Aprovecha su física de peso ligero para evitar ser lanzado por luchadores de agarre pesados.
+- **Mejor Opción**: Usa su lanzamiento de combo característico 66T~T para asegurar una ventaja de frames funcional detrás del oponente.
+</Callout>
+
+<Section icon={Swords} title="Descripción General del Personaje: Dead or Alive 6 Phase 4">
+
+Como uno de los luchadores más complejos y gratificantes del plantel, dominar a **Dead or Alive 6 Phase 4** requiere una comprensión profunda de los datos de frames, las transiciones de postura y una ejecución de alta velocidad. Desarrollada por la siniestra organización M.I.S.T., Phase 4 es un arma clonada creada a partir del mapa genético de Kasumi. A diferencia de la Kasumi original, que lucha con el noble estilo Mugen Tenshin Ninjutsu, el estilo de lucha de Phase 4 es una versión modificada e inestable de este ninjutsu, caracterizada por una misteriosa niebla negra, teletransportes de disparo rápido y una obediencia trágica y forzada.
+
+En el último lanzamiento de 2026 de *Dead or Alive 6 Last Round*, Phase 4 se incluye como parte del plantel estándar de 29 personajes. En el lanzamiento original de 2019, estaba bloqueada tras pedidos anticipados o DLC de pago, pero la versión de generación actual en PlayStation 5, Xbox Series X|S y Steam garantiza que todos los jugadores tengan acceso a su conjunto completo de movimientos desde el primer día.
+
+Como personaje de clase ligera, Phase 4 tiene un peso corporal menor. En el motor de física del juego, los personajes ligeros son lanzados más alto y permanecen más tiempo en el aire durante los malabares (juggles). Esto la hace muy vulnerable a combos de máximo daño si es atrapada por un lanzador. Sin embargo, su increíble velocidad, posturas evasivas y capacidades de teletransportación compensan con creces su fragilidad defensiva.
+
+<Callout type="info" title="Actualización del Plantel">
+En la actualización *Last Round* de 2026, Phase 4 está completamente desbloqueada en la Edición Estándar junto con Nyotengu, Momiji, Rachel y Tamaki, elevando el plantel base total a 29 personajes jugables.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas Principales y Teletransportes de Postura">
+
+Para jugar con Phase 4 de manera efectiva, debes dominar sus dos posturas características: Chifu y Tenfu. Mientras que Kasumi utiliza teletransportes lineales de carrera hacia adelante para cerrar distancia, Phase 4 utiliza teletransportes verticales, horizontales y multidireccionales que pueden activarse a mitad de un combo.
+
+La postura Chifu es su principal transición terrestre. Se puede acceder a ella después de golpes específicos presionando `P+K`. Desde Chifu, tiene acceso a ataques medios rápidos, toques (pokes) de alta velocidad y retiradas evasivas. Su opción más notable desde Chifu es un codazo alto ultrarrápido de 7 frames que la deja en menos 4 frames al ser bloqueado, lo que lo hace completamente seguro contra castigos.
+
+La postura Tenfu es su estado de teletransportación aérea. Activada por comandos como `8K~2P+K` o transiciones aéreas automáticas, Tenfu permite a Phase 4 flotar momentáneamente, descendiendo con patadas en picado, golpes aéreos o lanzamientos aéreos de comando.
+
+La mecánica definitoria del juego de Phase 4 es la Cancelación de Teletransporte. Al presionar `2P+K` durante secuencias de golpes específicas, puede cancelar sus frames de recuperación y teletransportarse instantáneamente a una posición neutral o detrás del oponente. Sin embargo, hay una advertencia importante: solo unos pocos movimientos, como `66K` y `66PP`, le permiten teletransportarse si el oponente bloquea el ataque. Para casi todas las demás secuencias, solo puede teletransportarse tras un impacto exitoso. Si sus ataques son bloqueados e intentas forzar un teletransporte, permanecerá estacionaria y muy insegura, quedando expuesta a un castigo severo.
+
+| Postura / Cancelación | Comando Principal | Frames al Bloquear | Mejor Opción de Seguimiento |
+| :--- | :--- | :--- | :--- |
+| **Postura Chifu** | P+K tras golpes específicos | Menos 4 (Seguro) | Codazo alto rápido (7 frames) |
+| **Postura Tenfu** | 8K~2P+K o transiciones aéreas | Varía según la altura | Patadas en picado o lanzamientos aéreos |
+| **Cancel. Teletransporte** | 2P+K durante secuencia | Muy negativo si se lee | Lanzamiento o reinicio de bloqueo instantáneo |
+
+<Callout type="warning" title="Riesgo de Ejecución">
+Phase 4 no es un personaje apto para principiantes. Sus teletransportes requieren entradas precisas de "just-frame" (sincronización exacta) al impactar. Fallar el tiempo te dejará expuesto a contra-lanzamientos devastadores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Entrenamiento de Ejecución Paso a Paso">
+
+Debido a que Phase 4 depende en gran medida de las entradas de "just-frame" para sus teletransportes al impactar, desarrollar la memoria muscular es crucial. Sigue esta progresión de entrenamiento para dominar su ejecución.
+
+<Steps>
+  <Step num="1" title="Domina el Juego Neutral y Jabs Básicos">
+    Antes de intentar teletransportes complejos, siéntete cómodo con sus toques básicos. Sus secuencias de jab son excepcionalmente rápidas, y su `2P` sirve como un "high crush" instantáneo (evade ataques altos).
+  </Step>
+  <Step num="2" title="Practica la Confirmación de Impacto de 3P y PP">
+    La confirmación de impacto (hit-confirming) es el arte de reaccionar a si tu ataque aterrizó o fue bloqueado. Dado que Phase 4 no puede teletransportarse de forma segura al ser bloqueada con la mayoría de sus movimientos, debes aprender a ingresar el comando de teletransporte solo cuando veas la chispa visual del impacto.
+  </Step>
+  <Step num="3" title="Aprende las Transiciones de Postura">
+    Practica la transición a las posturas Chifu y Tenfu en el Entrenamiento Libre. Concéntrate en el tiempo para presionar `P+K` inmediatamente después de que sus golpes iniciales conecten.
+  </Step>
+  <Step num="4" title="Ejecuta Cancelaciones de Teletransporte Just-Frame">
+    El núcleo de su juego de combos avanzado reside en cancelar sus frames de recuperación. Practica la transición `3P~2P+K`, asegurándote de presionar los botones precisamente en el momento en que el golpe aterriza.
+  </Step>
+  <Step num="5" title="Aplica Aturdimientos y Configuraciones de Lanzamiento">
+    Una vez que puedas cancelar sus movimientos de manera confiable, practica lanzar al oponente. Usa sus teletransportes para reposicionarte en el aire, extendiendo tus malabares antes de terminar con un finalizador de alto daño.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo del Modo Práctica">
+Usa los modos de Entrenamiento de Comandos y Desafío de Combo dentro de Dead or Alive 6 para desarrollar la memoria muscular para sus ventanas de frames más ajustadas antes de jugar en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Herramientas Defensivas y Opciones de Rastreo">
+
+El juego defensivo de Phase 4 es muy activo, basándose en maniobras evasivas en lugar de bloqueo pasivo. Su mejor herramienta absoluta de "high-crush" es `2P`. Con 12 frames de inicio, es increíblemente rápida, se agacha instantáneamente bajo ataques altos y es completamente segura al ser bloqueada. Debería ser tu herramienta principal para interrumpir a oponentes agresivos que dependen de la presión de jabs altos.
+
+Para rastrear a oponentes que aman esquivar lateralmente (sidestep), su herramienta de referencia es `1P`. Este barrido de rastreo bajo es lento a 16 frames y muy inseguro al ser bloqueado, pero en un impacto normal, activa un aturdimiento masivo de +16 frames. Este aturdimiento es lo suficientemente largo como para garantizar un golpe de seguimiento como `6P` o `3P`, lo que te permite transicionar directamente a tu presión de teletransporte.
+
+Phase 4 también posee un juego de lanzamientos devastador heredado de Kasumi. Su lanzamiento neutral estándar inflige 45 de daño y puede estampar a los oponentes contra peligros ambientales. Su configuración de lanzamiento más poderosa es `66T~T`. Este lanzamiento de combo de dos partes inflige un alto daño y posiciona a Phase 4 directamente detrás del oponente. Crucialmente, la deja en +10 frames con el oponente de espaldas. Debido a que darse la vuelta para bloquear requiere 5 frames en Dead or Alive 6, esta configuración le da a Phase 4 una ventaja funcional de +15 frames. Cualquier golpe que sea de 14 frames o más rápido es completamente garantizado y no se puede bloquear ni contrarrestar.
+
+| Comando de Movimiento | Tipo de Acción | Velocidad de Frames | Efecto al Impactar | Efecto al Bloquear |
+| :--- | :--- | :--- | :--- | :--- |
+| **2P** | High Crush Bajo | 12 Frames | Pequeña ventaja de frames | Seguro contra castigos rápidos |
+| **1P** | Rastreo Bajo | 16 Frames | Aturdimiento +16 Frames | Muy inseguro / sin teletransp. |
+| **66T~T** | Lanzamiento Combo | 7 Frames | +10 y Espaldas al rival | N/A (Falla si se bloquea) |
+| **7P** | Golpe de Espaciado | 14 Frames | Empuja al oponente | Herramienta de espacio segura |
+
+<Callout type="tip" title="Estrategia de Juego de Lanzamientos">
+Dado que los oponentes a menudo bloquearán defensivamente para evitar los rápidos golpes de Phase 4, usa su lanzamiento de combo `66T~T` para saltar su guardia y configurar juegos de adivinanza (mixups) con el rival de espaldas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rutas de Combo Avanzadas y Estrategias de Cartas">
+
+Las estructuras de combo de Phase 4 son muy creativas, lo que permite a los jugadores entrelazar posturas y teletransportes para mantener a los oponentes adivinando. Usa las siguientes estrategias para maximizar tu potencial ofensivo.
+
+<CardGrid cols={3}>
+  <Card title="Castigo de Corto Alcance">
+    - **Iniciador**: 4P o 3P
+    - **Transición**: 3P~2P+K
+    - **Finalizador**: 236T seguido de 4K x2
+    - **Ejecución**: Fácil
+  </Card>
+  <Card title="Transición de Postura">
+    - **Iniciador**: PPP~Chifu~P+K
+    - **Transición**: 4K~P+K a Chifu~K~P+K
+    - **Finalizador**: Tenfu~K~2P+K a 6S
+    - **Ejecución**: Media
+  </Card>
+  <Card title="Explosión de Daño Máximo">
+    - **Iniciador**: 236T (Counter Hit)
+    - **Transición**: 4P a 4K~P+K
+    - **Finalizador**: Tenfu~K~2P+K a 6SH
+    - **Ejecución**: Difícil
+  </Card>
+</CardGrid>
+
+Cuando tienes el Indicador de Ruptura (Break Gauge) lleno, Phase 4 se convierte en uno de los personajes más terroríficos del juego. Al aterrizar un lanzamiento `236T` en contraataque (counter-hit), puedes lanzar al oponente, realizar una serie de malabares con cancelaciones de postura y activar su Golpe de Ruptura (`6S+H`). Al ejecutar una Cancelación de Golpe de Ruptura tras el primer impacto, puedes dejar al oponente en un estado de colapso, lo que te permite extender el combo aún más con `33P`, `BT2P` y un finalizador `236P` para más de 110 de daño.
+
+| Tipo de Ruta de Combo | Iniciador Principal | Transiciones de Postura | Calificación de Daño | Dificultad de Ejecución |
+| :--- | :--- | :--- | :--- | :--- |
+| **BnB Básico** | 4P o 3P | Postura Chifu | Moderado (55-65) | Fácil (★★☆☆☆) |
+| **Teletransporte Avanz.** | 236T o 66T~T | Chifu a Tenfu | Alto (75-90) | Difícil (★★★★☆) |
+| **Explosión Indicador Máx.** | 236T (Iniciador) | Múltiples Cancelaciones | Extremo (110+) | Experto (★★★★★) |
+
+<Callout type="tip" title="Cancelación de Golpe de Ruptura">
+Al 100% del Indicador de Ruptura, puedes cancelar su Golpe de Ruptura (6S+H) después del primer impacto para mantener al oponente en un estado de colapso, lo que te permite extender el combo para un daño masivo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategia de Enfrentamiento y Lista de Verificación de Phase 4">
+
+Al jugar con Phase 4, tu estrategia de enfrentamiento cambia significativamente dependiendo de la clase de personaje de tu oponente.
+
+Contra luchadores de agarre pesados como Bass o Bayman, debes jugar con extrema precaución. Debido a que Phase 4 es ligera, sus agarres de alto daño pueden agotar la mitad de tu barra de salud en una sola interacción. Usa su movilidad superior, teletransportes verticales y herramientas de espaciado de largo alcance como `7P` para mantenerlos a raya, y evita secuencias de bloqueo predecibles que puedan ser contrarrestadas fácilmente.
+
+Contra personajes agresivos de presión (rushdown) como Kasumi o Ayane, concéntrate en "high crushes" defensivos como `2P` y contras. Usa su postura `Chifu` para provocar ataques y luego castiga sus frames de recuperación con su codazo de 7 frames ultrarrápido.
+
+Contra personajes defensivos que usan muchas llaves (holds) como Leifang o Bayman, confía plenamente en tu juego de lanzamientos. Dado que las secuencias de golpes de Phase 4 son muy predecibles si no las cancelas, los jugadores defensivos contrarrestarán tus ataques fácilmente. Varía tu ofensiva cancelando tus golpes en su lanzamiento de combo `66T~T` para destrozar sus llaves defensivas.
+
+<Checklist
+  id="phase4-match-checklist"
+  title="Lista de Verificación para Phase 4:"
+  items={[
+    "Verifica la confirmación de impacto antes de ejecutar cancelaciones de teletransporte al bloquear.",
+    "Utiliza 2P para evadir ataques altos entrantes y reiniciar el juego neutral.",
+    "Provoca llaves defensivas cancelando secuencias en el lanzamiento combo 66T~T.",
+    "Mantén el espaciado activo con 7P contra luchadores de agarre pesados.",
+    "Reserva el 50% del Indicador de Ruptura para llaves de ruptura de emergencia durante aturdimientos."
+  ]}
+/>
+
+<Callout type="warning" title="Vulnerabilidad de Peso Ligero">
+Recuerda siempre que Phase 4 es un personaje ligero. Si eres lanzado, espera recibir un 10-15% más de daño en los malabares en comparación con los personajes pesados. ¡Juega de forma evasiva!
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Dead or Alive 6 Phase 4 adecuada para jugadores principiantes?",
+    answer: "No, Phase 4 es ampliamente considerada uno de los personajes más difíciles del juego. Su dependencia de entradas precisas de just-frame para las cancelaciones de teletransporte y la confirmación de impacto la convierte en una especialista de alto compromiso. Los principiantes deberían comenzar con Kasumi para aprender el estilo básico Mugen Tenshin antes de pasar a Phase 4."
+  },
+  {
+    question: "¿En qué se diferencia Phase 4 de Kasumi?",
+    answer: "Aunque ambas comparten golpes y animaciones base similares, Phase 4 depende en gran medida de la teletransportación multidireccional y las cancelaciones de teletransporte (usando las posturas Chifu y Tenfu) para extender combos y crear juegos de adivinanza. Kasumi se centra más en una presión directa de alta velocidad y teletransportes de carrera lineales. Además, Phase 4 es un personaje ligero, lo que la hace más vulnerable a los malabares."
+  },
+  {
+    question: "¿Puede Phase 4 teletransportarse cuando sus ataques son bloqueados?",
+    answer: "No, con muy pocas excepciones como 66K y 66PP, Phase 4 no puede activar sus cancelaciones de teletransporte si el oponente bloquea sus ataques. Intentar forzar un teletransporte al ser bloqueada la dejará estacionaria y con frames muy negativos, lo que la hace extremadamente insegura."
+  },
+  {
+    question: "¿Está Phase 4 incluida en la versión gratuita Core Fighters del juego?",
+    answer: "No, Phase 4 no forma parte del plantel inicial gratuito en Dead or Alive 6 Core Fighters (que solo incluye a Kasumi, Marie Rose, Honoka y NiCO). Para jugar con ella en Core Fighters, debes comprar su Llave de Desbloqueo de Personaje individual. Sin embargo, está totalmente incluida en el plantel estándar de la edición de pago Dead or Alive 6 Last Round."
+  }
+]} />
+
+<Callout type="info" title="Recursos Oficiales">
+Para más actualizaciones, consulta el sitio oficial de [Dead or Alive 6 Last Round](https://teamninja-studio.com/doa6/lastround/us/) o explora la [página de productos de Team NINJA](https://teamninja-studio.com/doa6/lastround/us/productinfo/) para conocer los requisitos del sistema y la disponibilidad en plataformas.
+</Callout>
+
+</Section>
