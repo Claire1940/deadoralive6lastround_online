@@ -8,6 +8,7 @@ import {
   Check,
   ChevronDown,
   Cpu,
+  ExternalLink,
   Gamepad2,
   Gift,
   Keyboard,
@@ -29,6 +30,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -57,11 +59,13 @@ const MODULE_SECTION_IDS = [
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
   locale: string;
+  moduleLinkMap: ModuleLinkMap;
 }
 
 export default function HomePageClient({
   latestArticles,
   locale,
+  moduleLinkMap,
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
@@ -153,6 +157,25 @@ export default function HomePageClient({
   // 模块 4 战斗机制手风琴状态
   const [mechanicsExpanded, setMechanicsExpanded] = useState<number | null>(0);
   const mobileBannerAd = getPreferredMobileBannerSelection();
+
+  // 把模块大标题包成指向最相关文章的链接（无匹配文章时返回纯文本）
+  function renderModuleTitle(moduleKey: string, title: string) {
+    const article = moduleLinkMap[moduleKey];
+
+    if (!article) {
+      return title;
+    }
+
+    return (
+      <Link
+        href={locale === "en" ? article.url : `/${locale}${article.url}`}
+        className="inline-flex items-center gap-2 transition-colors hover:text-[hsl(var(--nav-theme-light))]"
+      >
+        <span>{title}</span>
+        <ExternalLink className="h-5 w-5 md:h-6 md:w-6" />
+      </Link>
+    );
+  }
 
   return (
     <div className="home-shell min-h-screen bg-background text-foreground">
@@ -318,7 +341,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              {t.modules.doa6ReleaseDatePlatforms.title}
+              {renderModuleTitle("doa6ReleaseDatePlatforms", t.modules.doa6ReleaseDatePlatforms.title)}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.doa6ReleaseDatePlatforms.subtitle}
@@ -365,7 +388,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              {t.modules.doa6CharactersTierList.title}
+              {renderModuleTitle("doa6CharactersTierList", t.modules.doa6CharactersTierList.title)}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.doa6CharactersTierList.subtitle}
@@ -419,7 +442,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              {t.modules.doa6BeginnerGuideControls.title}
+              {renderModuleTitle("doa6BeginnerGuideControls", t.modules.doa6BeginnerGuideControls.title)}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.doa6BeginnerGuideControls.subtitle}
@@ -488,7 +511,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              {t.modules.doa6CombatSystemMechanics.title}
+              {renderModuleTitle("doa6CombatSystemMechanics", t.modules.doa6CombatSystemMechanics.title)}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.doa6CombatSystemMechanics.subtitle}
@@ -555,7 +578,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              {t.modules.doa6StoryModeDoaQuest.title}
+              {renderModuleTitle("doa6StoryModeDoaQuest", t.modules.doa6StoryModeDoaQuest.title)}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.doa6StoryModeDoaQuest.subtitle}
@@ -668,7 +691,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              {t.modules.doa6CostumesDlcSeasonPasses.title}
+              {renderModuleTitle("doa6CostumesDlcSeasonPasses", t.modules.doa6CostumesDlcSeasonPasses.title)}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.doa6CostumesDlcSeasonPasses.subtitle}
@@ -868,7 +891,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              {t.modules.doa6CoreFightersFreeVersion.title}
+              {renderModuleTitle("doa6CoreFightersFreeVersion", t.modules.doa6CoreFightersFreeVersion.title)}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.doa6CoreFightersFreeVersion.subtitle}
@@ -914,7 +937,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              {t.modules.doa6PcRequirementsOnlineCrossplay.title}
+              {renderModuleTitle("doa6PcRequirementsOnlineCrossplay", t.modules.doa6PcRequirementsOnlineCrossplay.title)}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.doa6PcRequirementsOnlineCrossplay.subtitle}
