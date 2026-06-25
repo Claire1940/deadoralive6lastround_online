@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Jeu de combat 3D nerveux",
+    "title": "Dead or Alive 6 Last Round Wiki",
+    "description": "Maîtrisez les personnages, combos, arènes, costumes, Core Fighters et les mises à jour Last Round de Dead or Alive 6 avec des guides pratiques pour combattants sur PS5, Xbox Series X|S et Steam.",
+    "getFreeCodesCTA": "Voir les combattants",
+    "playOnSteamCTA": "Jouer sur Steam / PS5 / Xbox",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "Mar 1, 2019",
+        "label": "Sortie originale"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "Jun 25, 2026",
+        "label": "Sortie Last Round"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "29",
+        "label": "Combattants Last Round"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "36",
+        "label": "Succès Steam"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
+    "title": "Prêt à maîtriser Dead or Alive 6 ?",
+    "description": "Rejoignez la communauté Dead or Alive 6 pour des tier lists, des combos et les dernières nouveautés Last Round sur Discord !",
     "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "joinGame": "Jouer sur Steam / PS5 / Xbox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
+    "title": "Dead or Alive 6 Wiki",
+    "description": "Votre centre de ressources complet pour les personnages, tier lists, combos, arènes, costumes, Core Fighters et guides Last Round de Dead or Alive 6.",
     "resources": "Ressources",
     "community": "Communauté",
-    "legal": "Légal",
+    "legal": "Mentions légales",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Boutique Steam",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "copyright": "© 2026 Dead or Alive 6 Wiki. Non affilié à Team NINJA, Koei Tecmo ou aux développeurs de Dead or Alive 6.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
   },
   "pages": {
     "guides": {

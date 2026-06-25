@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Schnelles 3D-Prügelspiel",
+    "title": "Dead or Alive 6 Last Round Wiki",
+    "description": "Meistere Charaktere, Combos, Arenen, Kostüme, Core Fighters und Last-Round-Updates in Dead or Alive 6 mit praktischen Guides für Kämpfer auf PS5, Xbox Series X|S und Steam.",
+    "getFreeCodesCTA": "Kämpfer ansehen",
+    "playOnSteamCTA": "Auf Steam / PS5 / Xbox spielen",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "Mar 1, 2019",
+        "label": "Originalveröffentlichung"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "Jun 25, 2026",
+        "label": "Last-Round-Release"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "29",
+        "label": "Last-Round-Kämpfer"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "36",
+        "label": "Steam-Erfolge"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
+    "title": "Bereit, Dead or Alive 6 zu meistern?",
+    "description": "Tritt der Dead-or-Alive-6-Community für Tier-Lists, Combos und die neuesten Last-Round-Updates auf Discord bei!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "joinGame": "Auf Steam / PS5 / Xbox spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Dead or Alive 6 Wiki",
+    "description": "Dein umfassendes Ressourcen-Center für Charaktere, Tier-Lists, Combos, Arenen, Kostüme, Core Fighters und Last-Round-Guides zu Dead or Alive 6.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Steam-Store",
     "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Dead or Alive 6 Wiki. Nicht verbunden mit Team NINJA, Koei Tecmo oder den Entwicklern von Dead or Alive 6.",
+    "disclaimer": "Inoffizielle Fan-Ressourcen-Website."
   },
   "pages": {
     "guides": {

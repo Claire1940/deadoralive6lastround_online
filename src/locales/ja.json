@@ -34,27 +34,27 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "高速3D格闘ゲーム",
+    "title": "Dead or Alive 6 Last Round Wiki",
+    "description": "Dead or Alive 6のキャラクター、コンボ、ステージ、コスチューム、Core Fighters、Last Roundのアップデートを、PS5・Xbox Series X|S・Steam向けの実践ガイドで極めよう。",
+    "getFreeCodesCTA": "ファイターを見る",
+    "playOnSteamCTA": "Steam / PS5 / Xboxでプレイ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "Mar 1, 2019",
+        "label": "オリジナル発売日"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "Jun 25, 2026",
+        "label": "Last Round発売日"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "29",
+        "label": "Last Roundファイター数"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "36",
+        "label": "Steam実績数"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
+    "title": "Dead or Alive 6を極める準備はできましたか？",
+    "description": "DiscordのDead or Alive 6コミュニティで、ティアリスト、コンボ、最新のLast Round情報をチェック！",
     "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "joinGame": "Steam / PS5 / Xboxでプレイ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Dead or Alive 6 Wiki",
+    "description": "Dead or Alive 6のキャラクター、ティアリスト、コンボ、ステージ、コスチューム、Core Fighters、Last Roundガイドを網羅した総合リソースハブ。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Steamストア",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 Dead or Alive 6 Wiki. Team NINJA、コーエーテクモ、およびDead or Alive 6の開発元とは提携していません。",
+    "disclaimer": "非公式のファン制作リソースサイトです。"
   },
   "pages": {
     "guides": {

@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Динамичный 3D-файтинг",
+    "title": "Dead or Alive 6 Last Round Wiki",
+    "description": "Освойте персонажей, комбо, арены, костюмы, Core Fighters и обновления Last Round в Dead or Alive 6 с практическими руководствами для бойцов на PS5, Xbox Series X|S и Steam.",
+    "getFreeCodesCTA": "Смотреть бойцов",
+    "playOnSteamCTA": "Играть в Steam / PS5 / Xbox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "Mar 1, 2019",
+        "label": "Оригинальный релиз"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "Jun 25, 2026",
+        "label": "Релиз Last Round"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "29",
+        "label": "Бойцы Last Round"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "36",
+        "label": "Достижения Steam"
       }
     }
   },
@@ -181,26 +181,26 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Готовы освоить Dead or Alive 6?",
+    "description": "Присоединяйтесь к сообществу Dead or Alive 6 за тир-листами, комбо и обновлениями Last Round в Discord!",
+    "joinCommunity": "Присоединиться в Discord",
+    "joinGame": "Играть в Steam / PS5 / Xbox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
+    "title": "Dead or Alive 6 Wiki",
+    "description": "Ваш полный справочник по персонажам, тир-листам, комбо, аренам, костюмам, Core Fighters и гайдам Last Round в Dead or Alive 6.",
     "resources": "Ресурсы",
     "community": "Сообщество",
-    "legal": "Юридическая информация",
+    "legal": "Правовая информация",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
     "steamStore": "Магазин Steam",
-    "about": "О проекте",
+    "about": "О нас",
     "privacy": "Политика конфиденциальности",
     "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
+    "copyrightNotice": "Авторские права",
+    "copyright": "© 2026 Dead or Alive 6 Wiki. Не аффилировано с Team NINJA, Koei Tecmo или разработчиками Dead or Alive 6.",
     "disclaimer": "Неофициальный фанатский ресурс."
   },
   "pages": {

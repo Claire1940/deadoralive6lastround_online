@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Hızlı Tempolu 3D Dövüş Oyunu",
+    "title": "Dead or Alive 6 Last Round Wiki",
+    "description": "PS5, Xbox Series X|S ve Steam'de yeni ve dönüş yapan dövüşçüler için pratik rehberlerle Dead or Alive 6 karakterlerini, kombolarını, sahnelerini, kostümlerini, Core Fighters ve Last Round güncellemelerini ustalaş.",
+    "getFreeCodesCTA": "Dövüşçüleri Gör",
+    "playOnSteamCTA": "Steam / PS5 / Xbox'ta Oyna",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "Mar 1, 2019",
+        "label": "Orijinal Çıkış"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "Jun 25, 2026",
+        "label": "Last Round Çıkışı"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "29",
+        "label": "Last Round Dövüşçüleri"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "36",
+        "label": "Steam Başarımları"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
+    "title": "Dead or Alive 6'yı Ustalaşmaya Hazır mısın?",
+    "description": "Tier listeleri, komboları ve en son Last Round güncellemeleri için Discord'daki Dead or Alive 6 topluluğuna katıl!",
     "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "joinGame": "Steam / PS5 / Xbox'ta Oyna"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "Dead or Alive 6 Wiki",
+    "description": "Dead or Alive 6 karakterleri, tier listeleri, komboları, sahneleri, kostümleri, Core Fighters ve Last Round rehberleri için kapsamlı kaynak merkeziniz.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
     "steamStore": "Steam Mağazası",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
     "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "copyright": "© 2026 Dead or Alive 6 Wiki. Team NINJA, Koei Tecmo veya Dead or Alive 6 geliştiricileriyle bağlantılı değildir.",
+    "disclaimer": "Resmi olmayan, hayranlar tarafından hazırlanan kaynak sitesi."
   },
   "pages": {
     "guides": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Dead or Alive 6 - Characters, Tier List & Combos",
+      "description": "Dead or Alive 6 Wiki covers characters, tier list, combos, stages, Core Fighters, Last Round updates, unlocks, system tips, and beginner guides.",
+      "keywords": "dead or alive 6, doa6, characters, tier list, combos, stages, core fighters, last round",
+      "ogTitle": "Dead or Alive 6 Last Round Wiki - Characters, Tier List & Combos",
+      "ogDescription": "Dead or Alive 6 Wiki covers characters, tier list, combos, stages, Core Fighters, costumes, and Last Round updates with practical fighting game guides.",
+      "twitterTitle": "Dead or Alive 6 Last Round Wiki - Characters, Tier List & Combos",
+      "twitterDescription": "Complete Dead or Alive 6 Wiki: characters, tier list, combos, stages, Core Fighters, costumes, and Last Round guides for PS5, Xbox, and Steam."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Fast-Paced 3D Fighting Game",
+    "title": "Dead or Alive 6 Last Round Wiki",
+    "description": "Master Dead or Alive 6 characters, combos, stages, costumes, Core Fighters, and Last Round updates with practical guides for new and returning fighters on PS5, Xbox Series X|S, and Steam.",
+    "getFreeCodesCTA": "View Fighters",
+    "playOnSteamCTA": "Play on Steam / PS5 / Xbox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Mar 1, 2019",
+        "label": "Original Release"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Jun 25, 2026",
+        "label": "Last Round Release"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "29",
+        "label": "Last Round Fighters"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "36",
+        "label": "Steam Achievements"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Master Dead or Alive 6?",
+    "description": "Join the Dead or Alive 6 community for tier lists, combos, and the latest Last Round updates on Discord!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Steam / PS5 / Xbox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Dead or Alive 6 Wiki",
+    "description": "Your complete resource hub for Dead or Alive 6 characters, tier lists, combos, stages, costumes, Core Fighters, and Last Round guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Dead or Alive 6 Wiki. Not affiliated with Team NINJA, Koei Tecmo, or the developers of Dead or Alive 6.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
