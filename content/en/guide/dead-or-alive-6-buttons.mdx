@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dead or Alive 6 Buttons: Input Guide & Platform Layouts",
+  description: "Master the Dead or Alive 6 buttons and control layouts. Learn the triangle system, default inputs for PS5, Xbox, and Steam, and execution tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dead+or+Alive+6+Buttons",
+  date: "2026-06-25",
+  author: "dead or alive 6 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dead or Alive 6 buttons** consist of five core actions: Punch, Kick, Hold, Throw, and Special.
+- **The Triangle System** dictates that strikes beat throws, throws beat holds, and holds beat strikes [00基础信息, 00首页信息].
+- **Special button inputs** trigger Fatal Rush combos, Break Blows, and defensive Break Holds [00首页信息-1].
+- **Custom controller layouts** are highly recommended to map multi-button inputs to single triggers.
+</Callout>
+
+<Section icon={Shield} title="Platform Layouts for Dead or Alive 6 Last Round">
+
+With the release of the current-generation *Dead or Alive 6 Last Round* on June 25, 2026, players on PlayStation 5, Xbox Series X|S, and Steam can experience refined 3D fighting action [00基础信息, 00首页信息-1]. Whether you are playing the standard retail version or starting out with the free-to-play *Core Fighters* edition, mastering the default **dead or alive 6 buttons** is your first step to climbing the online ranks [00首页信息-1, 00首页信息-2]. 
+
+The game uses a clean, responsive input scheme designed to work seamlessly across controllers, arcade sticks, and keyboards [00首页信息-1]. Below are the default button configurations for each major platform [00首页信息-1].
+
+| Action | Default Button | Notation | Gameplay Purpose |
+| :--- | :--- | :--- | :--- |
+| Punch | Triangle | P | Fast startup attacks used for pressure |
+| Kick | Circle | K | Long-range poking and launch setups |
+| Hold | Square | H | Guarding and catching incoming strikes |
+| Throw | Cross | T | Punishing passive blocking and holds |
+| Special | R1 | S | Triggers Fatal Rush and Break moves |
+| Punch + Kick | L1 | P+K | Specific character command strings |
+| Hold + Kick | R2 | H+K | Heavy knockback and defensive strikes |
+
+For Xbox Series X|S and Xbox One players, the layout maps naturally to the face buttons and bumpers [00首页信息-1].
+
+| Action | Default Button | Notation | Gameplay Purpose |
+| :--- | :--- | :--- | :--- |
+| Punch | Y | P | Quick high and mid-level punch attacks |
+| Kick | B | K | Spacing tools and low sweep attacks |
+| Hold | X | H | Standing/crouching block and active holds |
+| Throw | A | T | High-damage close-range grab attacks |
+| Special | RB | S | Meter-based system offensive/defensive moves |
+| Punch + Kick | LB | P+K | Complex command inputs made simpler |
+| Hold + Kick | RT | H+K | Stun-inducing heavy attacks |
+
+If you are playing on PC via Steam, using a controller or arcade stick is highly recommended [00首页信息-1]. However, if you must use a keyboard, the default bindings are configured to keep your hands spaced comfortably [00首页信息-1].
+
+| Action | Default Key | Notation | Gameplay Purpose |
+| :--- | :--- | :--- | :--- |
+| Punch | K | P | Standard punch execution |
+| Kick | L | K | Standard kick execution |
+| Hold | J | H | Guarding and hold execution |
+| Throw | M | T | Grabbing opponents |
+| Special | I | S | Meter-based Special moves |
+| Movement | Arrow Keys | Directional | Character positioning and sidesteps |
+
+<Callout type="warning" title="Steam Keyboard Input Ghosting">
+When playing on keyboard, some hardware limitations may prevent simultaneous key presses (ghosting). If you cannot execute combined inputs like P+K or H+K consistently, consider mapping them to single keys in the controller settings menu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Understanding the Dead or Alive 6 Buttons and Notation">
+
+Unlike 2D fighting games that rely heavily on complex quarter-circle motions, *Dead or Alive 6* uses a directional notation combined with single button presses [00首页信息-1]. Understanding standard fighting game notation is essential when reading combo guides or character command lists [00首页信息-1]. 
+
+Directions are represented by the standard numpad layout, where **5** represents a neutral position, **6** is forward, **4** is back, **2** is down, and **8** is up [00首页信息-1]. For example, a forward punch is written as **6P**, while a crouching kick is written as **2K**.
+
+The core gameplay centers around the famous Triangle System [00基础信息, 00首页信息]. This system acts as an advanced game of rock-paper-scissors where every action has a direct counter [00首页信息-1].
+
+| Attacking Option | Defeating Option | Losing Option | Counter Damage Multiplier |
+| :--- | :--- | :--- | :--- |
+| Strikes (P/K) | Throws (T) | Holds (H) | 1.2x on normal counter hits |
+| Throws (T) | Holds (H) | Strikes (P/K) | 1.4x Hi-Counter on active hold |
+| Holds (H) | Strikes (P/K) | Throws (T) | Up to 1.5x Hi-Counter on strike |
+
+To execute a hold, you must combine the Hold button (H) with the correct direction matching the incoming strike's height [00首页信息-1]. High strikes are countered with **7H**, mid punches with **4H**, mid kicks with **6H**, and low strikes with **1H** [00首页信息-1].
+
+<Callout type="info" title="Hi-Counter Damage Reward">
+Successfully reading your opponent's defensive options yields massive damage. If you execute a Throw (T) while your opponent is attempting an active Hold (H), you will trigger a Hi-Counter Throw, dealing up to 140% of the standard throw damage [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Special Button Mechanics and Meter Management">
+
+The Special button (S) is the gateway to the Break Gauge system, which adds a layer of resource management to matches [00基础信息, 00首页信息-1]. Managing this meter determines how effectively you can escape pressure or land round-ending blows [00首页信息-1].
+
+<CardGrid cols={2}>
+  <Card title="Fatal Rush (S, S, S, S)">
+    A simple four-hit combo executed by pressing the Special button repeatedly [00首页信息-1]. The final hit triggers a Fatal Stun, launching the opponent and leaving them completely vulnerable [00首页信息-1].
+  </Card>
+  <Card title="Break Blow (6S)">
+    Executed with a full Break Gauge (100%) [00首页信息-1]. This powerful strike parries incoming mid/high attacks while delivering a cinematic, high-damage blow that can turn the tide of a match [00首页信息-1].
+  </Card>
+  <Card title="Break Hold (4S)">
+    Uses 50% of your Break Gauge [00首页信息-1]. It acts as a universal counter that catches high, mid, and low strikes, allowing you to escape critical stuns and pressure strings instantly [00首页信息-1].
+  </Card>
+  <Card title="Side Attack (2S or 8S)">
+    An evasive sidestep followed by a quick strike [00首页信息-1]. This is highly effective for dodging linear attacks and punishing opponents who rely heavily on forward-advancing strings [00首页信息-1].
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Break Blow Cancelling">
+You can cancel a Break Blow immediately after the first hit connects by pressing the Hold button (H). This leaves the opponent in a prolonged stun, allowing you to execute a custom, high-damage juggle combo instead of the standard cinematic finish.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Training and Execution Flow">
+
+Learning to press the right buttons under pressure requires muscle memory [00首页信息-1]. Rather than jumping straight into online ranked matches, follow this structured training routine to build consistent execution [00首页信息-1, 00首页信息-2].
+
+<Steps>
+  <Step num="1" title="Enable Input Display in Free Training">
+    Go to Free Training mode and turn on the Input Display setting [00首页信息-1, 00首页信息-2]. This helps you verify that your controller or arcade stick is registering clean, singular directions without accidental diagonal inputs.
+  </Step>
+  <Step num="2" title="Complete Character Command Training">
+    Select your favorite character and enter Command Training [00首页信息-1, 00首页信息-2]. This mode walks you through every single move in the character's arsenal, teaching you the exact button rhythms and directional combinations required [00首页信息-1].
+  </Step>
+  <Step num="3" title="Practice Combo Challenges">
+    Move on to the Combo Challenge mode [00首页信息-1, 00首页信息-2]. Here, you will learn how to transition from basic strikes into launchers, juggle sequences, and wall-interacting enders [00首页信息-1].
+  </Step>
+  <Step num="4" title="Apply Inputs in DOA Quest">
+    Play through DOA Quest missions [00首页信息, 00首页信息-2]. These challenges force you to apply specific mechanics, such as executing three successful holds or landing a Break Blow, in a controlled match environment [00首页信息-1, 00首页信息-2].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Earn Costume Patterns">
+Completing DOA Quest missions is the fastest way to earn Owner Points and unlock custom outfits in DOA Central [00首页信息-2]. It is highly recommended for unlocking the new Team NINJA themed costumes available in the *Last Round* update [00首页信息-1, 00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Match Readiness Checklist">
+
+Before taking your skills to Ranked or Lobby matches, run through this checklist to ensure your controls and reflexes are fully optimized [00首页信息-2].
+
+<Checklist
+  id="button-mastery-checklist"
+  title="Execution Milestones:"
+  items={[
+    "Map P+K, H+K, and Throw to your controller's triggers for easier execution.",
+    "Practice blocking low (2H) and standing guard (H) on reaction to dummy recording inputs.",
+    "Consistently execute a Break Hold (4S) to escape pressure when trapped in Critical Stun.",
+    "Memorize at least one reliable launcher string and its follow-up air juggle combo.",
+    "Successfully complete the first 10 missions of DOA Quest with 3-star ratings."
+  ]}
+/>
+
+<Callout type="info" title="Online Matchmaking Limits">
+Keep in mind that *Dead or Alive 6 Last Round* does not support crossplay matchmaking between different platforms [00首页信息-2]. Ensure your connection is set to wired (Ethernet) to minimize input latency during high-stakes online matches [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Advanced Button Configurations and FAQ">
+
+For players looking to optimize their execution, customizing your button layout is highly recommended. Many professional players use an arcade stick with a standard Japanese layout (Type A), mapping Punch and Kick to the top row, and Hold and Throw to the bottom row. This allows your fingers to rest naturally over all the essential actions.
+
+<FAQ items={[
+  {
+    question: "How do I configure my dead or alive 6 buttons for arcade sticks?",
+    answer: "Go to the Options menu, select Controller Settings, and map your buttons manually. The standard arcade stick layout places Punch (P) on the top-left, Kick (K) on the top-middle, Hold (H) on the bottom-left, and Throw (T) on the bottom-middle. Map the Special (S) button to the far-right for easy thumb or pinky access."
+  },
+  {
+    question: "Can I play the free Core Fighters version with the same button layouts?",
+    answer: "Yes. The free-to-play Core Fighters edition features the exact same control scheme, options, and button configuration menus as the full retail version of the game."
+  },
+  {
+    question: "Why does my character throw instead of executing a hold?",
+    answer: "This happens when you press the Hold (H) and Punch (P) buttons simultaneously, which defaults to a Throw (T) input. Ensure you are cleanly pressing only the Hold button (H) along with a directional input to execute defensive counters."
+  },
+  {
+    question: "What is the fastest button to escape an opponent's pressure?",
+    answer: "The fastest generic strikes are usually standing punches (5P), which typically start up in 9 to 10 frames. Alternatively, you can use the Special button to execute a Side Attack (2S or 8S) to physically step out of the way of linear pressure."
+  }
+]} />
+
+<Callout type="tip" title="Custom Trigger Mapping">
+If you are playing on a standard controller, mapping Punch + Kick (P+K) to L1/LB and Hold + Kick (H+K) to R2/RT will save you from having to press multiple face buttons at the exact same millisecond, drastically reducing execution errors.
+</Callout>
+
+</Section>

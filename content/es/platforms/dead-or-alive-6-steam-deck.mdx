@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "dead or alive 6 steam deck: Guía de rendimiento y configuración",
+  description: "Optimiza el rendimiento de dead or alive 6 steam deck para la actualización Last Round de 2026. Aprende los mejores ajustes, requisitos del sistema y listas de niveles de personajes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOA6+Steam+Deck+Optimization",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de dead or alive 6",
+  keywords: "dead or alive 6, steam deck, optimización, guía, configuración, rendimiento, Last Round"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La compatibilidad de **dead or alive 6 steam deck** se logra mejor utilizando la versión *Last Round* de 2026 para soporte de hardware moderno.
+- El **almacenamiento SSD** ahora es un requisito obligatorio para la actualización *Last Round* para evitar tirones en la carga de recursos.
+- Se ha integrado soporte para **DirectX 12**, lo que permite un mejor precaché de sombreadores en SteamOS.
+- El juego a **60 FPS** es el estándar para la integridad competitiva; usa el ajuste preestablecido "Rendimiento" para tasas de fotogramas estables.
+- **Core Fighters** sigue siendo el punto de entrada ideal para que los usuarios de dispositivos portátiles prueben el rendimiento antes de comprometerse con el plantel completo.
+</Callout>
+
+<Section icon={Shield} title="Estado y compatibilidad de dead or alive 6 steam deck">
+
+El panorama para los usuarios de **dead or alive 6 steam deck** ha cambiado significativamente con el lanzamiento de la actualización *Last Round* en junio de 2026. Aunque el lanzamiento original de 2019 ya no está disponible para compra directa en la tienda de Steam, la edición *Last Round* proporciona un marco modernizado ajustado específicamente para el hardware de la generación actual, incluidos los PCs portátiles. En Steam Deck, el juego utiliza capas de compatibilidad de Proton para traducir las llamadas de DirectX 12, lo que resulta en una experiencia de lucha 3D fluida que mantiene los 60 fotogramas por segundo característicos de la serie.
+
+**Lo más destacado del vídeo:**
+- Muestra cinematográfica del motor de lucha 3D de alta velocidad.
+- Introducción del "Sistema de Triángulo" (Golpes, Agarres, Llaves).
+- Demostración visual del Break Gauge y las mecánicas de Fatal Rush.
+- Vista previa del plantel ampliado de 29 personajes incluido en la actualización de 2026.
+
+<YouTubeEmbed videoId="86i390bkQ90" title="Dead or Alive 6 Launch Trailer" />
+
+Los jugadores que pasen de la versión original a *Last Round* notarán mejores tiempos de carga en el almacenamiento NVMe interno de la Steam Deck. Es importante tener en cuenta que, aunque el juego es perfectamente jugable, el estado de verificación de Valve suele fluctuar según la versión actual de Proton. Para obtener los mejores resultados en 2026, los usuarios deben asegurarse de estar ejecutando la última actualización estable de SteamOS para aprovechar el precaché de sombreadores específico para *Dead or Alive 6*.
+
+<Callout type="info" title="Nota sobre disponibilidad en la tienda">
+La página original de Steam de *Dead or Alive 6* es visible pero está inactiva para compras. Los nuevos jugadores deben navegar directamente a la página de la tienda de *Dead or Alive 6 Last Round* para acceder al juego y a su versión gratuita *Core Fighters*.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos del sistema y optimización para portátiles">
+
+Ejecutar **dead or alive 6 steam deck** de manera efectiva requiere comprender las demandas de hardware actualizadas de 2026. La actualización *Last Round* aumentó el espacio de almacenamiento y trasladó la base a DirectX 12. Para los usuarios de Steam Deck, esto significa que un SSD ya no es solo recomendado, sino obligatorio para una experiencia sin tirones. Si usas una Steam Deck LCD de 64 GB, debes instalar el juego en una tarjeta microSD de alta velocidad (UHS-I U3) o actualizar tu unidad interna.
+
+| Requisito | DOA6 Original (2019) | Last Round (2026) | Contexto de Steam Deck |
+| :--- | :--- | :--- | :--- |
+| **SO** | Windows 10 64-bit | Windows 11 / SteamOS | SteamOS 3.5+ recomendado |
+| **DirectX** | Versión 11 | **Versión 12** | Proton 8.0+ / Experimental |
+| **Almacenamiento** | 50 GB de espacio en HDD | **80 GB de espacio en SSD** | SSD interno muy preferido |
+| **Memoria** | 8 GB RAM | **8 GB RAM** | Compartida con VRAM en Deck |
+| **GPU** | GTX 770 | **GTX 1060 (6GB)** | RDNA 2 mantiene 60 FPS a 720p |
+
+La transición a DX12 permite que la Steam Deck maneje escenarios complejos como "The Throwdown" y "OBORO" con un ritmo de fotogramas más consistente. Sin embargo, el aumento en el uso de VRAM significa que los jugadores deben evitar ejecutar aplicaciones pesadas en segundo plano (como navegadores web en el Modo Escritorio) mientras juegan.
+
+<Callout type="warning" title="Requisito de SSD">
+La actualización de 2026 indica específicamente "SSD Obligatorio" en las especificaciones oficiales. Ejecutar el juego desde una tarjeta microSD lenta o antigua puede provocar "puntos de enganche" significativos durante las transiciones de personajes o cuando se activan los peligros del escenario.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ajustes optimizados para jugar a 60 FPS">
+
+Para lograr la configuración más competitiva de **dead or alive 6 steam deck**, debes priorizar la tasa de fotogramas sobre la fidelidad visual bruta. Los juegos de lucha dependen de los datos de fotogramas; cualquier caída por debajo de 60 FPS resultará en una jugabilidad a "cámara lenta" que interrumpe tu capacidad para realizar Llaves o calcular tus Break Blows.
+
+<CardGrid cols={3}>
+  <Card title="Modo Rendimiento">
+    - **Resolución**: 1280x720
+    - **Gráficos**: Bajo/Medio
+    - **Sombras**: Bajo
+    - **Objetivo**: 60 FPS estables
+  </Card>
+  <Card title="Modo Visual">
+    - **Resolución**: 1280x800 (Nativa)
+    - **Gráficos**: Alto
+    - **Antialiasing**: TAA
+    - **Objetivo**: 45-60 FPS (Casual)
+  </Card>
+  <Card title="Ahorro de Batería">
+    - **Resolución**: 1152x720 (FSR)
+    - **Brillo**: 60%
+    - **Límite de TDP**: 10W
+    - **Objetivo**: 2.5+ Horas de juego
+  </Card>
+</CardGrid>
+
+Sigue estos pasos para configurar tu Steam Deck para el mejor equilibrio entre visuales y rendimiento:
+
+<Steps>
+  <Step num="1" title="Configuración inicial del juego">
+    Inicia el juego y ve al menú de Opciones. Establece el modo de pantalla en "Pantalla completa" y la resolución en 1280x720. Esta relación 16:9 garantiza la máxima compatibilidad con la interfaz del juego.
+  </Step>
+  <Step num="2" title="Ajustar preajustes gráficos">
+    Selecciona el preajuste de "Rendimiento" como base. Establece manualmente la "Calidad de sombras" en Bajo y los "Efectos" en Medio. Esto reduce la carga durante los efectos de partículas pesados como chispas y explosiones.
+  </Step>
+  <Step num="3" title="Superposición del sistema SteamOS">
+    Presiona el botón de acceso rápido (...) en tu Steam Deck. Bajo el icono de la batería, asegúrate de que el "Límite de tasa de fotogramas" esté configurado en 60 y que "Permitir tearing" esté habilitado para minimizar la latencia de entrada.
+  </Step>
+  <Step num="4" title="Selección de la versión de Proton">
+    Si encuentras una pantalla negra o cierres inesperados, ve a las propiedades del juego en la biblioteca de Steam. En "Compatibilidad", fuerza el uso de "Proton Experimental" o "Proton GE" para obtener las últimas correcciones de DX12.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo profesional: Precaché de sombreadores">
+Cuando inicies el juego por primera vez o entres en un nuevo escenario, podrías notar pequeños tirones. Esto es la Steam Deck compilando sombreadores. Juega cada escenario una vez en el modo "Entrenamiento libre" para crear tu caché de sombreadores y disfrutar de una experiencia perfectamente fluida en partidas igualadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Plantel de Last Round y lista de niveles de personajes">
+
+La actualización *Last Round* para **dead or alive 6 steam deck** ofrece un impulso masivo al plantel estándar. En lugar de los 24 luchadores originales, la edición estándar ahora incluye 29 personajes jugables, incorporando directamente al juego base a antiguos favoritos de DLC como Momiji, Rachel y Tamaki.
+
+| Nivel | Tipo de personaje | Luchadores destacados | Resumen del estilo de juego |
+| :--- | :--- | :--- | :--- |
+| **S** | Prioridad máxima | Kasumi, Ayane, NiCO | Rushdown de alta velocidad y presión evasiva |
+| **A** | Núcleo fuerte | Ryu Hayabusa, Hayate | Herramientas ninja equilibradas y alto daño |
+| **B** | Listo para el combate | Hitomi, Diego, Mila | Fundamentos, pelea callejera y golpes de MMA |
+| **C** | Especialista | Bass, Tina, Eliot | Poder de agarre o cadenas de presión lineal |
+| **Invitado** | Complemento | Mai Shiranui, Kula Diamond | Favoritos de la colaboración con SNK (Requiere DLC) |
+
+Comprender el plantel es esencial para el juego competitivo. La versión *Core Fighters* en Steam te permite jugar como Kasumi, Marie Rose, Honoka y NiCO de forma gratuita. Esta es una excelente manera de probar el rendimiento de **dead or alive 6 steam deck** con diferentes modelos de personajes y efectos sin gastar dinero por adelantado.
+
+<Callout type="success" title="Expansión del plantel">
+La inclusión de Nyotengu, Phase 4, Momiji, Rachel y Tamaki en la edición estándar de *Last Round* representa un aumento de valor significativo respecto a la versión original de 2019.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de combate y progresión">
+
+Dominar **dead or alive 6 steam deck** requiere más que solo reflejos rápidos; requiere comprender el "Sistema de Triángulo". Esta mecánica de piedra-papel-tijera define cada interacción en el juego. Los Golpes vencen a los Agarres, los Agarres vencen a las Llaves, y las Llaves vencen a los Golpes. En los controles portátiles de la Steam Deck, la precisión es clave para ejecutar estos contraataques.
+
+**Lista de verificación de combate esencial:**
+<Checklist
+  id="combat-mastery"
+  title="Hitos para nuevos jugadores:"
+  items={[
+    "Completa el modo Tutorial completo para entender el Sistema de Triángulo",
+    "Domina el 'Break Hold' (50% de la barra) para escapar de aturdimientos críticos",
+    "Practica combos 'Fatal Rush' usando el botón especial (R1/RB)",
+    "Desbloquea trajes de personajes a través de las misiones de DOA Quest",
+    "Configura una distribución de controles personalizada para los botones traseros de la Steam Deck"
+  ]}
+/>
+
+La actualización *Last Round* también pone el "Modo Foto" en primer plano, permitiendo a los jugadores pausar la acción y capturar capturas de pantalla de alta resolución de sus luchadores favoritos. En Steam Deck, estas capturas se guardan directamente en tu galería de Steam, lo que facilita compartirlas con la comunidad.
+
+<Callout type="info" title="Gestión de la barra de ruptura (Break Gauge)">
+La barra de ruptura es tu recurso más valioso. Usar un "Break Blow" al 100% puede cambiar el rumbo de un combate, pero ahorrar el 50% para un "Break Hold" suele ser la jugada defensiva más segura cuando estás atrapado contra la pared.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a dead or alive 6 steam deck sin conexión?",
+    answer: "Sí, todos los modos locales, incluidos el Modo Historia, DOA Quest, Entrenamiento y Versus, se pueden jugar completamente sin conexión. Sin embargo, necesitas una conexión a internet para las partidas igualadas y para sincronizar tus partidas guardadas en Steam Cloud."
+  },
+  {
+    question: "¿Se transfieren mis trajes DLC del DOA6 original a Last Round?",
+    answer: "La mayoría de los trajes comprados anteriormente se pueden transferir a Last Round si usas la misma cuenta de Steam. Ten en cuenta que los DLC de Mai Shiranui y Kula Diamond específicamente pueden tener restricciones según la plataforma."
+  },
+  {
+    question: "¿Cuál es la mejor versión de Proton para DOA6 en Steam Deck?",
+    answer: "A partir de 2026, se recomienda Proton Experimental o la versión estable más reciente de GE-Proton para manejar los requisitos de DirectX 12 de la actualización Last Round."
+  },
+  {
+    question: "¿Hay juego cruzado entre Steam Deck y consolas?",
+    answer: "No, el juego multiplataforma no es compatible en Dead or Alive 6 Last Round. Los usuarios de Steam Deck solo jugarán contra otros usuarios de PC/Steam."
+  }
+]} />
+
+</Section>

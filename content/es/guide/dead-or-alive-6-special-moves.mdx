@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Movimientos especiales de Dead or Alive 6: Guía de mecánicas de combate de 2026",
+  description: "Domina los movimientos especiales de Dead or Alive 6, incluidos Fatal Rush, Break Blow y Break Hold. Guía de combate detallada de Last Round de 2026 para los 29 personajes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ff4500?text=DOA6+Special+Moves+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Dead or Alive 6",
+  keywords: "Dead or Alive 6, movimientos especiales, Fatal Rush, Break Blow, Break Hold, guía de combate"
+}
+
+<Callout type="info" title="Puntos Clave">
+- Los **movimientos especiales de Dead or Alive 6** giran en torno al **botón Especial (S)**, lo que simplifica las mecánicas de alto nivel para todos los jugadores.
+- La **barra de Break** es el recurso más crítico, ya que permite realizar maniobras ofensivas y defensivas que cambian el rumbo de la partida.
+- El **Fatal Rush** proporciona un combo confiable de cuatro golpes que puede transformarse en un devastador remate cinematográfico.
+- Ganar en el **Sistema de Triángulo** (Golpes, Agarres, Llaves) es esencial para maximizar el daño durante las interacciones de movimientos especiales.
+- La **actualización Last Round de 2026** incluye 29 luchadores, y todos ellos utilizan estos sistemas principales con propiedades únicas y específicas de cada personaje.
+</Callout>
+
+<Section icon={Swords} title="La base de los movimientos especiales de Dead or Alive 6">
+
+El sistema de combate en Dead or Alive 6 se define por su accesibilidad y profundidad táctica. A diferencia de los juegos de lucha en 2D tradicionales que requieren comandos complejos de "cuarto de círculo" para cada habilidad, este título utiliza un **botón Especial (S)** dedicado. Este botón sirve como puerta de acceso a las técnicas más poderosas del juego, incluidos el Break Blow y el Break Hold. En la versión Last Round de 2026, comprender el tiempo de ejecución (timing) y el costo de recursos de estos movimientos marca la diferencia entre una victoria aplastante y una derrota rápida.
+
+**Puntos destacados del video:**
+- Descripción general del **sistema de triángulo** y cómo interactúan los movimientos especiales con él.
+- Demostración de cómo se llena la **barra de Break** mediante acciones ofensivas y defensivas.
+- Desglose visual de la secuencia de combo de **Fatal Rush** para personajes principales como Kasumi y NiCO.
+- Demostración de los remates cinematográficos de **Break Blow** en partidas de alto nivel.
+
+<YouTubeEmbed videoId="86i390bkQ90" title="Tráiler de lanzamiento de Dead or Alive 6" />
+
+Cada personaje del elenco de 29 luchadores comparte los mismos comandos fundamentales para los movimientos especiales, pero sus propiedades (como el alcance, la velocidad y el potencial de continuación) varían significativamente. Ya sea que juegues con una ninja de alta velocidad como Ayane o con un grappler de peso pesado como Bass, dominar las mecánicas del botón "S" es obligatorio para el juego competitivo.
+
+| Tipo de comando | Mando de PS5 | Mando de Xbox | PC (Steam) | Resultado de la acción |
+| :--- | :--- | :--- | :--- | :--- |
+| **Botón Especial** | **R1** | **RB** | **I** | Acciones especiales principales |
+| **Puñetazo + Patada** | **L1** | **LB** | **U** | Golpe pesado / Aturdimiento |
+| **Llave + Patada** | **R2** | **RT** | **O** | Único del personaje |
+| **Agarre** | **Cruz (X)** | **A** | **M** | Agarre / Castigo |
+
+<Callout type="tip" title="Posicionamiento estratégico">
+El botón Especial no es solo para atacar. Usar el botón Especial mientras presionas arriba o abajo en la cruz direccional ejecuta un **Side Attack** (ataque lateral), lo que te permite esquivar golpes lineales y contraatacar al mismo tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando el recurso de la barra de Break">
+
+La **barra de Break** es un medidor azul ubicado debajo de tu barra de salud. Es el combustible para tus **movimientos especiales más potentes de Dead or Alive 6**. Comprender cómo gestionar este recurso es vital, ya que rige tanto tu golpe ofensivo definitivo como tu escape defensivo más confiable. El medidor se llena a medida que asestas golpes, recibes daño o realizas llaves con éxito.
+
+| Nombre del movimiento | Comando | Costo de barra | Propiedad |
+| :--- | :--- | :--- | :--- |
+| **Break Blow** | **6 + S (Adelante + S)** | **100%** | Golpe cinematográfico de gran daño; desvía los golpes entrantes. |
+| **Break Hold** | **4 + S (Atrás + S)** | **50%** | Llave universal; contrarresta golpes altos, medios y bajos. |
+| **Fatal Rush** | **S, S, S, S** | **0% a 100%** | Combo de cuatro golpes; el golpe final se convierte en Break Blow si la barra está llena. |
+| **Side Attack** | **2+S u 8+S** | **0%** | Golpe evasivo que sigue a los oponentes durante los pasos laterales. |
+
+El **Break Blow** es tu movimiento "Súper". Cuando se ejecuta con el medidor lleno, tu personaje realizará un golpe poderoso que puede absorber el ataque entrante de un oponente y activar una secuencia cinematográfica que inflige un daño masivo. Curiosamente, puedes cancelar ("Cancel") un Break Blow después del golpe inicial presionando el botón de Llave (Hold), dejando al oponente en un estado de **Fatal Stun** (aturdimiento fatal) y permitiéndote realizar un combo de continuación personalizado.
+
+<Callout type="warning" title="Gestión de la barra">
+No gastes toda tu barra de Break en un Break Blow si te queda poca salud. Guardar el 50% para un **Break Hold** suele ser la mejor opción táctica, ya que te permite escapar del combo de un oponente incluso mientras estás aturdido.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fatal Rush e integración de combos">
+
+El **Fatal Rush** es quizás la adición más accesible para principiantes en el repertorio de movimientos especiales de Dead or Alive 6. Con solo pulsar repetidamente el botón Especial, cualquier personaje puede realizar un combo elegante de varios golpes. Sin embargo, para los jugadores avanzados, el Fatal Rush es una herramienta para provocar un **Fatal Stun**, un estado en el que el oponente no puede usar llaves estándar para escapar.
+
+<Steps>
+  <Step num="1" title="Inicia el asalto">
+    Presiona el botón **Especial (S)** para asestar el primer golpe. Este movimiento suele tener un alcance decente y puede castigar los ataques fallidos del oponente.
+  </Step>
+  <Step num="2" title="Aplica el Fatal Stun">
+    Sigue presionando **S**. El segundo y tercer golpe atraparán al oponente en un **Fatal Stun**. Durante esta ventana, el oponente estará indefenso a menos que gaste el 50% de su propia barra de Break para realizar un Break Hold.
+  </Step>
+  <Step num="3" title="Decide el remate">
+    Al presionar **S** por cuarta vez, el personaje realizará un golpe de derribo. Si tu barra de Break está al 100%, este último golpe se convertirá automáticamente en la animación completa del **Break Blow**.
+  </Step>
+  <Step num="4" title="Cancelación avanzada">
+    En lugar de terminar el Fatal Rush, intenta detenerte después del tercer golpe y realiza una transición a un **Lanzador** (como 3K u 8P) para comenzar un combo aéreo (juggle) más dañino.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Variación entre personajes">
+Aunque los comandos son los mismos, la velocidad de un Fatal Rush varía. Personajes como **Kasumi** y **NiCO** tienen asaltos increíblemente rápidos, mientras que los personajes de fuerza como **Diego** tienen golpes más lentos con mayor daño individual y mejor potencial de impacto contra la pared (wall-splat).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Movimientos especiales defensivos: El Break Hold">
+
+En la serie Dead or Alive, el sistema de llaves ("Hold") es una mecánica defensiva única en la que contrarrestas el golpe de un oponente al igualar su altura (alta, media o baja). Sin embargo, adivinar incorrectamente resulta en daño por contraataque ("Counter Hit"). El **Break Hold** (Atrás + S) elimina las conjeturas al proporcionar un contraataque universal que funciona contra todas las alturas de golpe.
+
+<CardGrid cols={2}>
+  <Card title="Llaves estándar">
+    - Requiere igualar la altura (7H, 4H, 6H, 1H)
+    - **Sin costo de barra**
+    - Alto riesgo si lees mal al oponente
+    - Te recompensa con un contraagarre de gran daño
+  </Card>
+  <Card title="Break Hold (Atrás + S)">
+    - **Cobertura universal** (Alta/Media/Baja)
+    - Cuesta un **50% de la barra de Break**
+    - Se puede usar durante estados de aturdimiento (Stun)
+    - Menor daño, pero restablece el juego neutral
+  </Card>
+</CardGrid>
+
+El Break Hold es tu carta para "salir de la cárcel gratis". En el metajuego de Last Round de 2026, los jugadores de alto nivel suelen acumular su barra específicamente para este movimiento, evitando así que los oponentes conecten combos de pared ("Wall Combos") de gran daño o activen explosiones de zonas de peligro ("Danger Zone").
+
+| Escenario defensivo | Movimiento recomendado | Razón |
+| :--- | :--- | :--- |
+| **Patada alta predecible** | Llave alta estándar (7H) | Sin costo; máximo daño de castigo. |
+| **Atrapado en Fatal Stun** | **Break Hold (4+S)** | Única forma de escapar de la presión de un Fatal Stun. |
+| **Oponente dando un paso lateral** | Side Attack (2/8+S) | Sigue al oponente e interrumpe su movimiento. |
+| **Presión cerca de la pared** | Break Blow (6+S) | Las propiedades de armadura pueden atravesar la presión. |
+
+<Callout type="success" title="Consejo profesional: Cancelación de Break Blow">
+Si conectas el primer golpe de un Break Blow pero te das cuenta de que no acabará con el oponente, presiona el botón de **Llave (H)** inmediatamente. Perderás el daño cinematográfico, pero mantendrás al oponente en un estado en el que podrás rematarlo con un combo más rápido y eficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rutina de práctica y lista de verificación">
+
+Para dominar verdaderamente los **movimientos especiales de Dead or Alive 6**, debes ir más allá de machacar botones y aprender los tiempos específicos de cada personaje. La versión Last Round de 2026 ofrece amplios modos de entrenamiento para ayudarte a perfeccionar estas habilidades. Utiliza la siguiente lista de verificación para asegurarte de estar listo para las partidas clasificatorias en línea.
+
+<Checklist
+  id="doa6-mastery-checklist"
+  title="Objetivos de maestría de combate:"
+  items={[
+    "Completa el modo tutorial completo para comprender el Sistema de Triángulo.",
+    "Realiza con éxito una cancelación de Break Blow para pasar a un combo específico del personaje.",
+    "Conecta 10 Break Holds consecutivos en el modo de entrenamiento contra varias alturas de golpe.",
+    "Domina el tiempo de ejecución del Side Attack para esquivar proyectiles o golpes lineales.",
+    "Completa una misión de DOA Quest que requiera un remate de 'Fatal Rush'."
+  ]}
+/>
+
+<Callout type="info" title="Actualizaciones de Last Round de 2026">
+La edición Last Round incluye 29 personajes. Los recién llegados deberían comenzar con **Kasumi** o **Marie Rose** para aprender los tiempos de los movimientos especiales, ya que sus animaciones son muy claras y sus secuencias de Fatal Rush son sumamente confiables en la mayoría de los enfrentamientos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo realizo un Break Blow en Dead or Alive 6?",
+    answer: "Primero debes llenar tu barra de Break al 100%. Once llena, presiona Adelante + Especial (6S) para ejecutar el movimiento especial cinematográfico. También puedes activarlo presionando el botón Especial cuatro veces durante un Fatal Rush si tu barra está llena."
+  },
+  {
+    question: "¿Cuál es la diferencia entre una llave normal y un Break Hold?",
+    answer: "Una llave normal (Hold) requiere que adivines correctamente la altura del ataque entrante (alto, puñetazo medio, patada media o bajo) y no consume barra. Un Break Hold (Atrás + Especial) cuesta el 50% de tu barra de Break, pero contrarresta automáticamente cualquier altura de golpe, lo que lo convierte en una opción defensiva más segura."
+  },
+  {
+    question: "¿Puedo usar movimientos especiales en la versión gratuita Core Fighters?",
+    answer: "Sí, todas las mecánicas de combate, incluidos los movimientos especiales de Dead or Alive 6 como Fatal Rush, Break Blow y Break Hold, están completamente disponibles en la versión Core Fighters. La única limitación es la cantidad de personajes jugables."
+  },
+  {
+    question: "¿Cómo lleno la barra de Break rápidamente?",
+    answer: "La barra se llena al conectar golpes, recibir daño y realizar llaves con éxito. Usar el 'Side Attack' y los combos ofensivos de 'Fatal Rush' son las formas más proactivas de acumular barra durante una ronda."
+  }
+]} />
+
+</Section>

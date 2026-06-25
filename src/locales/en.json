@@ -10,7 +10,14 @@
       "twitterDescription": "Complete Dead or Alive 6 Wiki: characters, tier list, combos, stages, Core Fighters, costumes, and Last Round guides for PS5, Xbox, and Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "guide": "Guide",
+    "characters": "Characters",
+    "dlc": "DLC",
+    "unlockables": "Unlockables"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -577,125 +584,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Dead or Alive 6 Guides",
-      "description": "Complete Dead or Alive 6 guides from beginner controls to advanced combo routing and matchup strategy.",
-      "metaTitle": "Dead or Alive 6 Guides - Beginner to Advanced Strategy",
-      "metaDescription": "Complete Dead or Alive 6 guides covering beginner controls, the strike-throw-hold triangle, Break Gauge, combos, and matchup strategy for PS5, Xbox, and Steam.",
+    "release": {
+      "title": "Dead or Alive 6 Last Round Release",
+      "description": "Track every Dead or Alive 6 Last Round release date, the version 1.30 update, current-generation platform launches, and upgrade paths from the original DOA6.",
+      "metaTitle": "Dead or Alive 6 Last Round Release Date & Version Updates",
+      "metaDescription": "Find the Dead or Alive 6 Last Round release date, version 1.30 update, PS5 and Xbox Series launches, and upgrade paths from the original Dead or Alive 6.",
+      "categoryLabel": "RELEASE & UPDATES",
+      "whatIs": "What is Dead or Alive 6 Last Round?",
+      "whatIsDescription": "Dead or Alive 6 Last Round is the 2026 current-generation release of Dead or Alive 6, bringing the full fighting game to PS5, Xbox Series X|S, and Steam with the version 1.30 update, Photo Mode, and save and DLC carry-over from the original DOA6.",
+      "why": "Why follow the release timeline?",
+      "whySteps": {
+        "step1Title": "Know the Release Dates",
+        "step1Description": "See when Last Round launched on PS5, Xbox Series X|S, and Steam",
+        "step2Title": "Track Version 1.30",
+        "step2Description": "Understand what the latest update adds and fixes",
+        "step3Title": "Plan Your Upgrade",
+        "step3Description": "Check what carries over and how to upgrade from DOA6"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Guides"
+    },
+    "platforms": {
+      "title": "Dead or Alive 6 Last Round Platforms",
+      "description": "Complete Dead or Alive 6 Last Round platform coverage: Steam, PS5, Xbox Series X|S, PC, PS4, Steam Deck support, cross-play details, and the PS5 upgrade path.",
+      "metaTitle": "Dead or Alive 6 Last Round Platforms - Steam, PS5, Xbox & PC",
+      "metaDescription": "Dead or Alive 6 Last Round platform guides for Steam, PS5, Xbox Series X|S, PC, PS4, Steam Deck, cross-play support, and the PS5 upgrade path.",
+      "categoryLabel": "PLATFORMS & VERSIONS",
+      "whatIs": "What platforms is Dead or Alive 6 Last Round on?",
+      "whatIsDescription": "Dead or Alive 6 Last Round runs on PS5, Xbox Series X|S, and Steam, with PS4 and PC guidance, Steam Deck compatibility notes, and clear details on cross-play and the PS5 upgrade path from the original DOA6.",
+      "why": "Why check the platform guides?",
+      "whySteps": {
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare PS5, Xbox Series X|S, Steam, and PC versions",
+        "step2Title": "Steam Deck Ready",
+        "step2Description": "Learn how DOA6 Last Round performs on Steam Deck",
+        "step3Title": "Cross-Play Clarity",
+        "step3Description": "See what the PS5 upgrade path and cross-play allow"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
+    },
+    "guide": {
+      "title": "Dead or Alive 6 Last Round Guide",
+      "description": "Complete Dead or Alive 6 Last Round guides from beginner controls and button layout to Break Blow, Offensive Hold, special moves, and keyboard controls.",
+      "metaTitle": "Dead or Alive 6 Last Round Guide - Controls, Break Blow & Specials",
+      "metaDescription": "Dead or Alive 6 Last Round guides covering beginner controls, button layout, keyboard controls, Break Blow, Offensive Hold, and special moves for PS5, Xbox, and Steam.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Dead or Alive 6 Guides?",
-      "whatIsDescription": "Guides covering Dead or Alive 6 controls, the triangle system, Break Gauge, Fatal Rush, holds, and combo routing for new and returning fighters.",
-      "why": "Why read Dead or Alive 6 guides?",
+      "whatIs": "What are Dead or Alive 6 Last Round guides?",
+      "whatIsDescription": "Dead or Alive 6 Last Round guides explain the controls, button layout, and core systems, including the triangle system, Break Gauge, Break Blow, Offensive Hold, Fatal Rush, and special moves for new and returning fighters.",
+      "why": "Why read Dead or Alive 6 Last Round guides?",
       "whySteps": {
         "step1Title": "Learn Core Controls",
-        "step1Description": "Master Punch, Kick, Hold, Throw, and Special plus the triangle system",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow clean practice routes from Tutorial to DOA Quest",
-        "step3Title": "Advanced Strategy",
-        "step3Description": "Build matchup knowledge, holds, and wall pressure"
+        "step1Description": "Master Punch, Kick, Hold, Throw, and Special plus the button layout",
+        "step2Title": "Master Break Blow",
+        "step2Description": "Use the Break Gauge, Fatal Rush, and Offensive Hold at the right time",
+        "step3Title": "Keyboard and Pad",
+        "step3Description": "Follow keyboard controls and controller setups that fit your hardware"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "characters": {
-      "title": "Dead or Alive 6 Characters",
-      "description": "Browse the Dead or Alive 6 Last Round roster: fighters, fighting styles, unlock status, and tier placement.",
-      "metaTitle": "Dead or Alive 6 Characters - Roster & Tier List",
-      "metaDescription": "Complete Dead or Alive 6 character roster with fighting styles, unlock requirements, and practical tier placement for the Last Round standard and guest fighters.",
-      "categoryLabel": "CHARACTERS & TIER LIST",
-      "whatIs": "What is the Dead or Alive 6 roster?",
-      "whatIsDescription": "The Last Round roster covers 29 standard playable fighters plus the separate Mai Shiranui and Kula Diamond guest unlocks, each with a fighting style, role, and unlock rule.",
+      "title": "Dead or Alive 6 Last Round Characters",
+      "description": "Browse the full Dead or Alive 6 Last Round roster: 29 playable fighters, fighting styles, guest characters like Mai and Honoka, and the complete character list.",
+      "metaTitle": "Dead or Alive 6 Last Round Characters - Full Roster & Guests",
+      "metaDescription": "Complete Dead or Alive 6 Last Round character roster with fighting styles, guest fighters like Mai Shiranui and Honoka, Kasumi, and the full 29-fighter list.",
+      "categoryLabel": "CHARACTERS & ROSTER",
+      "whatIs": "What is the Dead or Alive 6 Last Round roster?",
+      "whatIsDescription": "The Last Round roster covers 29 standard playable fighters plus guest characters such as Mai Shiranui, with each fighter bringing a unique fighting style, role, and unlock rule across the PS5, Xbox Series X|S, and Steam versions.",
       "why": "Why study the roster?",
       "whySteps": {
         "step1Title": "Pick a Main",
         "step1Description": "Find a fighter whose style and role fit your playstyle",
-        "step2Title": "Understand Unlocks",
-        "step2Description": "Know which characters need Character Unlock Keys",
+        "step2Title": "Meet the Guests",
+        "step2Description": "Learn how Honoka, Mai, and other guest fighters play",
         "step3Title": "Read Matchups",
-        "step3Description": "Use tier and style notes to plan matchups"
+        "step3Description": "Use style notes to plan matchups across the roster"
       },
       "featured": "Featured & Essential",
       "all": "All Characters"
     },
-    "combos": {
-      "title": "Dead or Alive 6 Combos",
-      "description": "Dead or Alive 6 combo routes, launchers, wall carry, Fatal Rush starters, and character-specific strings.",
-      "metaTitle": "Dead or Alive 6 Combos - Routes, Launchers & Wall Carry",
-      "metaDescription": "Dead or Alive 6 combo guides covering launchers, juggle routes, Fatal Rush starters, wall carry, and Break Blow enders for the Last Round roster.",
-      "categoryLabel": "COMBOS & DAMAGE",
-      "whatIs": "What are Dead or Alive 6 combos?",
-      "whatIsDescription": "Combo guides for Dead or Alive 6 cover stun, launch, juggle, and ender routes, plus Fatal Rush and Break Blow finishers that scale with the Break Gauge.",
-      "why": "Why learn Dead or Alive 6 combos?",
-      "whySteps": {
-        "step1Title": "Stun to Launch",
-        "step1Description": "Turn pressure and counter hits into launch opportunities",
-        "step2Title": "Repeatable Routes",
-        "step2Description": "Build short routes you can land from both sides",
-        "step3Title": "Wall and Hazard Damage",
-        "step3Description": "Carry opponents into walls and Danger Zones for extra damage"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Combo Guides"
-    },
-    "stages": {
-      "title": "Dead or Alive 6 Stages",
-      "description": "Dead or Alive 6 stage guides covering Danger Zones, walls, mass-destruction objects, and positional strategy.",
-      "metaTitle": "Dead or Alive 6 Stages - Danger Zones & Positional Strategy",
-      "metaDescription": "Dead or Alive 6 stage guides covering Danger Zones, walls, Rumble Danger, mass-destruction objects, and positional combo strategy.",
-      "categoryLabel": "STAGES & HAZARDS",
-      "whatIs": "What are Dead or Alive 6 stages?",
-      "whatIsDescription": "Dead or Alive 6 stages feature Danger Zones, walls, explosions, and breakable objects that turn stage position into real damage and combo extensions.",
-      "why": "Why learn the stages?",
-      "whySteps": {
-        "step1Title": "Read Danger Zones",
-        "step1Description": "Spot walls, floors, and hazards before they cost you rounds",
-        "step2Title": "Position for Damage",
-        "step2Description": "Use knockback strings near hazards for extra damage",
-        "step3Title": "Stage-Specific Routing",
-        "step3Description": "Adjust combo routes for open space, walls, and corners"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Stage Guides"
-    },
-    "costumes": {
-      "title": "Dead or Alive 6 Costumes & DLC",
-      "description": "Dead or Alive 6 Season Passes, costume sets, character DLC, Premium Tickets, and Last Round carry-over rules.",
-      "metaTitle": "Dead or Alive 6 Costumes & DLC - Season Passes & Carry-over",
-      "metaDescription": "Dead or Alive 6 DLC guides covering Season Passes 1-4, character unlocks, costume sets, Premium Tickets, and Last Round costume carry-over rules.",
-      "categoryLabel": "COSTUMES & DLC",
-      "whatIs": "What is Dead or Alive 6 DLC?",
-      "whatIsDescription": "Dead or Alive 6 DLC spans Season Passes, character unlock keys, costume sets, Premium Tickets, and Last Round carry-over rules that group content to avoid duplicate purchases.",
+    "dlc": {
+      "title": "Dead or Alive 6 Last Round DLC",
+      "description": "Complete Dead or Alive 6 Last Round DLC coverage: Season Passes, costume sets, Digital Deluxe Edition content, Core Fighters, free characters, and the free version.",
+      "metaTitle": "Dead or Alive 6 Last Round DLC - Season Passes & Costumes",
+      "metaDescription": "Dead or Alive 6 Last Round DLC guides covering Season Passes, costume sets, Digital Deluxe Edition content, Core Fighters, free characters, and the free version.",
+      "categoryLabel": "DLC & EDITIONS",
+      "whatIs": "What is Dead or Alive 6 Last Round DLC?",
+      "whatIsDescription": "Dead or Alive 6 Last Round DLC spans Season Passes, costume sets, the Digital Deluxe Edition content, Core Fighters, free characters, and the free version, with clear carry-over rules so players avoid duplicate purchases.",
       "why": "Why check the DLC guide?",
       "whySteps": {
         "step1Title": "Avoid Duplicates",
-        "step1Description": "See what each Season Pass already includes",
+        "step1Description": "See what each Season Pass and edition already includes",
         "step2Title": "Carry-over Rules",
-        "step2Description": "Learn which costumes transfer to Last Round",
-        "step3Title": "Guest Characters",
-        "step3Description": "Confirm Mai Shiranui and Kula Diamond unlock requirements"
+        "step2Description": "Learn which costumes and DLC transfer to Last Round",
+        "step3Title": "Free Version First",
+        "step3Description": "Try Core Fighters and free characters before you buy"
       },
       "featured": "Featured & Essential",
       "all": "All DLC Guides"
     },
-    "core-fighters": {
-      "title": "Dead or Alive 6 Core Fighters",
-      "description": "Dead or Alive 6 Core Fighters free version, edition comparison, unlock keys, and Last Round upgrade paths.",
-      "metaTitle": "Dead or Alive 6 Core Fighters - Free Version & Editions",
-      "metaDescription": "Dead or Alive 6 Core Fighters guides comparing the free version, paid editions, Story and Character Unlock Keys, and Last Round upgrade paths.",
-      "categoryLabel": "CORE FIGHTERS & EDITIONS",
-      "whatIs": "What is Dead or Alive 6 Core Fighters?",
-      "whatIsDescription": "Core Fighters is the free-to-play entry to Dead or Alive 6, with a smaller roster and unlock keys for Story Mode and locked characters, including a Last Round Core Fighters edition.",
-      "why": "Why compare editions?",
+    "unlockables": {
+      "title": "Dead or Alive 6 Last Round Unlockables",
+      "description": "Unlock every Dead or Alive 6 Last Round costume, outfit, and character with clear how-to guides for unlocks across PS5, Xbox Series X|S, and Steam.",
+      "metaTitle": "Dead or Alive 6 Last Round Unlockables - Costumes & Characters",
+      "metaDescription": "Dead or Alive 6 Last Round unlockables guides showing how to unlock costumes, outfits, and characters across PS5, Xbox Series X|S, and Steam.",
+      "categoryLabel": "UNLOCKABLES & OUTFITS",
+      "whatIs": "What are Dead or Alive 6 Last Round unlockables?",
+      "whatIsDescription": "Dead or Alive 6 Last Round unlockables cover costumes, outfits, and characters that open through gameplay, quests, and DLC, giving players clear steps to expand their roster and wardrobe on every platform.",
+      "why": "Why use the unlock guides?",
       "whySteps": {
-        "step1Title": "Free Starting Roster",
-        "step1Description": "See which fighters are free in Core Fighters",
-        "step2Title": "Unlock Keys",
-        "step2Description": "Know what the Story and Character Unlock Keys open",
-        "step3Title": "Upgrade Path",
-        "step3Description": "Pick the cleanest route to the full Last Round roster"
+        "step1Title": "Unlock Characters",
+        "step1Description": "Follow clear steps to add locked fighters to your roster",
+        "step2Title": "Earn Costumes",
+        "step2Description": "Find how to unlock outfits through play and quests",
+        "step3Title": "Track Every Outfit",
+        "step3Description": "Keep a checklist so no unlockable slips through"
       },
       "featured": "Featured & Essential",
-      "all": "All Core Fighters Guides"
+      "all": "All Unlockable Guides"
     }
   }
 }

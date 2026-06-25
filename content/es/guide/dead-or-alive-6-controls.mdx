@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Controles de Dead or Alive 6: Guía de configuración para PlayStation, Xbox y Steam",
+  description: "Domina los controles de Dead or Alive 6 para PS5, Xbox y PC. Aprende el sistema de triángulo, las distribuciones predeterminadas y consejos de ejecución para Last Round.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOA6+Controls+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Dead or Alive 6"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Distribución principal**: Comprende las asignaciones predeterminadas para las plataformas PlayStation, Xbox y PC en Steam.
+- **Sistema de triángulo**: Aprende cómo los golpes vencen a los agarres, los agarres vencen a las llaves y las llaves vencen a los golpes.
+- **Botón especial**: Utiliza el botón S para ejecutar fácilmente las mecánicas de Fatal Rush, Break Blow y Break Hold.
+- **Llaves defensivas**: Memoriza las direcciones de entrada específicas requeridas para contrarrestar ataques altos, medios y bajos.
+- **Flujo de entrenamiento**: Sigue una rutina de práctica estructurada para desarrollar memoria muscular antes de unirte a salas en línea.
+</Callout>
+
+<Section icon={Map} title="Controles predeterminados de Dead or Alive 6 para todas las plataformas">
+
+Dominar los **controles de Dead or Alive 6** es el primer paso para dominar la arena. Ya sea que juegues en una consola de generación actual como PlayStation 5 o Xbox Series X|S a través del lanzamiento Last Round de 2026, o en PC a través de Steam, es vital comprender cómo se asignan tus entradas físicas a las acciones del juego. 
+
+El juego utiliza un sistema de cinco botones que consiste en Puñetazo (P), Patada (K), Llave (H), Agarre (T) y Especial (S). Estas entradas básicas se combinan para formar comandos más avanzados, como el uso de combinaciones de Puñetazo y Patada para golpes pesados o Llave y Patada para maniobras defensivas especializadas.
+
+| Acción | PlayStation | Xbox | Teclado de Steam |
+| :--- | :--- | :--- | :--- |
+| **Puñetazo (P)** | Triángulo | Y | K |
+| **Patada (K)** | Círculo | B | L |
+| **Llave (H)** | Cuadrado | X | J |
+| **Agarre (T)** | Cruz | A | M |
+| **Especial (S)** | R1 | RB | I |
+| **Puñetazo + Patada (P+K)** | L1 | LB | U |
+| **Llave + Patada (H+K)** | R2 | RT | O |
+| **Provocación / Saludo** | L2 | LT | N |
+| **Movimiento** | Cruceta / Stick izquierdo | Cruceta / Stick izquierdo | Teclas de dirección / WASD |
+
+Para los jugadores que utilizan arcade sticks o gamepads personalizados, estas asignaciones predeterminadas se pueden ajustar por completo en la configuración del juego. Se recomienda encarecidamente mantener el botón Especial asignado a un solo gatillo o botón superior de fácil acceso, ya que controla las mecánicas principales de la barra de energía del sistema de combate.
+
+<Callout type="warning" title="Aviso sobre la entrada en diferentes plataformas">
+Al jugar a la versión Last Round de 2026 en Steam, asegúrate de que la configuración de tu mando en Steam Input esté activada. Los perfiles de mando heredados de la versión original de 2019 pueden entrar en conflicto con la edición digital actualizada, lo que podría provocar que la asignación de botones no responda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El sistema de triángulo y las mecánicas defensivas">
+
+El sistema de combate está regido por completo por el Sistema de Triángulo, una dinámica de piedra, papel o tijera que dicta cada interacción en un combate. Memorizar los **controles de Dead or Alive 6** no sirve de nada sin comprender cómo funcionan estas interacciones bajo presión.
+
+| Interacción | Vence a | Pierde contra | Modificador de daño |
+| :--- | :--- | :--- | :--- |
+| **Golpes (P/K)** | Agarres (T) | Llaves (H) | Daño normal / Daño de contraataque |
+| **Agarres (T)** | Llaves (H) | Golpes (P/K) | Gran daño en Hi-Counter |
+| **Llaves (H)** | Golpes (P/K) | Agarres (T) | Daño masivo al predecir correctamente |
+
+Las llaves son la mecánica defensiva insignia de la serie. Para realizar una llave con éxito, los jugadores deben introducir una dirección específica en la cruceta o el stick simultáneamente con el botón de Llave (H). La dirección de entrada depende por completo de la altura y el tipo del golpe entrante.
+
+| Altura del golpe | Tipo de ataque | Entrada de control | Resultado |
+| :--- | :--- | :--- | :--- |
+| **Alto** | Puñetazos y patadas | Diagonal arriba-atrás + Llave (↖ + H) | Atrapa golpes de nivel alto |
+| **Medio** | Puñetazos | Atrás + Llave (← + H) | Atrapa puñetazos de nivel medio |
+| **Medio** | Patadas | Adelante + Llave (→ + H) | Atrapa patadas de nivel medio |
+| **Bajo** | Puñetazos y patadas | Diagonal abajo-atrás + Llave (↙ + H) | Atrapa golpes de nivel bajo |
+
+<Callout type="tip" title="Consejo defensivo">
+No adivines al azar al realizar llaves. Observa los patrones de combo del oponente. Si terminan constantemente sus combos con una patada media, prepárate para introducir Adelante + Llave (→ + H) para interrumpir su presión y cambiar el rumbo del combate. Consulta el [Manual oficial de KOEI TECMO](https://www.koeitecmoamerica.com/manual/doa6/us/index.html) para obtener información detallada sobre los fotogramas (frames) de las ventanas de las llaves.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Botón especial y mecánicas de la barra de ruptura (Break Gauge)">
+
+La introducción de la barra de ruptura (Break Gauge) añade una capa de gestión de barra moderna al clásico juego de lucha en 3D. El botón Especial (S) es la clave para desbloquear estas potentes mecánicas capaces de cambiar el rumbo de una ronda. A medida que la barra de ruptura se llena durante el combate al infligir y recibir daño, los jugadores obtienen acceso a opciones defensivas y ofensivas de gran impacto.
+
+<CardGrid cols={3}>
+  <Card title="Fatal Rush">
+    Presiona el botón **Especial (S)** repetidamente hasta cuatro veces. Esta secuencia sencilla ejecuta un combo potente con un alto nivel de aturdimiento que es fácil de confirmar para los principiantes.
+  </Card>
+  <Card title="Break Blow">
+    Introduce **Adelante + Especial (→ + S)** cuando la barra de ruptura esté al 100%. Este golpe desvía los ataques entrantes y asesta un golpe cinematográfico devastador.
+  </Card>
+  <Card title="Break Hold">
+    Introduce **Atrás + Especial (← + S)** cuando la barra de ruptura esté al 50% o más. Esta es una llave universal que contrarresta golpes altos, medios y bajos simultáneamente.
+  </Card>
+</CardGrid>
+
+La llave Break Hold es especialmente importante porque se puede ejecutar incluso cuando el jugador está atrapado en un estado de Aturdimiento crítico (Critical Stun) o Aturdimiento fatal (Fatal Stun). Sirve como una vía de escape de emergencia confiable cuando un oponente está a punto de asestar un combo aéreo (juggle) letal.
+
+<Callout type="success" title="Gestión de barra">
+Aunque un Break Blow completo inflige un daño masivo, ahorrar barra para un Break Hold suele ser la opción más segura y competitiva. Tener un 50% de la barra listo obliga a tu oponente a vacilar, ya que debe respetar tu capacidad para escapar de su presión ofensiva en cualquier momento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flujo de entrenamiento de ejecución paso a paso">
+
+Para pasar con éxito de memorizar las distribuciones a ejecutar combos en combates reales, los jugadores deben seguir una ruta de entrenamiento estructurada. El uso de los modos de entrenamiento integrados en un orden lógico garantiza que la memoria muscular se desarrolle de manera eficiente sin adquirir malos hábitos.
+
+<Steps>
+  <Step num="1" title="Completa el tutorial del sistema">
+    Accede al modo Tutorial desde el menú principal. Este modo te guía a través de los controles de movimiento básicos, el sistema de triángulo y los fundamentos de la defensa alta, media y baja. No te lo saltes, incluso si eres un veterano de los juegos de lucha en 3D.
+  </Step>
+  <Step num="2" title="Practica el entrenamiento de comandos">
+    Selecciona tu personaje preferido e ingresa al Entrenamiento de comandos. Este modo muestra las entradas para cada movimiento en la lista de comandos del personaje. Practica la ejecución de cada movimiento tanto desde el lado izquierdo (Jugador 1) como desde el derecho (Jugador 2) de la pantalla.
+  </Step>
+  <Step num="3" title="Supera los desafíos de combo">
+    Pasa al modo Desafío de combo. Esto te enseñará combos prácticos básicos (BnB), seguimientos tras lanzamientos (launchers) y rutas de daño máximo. Comienza con las pruebas fáciles antes de intentar las secuencias avanzadas de alta ejecución.
+  </Step>
+  <Step num="4" title="Simula combates en el entrenamiento libre">
+    Configura al oponente de IA en el Entrenamiento libre para que bloquee, contraataque o realice combos específicos. Esto te permite practicar los tiempos de tus llaves defensivas y las configuraciones de contraagarre en un entorno controlado que imita las condiciones de un combate real.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo para el modo de entrenamiento">
+Utiliza las opciones de visualización de entrada visual en el Entrenamiento libre. Esta función muestra tus entradas precisas de dirección y botones en un lateral de la pantalla, lo que te permite diagnosticar errores de ejecución, como entradas diagonales accidentales durante las llaves.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de preparación para el combate">
+
+Antes de llevar tus habilidades a internet para competir en partidas igualadas o de sala, utiliza esta lista de verificación para asegurarte de que la configuración de tu mando y tu ejecución estén optimizadas para el juego competitivo.
+
+<Checklist
+  id="match-readiness"
+  title="Lista de preparación antes del combate:"
+  items={[
+    "Verifica que la asignación de tu mando se sienta natural y no cause fatiga en las manos.",
+    "Practica la ejecución de una llave estándar para puñetazo medio (← + H) diez veces seguidas sin fallar.",
+    "Confirma que puedes activar de manera constante un Break Blow (→ + S) cuando la barra esté llena.",
+    "Aprende al menos un combo de lanzamiento (launcher) confiable que inflija un daño sólido después de un contraataque.",
+    "Prueba tu configuración en el modo versus local o en una sala en línea con baja latencia para verificar el retraso de entrada."
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de retraso de entrada">
+Si juego en PC a través de Steam, desactiva la sincronización vertical (V-Sync) en la configuración de gráficos para minimizar el retraso de entrada inducido por el hardware. Cada milisegundo cuenta al intentar reaccionar a golpes rápidos medios y bajos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+Para obtener más detalles sobre las diferencias entre plataformas, actualizaciones y mecánicas competitivas, consulta los recursos oficiales en el [sitio web oficial de Last Round](https://teamninja-studio.com/doa6/lastround/us/).
+
+<FAQ items={[
+  {
+    question: "¿Puedo personalizar los controles de Dead or Alive 6 para que coincidan con los de juegos anteriores de la serie?",
+    answer: "Sí. El menú de configuración del mando te permite reasignar por completo cada acción. Puedes configurar fácilmente una distribución clásica asignando Llave a Cuadrado/X, Puñetazo a Triángulo/Y, Patada a Círculo/B y Agarre a Cruz/A."
+  },
+  {
+    question: "¿Existe una forma sencilla de realizar un agarre sin presionar dos botones?",
+    answer: "Sí. De forma predeterminada, la acción de Agarre está asignada a un solo botón (Cruz en PlayStation, A on Xbox). No necesitas presionar Llave y Puñetazo juntos manualmente a menos que prefieras ese método de entrada clásico."
+  },
+  {
+    question: "¿Por qué fallan mis llaves incluso cuando predigo la altura correcta?",
+    answer: "Debes diferenciar entre puñetazos y patadas para los ataques de nivel medio. Introducir Atrás + Llave (← + H) solo atrapa puñetazos medios, mientras que Adelante + Llave (→ + H) solo atrapa patadas medias. Las llaves altas y bajas atrapan tanto puñetazos como patadas."
+  },
+  {
+    question: "¿La versión Last Round de 2026 admite mandos con juego cruzado?",
+    answer: "El juego es compatible con cualquier dispositivo de entrada estándar que sea compatible con tu plataforma, incluidos los arcade fight sticks, hitboxes y mandos estándar. Sin embargo, no hay juego cruzado entre Steam, PlayStation y Xbox."
+  }
+]} />
+
+<Callout type="success" title="Consejo final">
+La consistencia supera a la velocidad. Concéntrate en entradas limpias y deliberadas en lugar de machacar botones. Una vez que domines el ritmo de las entradas, las complejas mecánicas del juego se convertirán en algo natural.
+</Callout>
+
+</Section>

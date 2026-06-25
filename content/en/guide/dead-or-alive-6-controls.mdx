@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dead or Alive 6 Controls: PlayStation, Xbox, and Steam Setup Guide",
+  description: "Master the dead or alive 6 controls for PS5, Xbox, and PC. Learn the triangle system, default layouts, and execution tips for Last Round.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOA6+Controls+Guide",
+  date: "2026-06-25",
+  author: "dead or alive 6 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Layout**: Understand the default mappings for PlayStation, Xbox, and Steam PC platforms.
+- **Triangle System**: Learn how strikes beat throws, throws beat holds, and holds beat strikes.
+- **Special Button**: Utilize the S button to execute Fatal Rush, Break Blow, and Break Hold mechanics easily.
+- **Defensive Holds**: Memorize the specific direction inputs required to counter high, mid, and low attacks.
+- **Training Flow**: Follow a structured practice routine to build muscle memory before jumping into online lobbies.
+</Callout>
+
+<Section icon={Map} title="Default Dead or Alive 6 Controls for All Platforms">
+
+Mastering the **dead or alive 6 controls** is the first step toward dominating the arena. Whether playing on a current-generation console like the PlayStation 5 or Xbox Series X|S via the 2026 Last Round release, or on PC through Steam, understanding how your physical inputs map to in-game actions is vital. 
+
+The game utilizes a five-button system consisting of Punch (P), Kick (K), Hold (H), Throw (T), and Special (S). These basic inputs combine to form more advanced commands, such as using combinations of Punch and Kick for heavy strikes or Hold and Kick for specialized defensive maneuvers.
+
+| Action | PlayStation | Xbox | Steam Keyboard |
+| :--- | :--- | :--- | :--- |
+| **Punch (P)** | Triangle | Y | K |
+| **Kick (K)** | Circle | B | L |
+| **Hold (H)** | Square | X | J |
+| **Throw (T)** | Cross | A | M |
+| **Special (S)** | R1 | RB | I |
+| **Punch + Kick (P+K)** | L1 | LB | U |
+| **Hold + Kick (H+K)** | R2 | RT | O |
+| **Taunt / Appeal** | L2 | LT | N |
+| **Movement** | D-pad / Left Stick | D-pad / Left Stick | Arrow Keys / WASD |
+
+For players using arcade sticks or customized gamepads, these default mappings can be fully adjusted in the game settings. It is highly recommended to keep the Special button mapped to a single, easily accessible bumper or trigger, as it controls the core gauge mechanics of the combat system.
+
+<Callout type="warning" title="Platform Input Notice">
+When playing the 2026 Last Round version on Steam, ensure your controller configuration in Steam Input is enabled. Legacy controller profiles from the original 2019 release may conflict with the updated digital edition, causing unresponsive button mapping.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Triangle System and Defensive Mechanics">
+
+The combat system is entirely governed by the Triangle System, a rock-paper-scissors dynamic that dictates every interaction in a match. Memorizing the **dead or alive 6 controls** is useless without understanding how these interactions function under pressure.
+
+| Interaction | Beats | Loses To | Damage Modifier |
+| :--- | :--- | :--- | :--- |
+| **Strikes (P/K)** | Throws (T) | Holds (H) | Normal damage / Counter damage |
+| **Throws (T)** | Holds (H) | Strikes (P/K) | High damage on Hi-Counter |
+| **Holds (H)** | Strikes (P/K) | Throws (T) | Massive damage on correct read |
+
+Holds are the signature defensive mechanic of the series. To perform a successful hold, players must input a specific direction on the directional pad or stick simultaneously with the Hold (H) button. The input direction depends entirely on the height and type of the incoming strike.
+
+| Strike Height | Attack Type | Control Input | Result |
+| :--- | :--- | :--- | :--- |
+| **High** | Punches & Kicks | Diagonal Up-Back + Hold (↖ + H) | Catches high-level strikes |
+| **Mid** | Punches | Back + Hold (← + H) | Catches mid-level punches |
+| **Mid** | Kicks | Forward + Hold (→ + H) | Catches mid-level kicks |
+| **Low** | Punches & Kicks | Diagonal Down-Back + Hold (↙ + H) | Catches low-level strikes |
+
+<Callout type="tip" title="Defensive Tip">
+Do not guess randomly when performing holds. Watch the opponent's string patterns. If they consistently end their combos with a mid kick, prepare to input Forward + Hold (→ + H) to interrupt their pressure and turn the tide of the match. Refer to the [Official KOEI TECMO Manual](https://www.koeitecmoamerica.com/manual/doa6/us/index.html) for detailed frames on hold windows.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Special Button and Break Gauge Mechanics">
+
+The introduction of the Break Gauge adds a layer of modern meter management to the classic 3D fighter. The Special (S) button is the key to unlocking these powerful, round-changing mechanics. As the Break Gauge fills up during combat from dealing and receiving damage, players gain access to high-impact defensive and offensive options.
+
+<CardGrid cols={3}>
+  <Card title="Fatal Rush">
+    Press the **Special (S)** button repeatedly up to four times. This simple sequence executes a powerful, high-stun combo that is easy for beginners to confirm.
+  </Card>
+  <Card title="Break Blow">
+    Input **Forward + Special (→ + S)** when the Break Gauge is at 100%. This strike parries incoming attacks and delivers a devastating cinematic blow.
+  </Card>
+  <Card title="Break Hold">
+    Input **Back + Special (← + S)** when the Break Gauge is at 50% or higher. This is a universal hold that counters high, mid, and low strikes simultaneously.
+  </Card>
+</CardGrid>
+
+The Break Hold is particularly important because it can be executed even while the player is trapped in a Critical Stun or Fatal Stun state. It serves as a reliable emergency escape hatch when an opponent is about to land a lethal juggle combo.
+
+<Callout type="success" title="Meter Management">
+While a full Break Blow deals massive damage, saving meter for a Break Hold is often the safer, more competitive choice. Having 50% gauge ready forces your opponent to hesitate, as they must respect your ability to break out of their offensive pressure at any moment.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Execution Training Flow">
+
+To successfully transition from memorizing layouts to executing combos in real matches, players should follow a structured training path. Using the built-in training modes in a logical order ensures that muscle memory is built efficiently without developing bad habits.
+
+<Steps>
+  <Step num="1" title="Complete the System Tutorial">
+    Access the Tutorial mode from the main menu. This mode guides you through the basic movement controls, the Triangle System, and the fundamentals of high, mid, and low defense. Do not skip this, even if you are a veteran of 3D fighting games.
+  </Step>
+  <Step num="2" title="Practice Command Training">
+    Select your preferred character and enter Command Training. This mode displays the inputs for every single move in the character's command list. Practice executing each move from both the left (Player 1) and right (Player 2) sides of the screen.
+  </Step>
+  <Step num="3" title="Conquer the Combo Challenges">
+    Move into the Combo Challenge mode. This teaches you practical bread-and-butter (BnB) combos, launcher follow-ups, and maximum damage routes. Start with the easy trials before attempting the advanced, high-execution sequences.
+  </Step>
+  <Step num="4" title="Simulate Matches in Free Training">
+    Set the AI opponent in Free Training to block, counter-attack, or perform specific strings. This lets you practice your defensive hold timings and counter-throw setups in a controlled environment that mimics real match conditions.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Training Mode Tip">
+Use the visual input display options in Free Training. This feature shows your precise directional and button inputs on the side of the screen, allowing you to diagnose execution errors, such as accidental diagonal inputs during holds.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Match Readiness">
+
+Before taking your skills online to compete in Ranked or Lobby matches, use this checklist to ensure your controller configuration and execution are optimized for competitive play.
+
+<Checklist
+  id="match-readiness"
+  title="Pre-Match Preparation Checklist:"
+  items={[
+    "Verify that your controller mapping feels natural and does not cause hand strain.",
+    "Practice executing a standard mid-punch hold (← + H) ten times in a row without failing.",
+    "Confirm that you can consistently activate a Break Blow (→ + S) when the gauge is full.",
+    "Learn at least one reliable launcher combo that deals solid damage after a counter-hit.",
+    "Test your setup in local versus mode or a low-ping online lobby to check for input latency."
+  ]}
+/>
+
+<Callout type="warning" title="Input Delay Warning">
+If playing on PC via Steam, disable vertical sync (V-Sync) in the graphics settings to minimize hardware-induced input lag. Every millisecond counts when attempting to react to fast mid and low strikes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+For more details on platform differences, updates, and competitive mechanics, consult the official resources on the [Last Round Official Website](https://teamninja-studio.com/doa6/lastround/us/).
+
+<FAQ items={[
+  {
+    question: "Can I customize the dead or alive 6 controls to match older games in the series?",
+    answer: "Yes. The controller settings menu allows you to fully remap every action. You can easily set up a classic layout by assigning Hold to Square/X, Punch to Triangle/Y, Kick to Circle/B, and Throw to Cross/A."
+  },
+  {
+    question: "Is there an easy way to perform a throw without pressing two buttons?",
+    answer: "Yes. By default, the Throw action is bound to a single button (Cross on PlayStation, A on Xbox). You do not need to press Hold and Punch together manually unless you prefer that classic input method."
+  },
+  {
+    question: "Why are my holds failing even when I predict the correct height?",
+    answer: "You must differentiate between punches and kicks for mid-level attacks. Inputting Back + Hold (← + H) only catches mid punches, while Forward + Hold (→ + H) only catches mid kicks. High and low holds catch both punches and kicks."
+  },
+  {
+    question: "Does the 2026 Last Round release support crossplay controllers?",
+    answer: "The game supports any standard input device compatible with your platform, including arcade fight sticks, hitboxes, and standard controllers. However, there is no cross-platform play between Steam, PlayStation, and Xbox."
+  }
+]} />
+
+<Callout type="success" title="Final Advice">
+Consistency beats speed. Focus on clean, deliberate inputs rather than button mashing. Once you master the rhythm of the inputs, the complex mechanics of the game will become second nature.
+</Callout>
+
+</Section>

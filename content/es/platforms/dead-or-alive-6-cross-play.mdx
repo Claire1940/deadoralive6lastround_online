@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Juego cruzado en Dead or Alive 6: Límites de plataforma y guía de configuración",
+  description: "Explora el estado del juego cruzado en Dead or Alive 6, la compatibilidad de plataformas para Last Round y una guía completa para la transferencia de datos guardados en PS5, Xbox y Steam.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=DOA6+Cross+Play+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Dead or Alive 6"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El juego cruzado de Dead or Alive 6** actualmente no es compatible entre diferentes plataformas ni entre la versión original de 2019 y el lanzamiento de Last Round de 2026.
+- **La transferencia de datos guardados** está disponible dentro del mismo ecosistema de plataforma (por ejemplo, de PS4 a PS5) utilizando el almacenamiento en la nube o copias de seguridad locales.
+- **Last Round Edition** (2026) es el estándar actual para PS5, Xbox Series X|S y Steam, e incluye 29 luchadores estándar.
+- **La transferencia de DLC** permite trasladar la mayoría de los trajes comprados a la nueva versión, siempre que poseas la clave de desbloqueo del personaje en la misma cuenta.
+- **La capacidad en línea** admite hasta 16 jugadores en partidas de sala (lobby) para la versión Last Round en consolas de generación actual.
+</Callout>
+
+<Section icon={Shield} title="Juego cruzado y compatibilidad de plataformas en Dead or Alive 6">
+
+El panorama de los juegos de lucha competitivos a menudo depende de la capacidad de desafiar a jugadores en diferentes sistemas, pero el **juego cruzado de Dead or Alive 6** sigue limitado por estrictas fronteras de plataforma. Con el lanzamiento en 2026 de Dead or Alive 6 Last Round, Team NINJA ha confirmado que el juego multiplataforma no es compatible. Esto significa que los usuarios de PlayStation 5 no pueden jugar con jugadores de Xbox Series X|S o Steam. Además, existe una clara división de red entre el lanzamiento original de 2019 y la versión actualizada de Last Round; los jugadores de la versión heredada no pueden ingresar al mismo emparejamiento que aquellos en la actualización de generación actual.
+
+Comprender estas restricciones es vital para los jugadores que buscan mantener su rango o unirse a torneos comunitarios específicos. Aunque la falta de juego cruzado pueda parecer un obstáculo, la actualización Last Round consolida la base de jugadores en hardware moderno, garantizando un mejor rendimiento y estabilidad para quienes se encuentran dentro del mismo ecosistema.
+
+| Característica | DOA6 Original (2019) | DOA6 Last Round (2026) |
+| :--- | :--- | :--- |
+| **Plataformas** | PS4, Xbox One, Steam | PS5, Xbox Series X|S, Steam |
+| **Juego multiplataforma** | No compatible | No compatible |
+| **Juego entre versiones** | No compatible | No compatible |
+| **Límite de jugadores en línea** | Hasta 8 (Sala) | Hasta 16 (Sala) |
+| **API de red** | DirectX 11 | DirectX 12 (Steam) |
+
+<Callout type="warning" title="Advertencia de división de red">
+Ten en cuenta que comprar DLC para la versión Last Round de 2026 no hará que ese contenido esté disponible si vuelves a la versión original de 2019 del juego. Los ecosistemas se tratan como entidades separadas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Disponibilidad de plataformas y diferencias entre versiones">
+
+Elegir la versión correcta del juego es el primer paso hacia una experiencia en línea constante. Dado que el Dead or Alive 6 original ha sido retirado de la tienda de Steam, los nuevos jugadores deben centrarse en la edición Last Round. Esta versión está optimizada para el hardware de generación actual, ofreciendo tiempos de carga más rápidos y el nuevo Modo Foto.
+
+La versión "Core Fighters" sigue siendo un punto de entrada popular, ofreciendo un modelo gratuito (free-to-play) que permite participar en partidas igualadas. Sin embargo, el elenco inicial difiere significativamente entre el Core Fighters original y el Core Fighters de Last Round.
+
+| Edición | Modelo de precio | Personajes incluidos | Características clave |
+| :--- | :--- | :--- | :--- |
+| **Core Fighters Original** | Gratuito (F2P) | Kasumi, Hitomi, Diego, Bass | Acceso básico en línea, Historia limitada |
+| **Core Fighters Last Round** | Gratuito (F2P) | Kasumi, Marie Rose, Honoka, NiCO | Modo Foto, En línea, Sin Historia |
+| **Versión completa Last Round** | De pago | 29 personajes (incl. Momiji, Rachel) | Historia completa, todos los luchadores base de DLC |
+
+<CardGrid cols={2}>
+  <Card title="Estrategia para PlayStation 5">
+    - **Físico/Digital**: Lanzamiento solo en formato digital para Last Round.
+    - **Suscripción**: Se requiere PS Plus para el juego en línea.
+    - **Transferencia**: Admite la migración de datos guardados de PS4 a través de la nube o USB.
+  </Card>
+  <Card title="Steam (PC) Strategy">
+    - **Hardware**: Se requiere SSD para la versión Last Round.
+    - **API**: Requiere DirectX 12 para funciones modernas.
+    - **Transferencia**: Movimiento manual de carpetas o soporte de Steam Cloud.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo profesional: Desbloqueo de personajes">
+Si eres un jugador de Core Fighters, puedes usar cualquier personaje en los modos Tutorial y DOA Quest incluso si no has comprado sus claves de desbloqueo individuales. Esta es la mejor manera de probar a un luchador antes de comprarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reglas de transferencia de datos guardados y DLC">
+
+Aunque el **juego cruzado de Dead or Alive 6** no es una opción, los desarrolladores han proporcionado un sólido sistema de transferencia para aquellos que actualicen dentro de la misma familia de plataformas. Esto es esencial para los jugadores que pasaron años desbloqueando trajes o subiendo en la clasificación en el lanzamiento original. La mayoría de los elementos de progresión, incluidas las estrellas de DOA Quest, las entradas de la Enciclopedia y los trajes comprados, se pueden trasladar a la versión Last Round.
+
+Sin embargo, existen excepciones críticas a esta regla. Los personajes invitados de la serie King of Fighters, específicamente Mai Shiranui y Kula Diamond, requieren nuevas claves de desbloqueo en la versión Last Round debido a actualizaciones de licencias.
+
+| Elementos transferibles | Elementos no transferibles |
+| :--- | :--- |
+| La mayoría de los trajes desbloqueados | DLC de Mai Shiranui/Kula Diamond |
+| Progresión de Historia y Misiones | Tickets Premium (PS4) |
+| Puntos de propietario y armario | Puntos de clasificación (RP) |
+| Datos de tutorial y entrenamiento | Nivel de luchador e historial de combates |
+| Enciclopedia y curiosidades | Datos de cambio de color de cabello |
+
+<Callout type="success" title="Migración exitosa">
+Transferir tus datos con éxito te otorgará acceso inmediato a tus puntos de propietario obtenidos anteriormente, lo que te permitirá comprar de inmediato los nuevos trajes con temática de Team NINJA para Kasumi y Ayane en Last Round.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a paso: Cómo migrar tu progreso">
+
+Si vas a pasar de la versión de 2019 a la actualización Last Round de 2026, sigue estos pasos para asegurarte de que tus datos se reconozcan correctamente. Ten en cuenta que debes usar la misma cuenta (PSN, Xbox Live o Steam) para que la transferencia funcione.
+
+<Steps>
+  <Step num="1" title="Copia de seguridad de los datos originales">
+    Asegúrate de que tus datos guardados originales de Dead or Alive 6 estén subidos a la nube (PS Plus/Xbox Network) o respaldados localmente en tu PC.
+  </Step>
+  <Step num="2" title="Instala Last Round">
+    Descarga e instala Dead or Alive 6 Last Round en tu nuevo hardware. No crees un nuevo archivo de guardado manualmente si se te solicita.
+  </Step>
+  <Step num="3" title="Inicia la transferencia">
+    Inicia el juego. El sistema debería detectar automáticamente los datos guardados heredados. Selecciona "Sí" cuando se te pregunte si deseas importar el progreso anterior.
+  </Step>
+  <Step num="4" title="Verifica las licencias de DLC">
+    Ve al armario del juego. Comprueba si tus trajes adquiridos anteriormente están disponibles. Si faltan algunos, es posible que debas volver a descargar las "Claves de desbloqueo de personajes" desde la tienda.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Paso crítico">
+Si ya has comenzado una nueva partida en Last Round y deseas importar datos antiguos, primero debes eliminar el archivo de guardado existente de Last Round desde la configuración del sistema. La importación solo se activa si no hay ningún archivo de guardado de la generación actual.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modos en línea y requisitos de rendimiento">
+
+La experiencia en línea en la versión de 2026 se ha mejorado para admitir salas más grandes y una mejor estabilidad. Dado que el **juego cruzado de Dead or Alive 6** está ausente, la calidad de tus partidas depende completamente de la base de jugadores locales y de la configuración de tu hardware. Para los jugadores de PC, el salto a DirectX 12 y el requisito de un SSD son obligatorios para una experiencia en línea fluida.
+
+| Requisito | Mínimo (720p/60fps) | Recomendado (1080p/60fps) |
+| :--- | :--- | :--- |
+| **SO** | Windows 11 | Windows 11 |
+| **CPU** | Intel Core i5-8400 | Intel Core i7-8700 |
+| **RAM** | 8 GB | 16 GB |
+| **GPU** | GTX 1060 (6GB) | GTX 1070 (8GB) |
+| **Almacenamiento** | 80 GB SSD | 80 GB SSD |
+
+<CardGrid cols={3}>
+  <Card title="Partida igualada">
+    - Emparejamiento basado en la habilidad.
+    - Ganancia/pérdida de puntos de rango (Grade Points).
+    - Filtros de conexión disponibles en PS5.
+  </Card>
+  <Card title="Partida de sala">
+    - Hasta 16 jugadores por sala.
+    - Reglas personalizadas y modo espectador.
+    - Sin impacto en los puntos de rango.
+  </Card>
+  <Card title="Entrenamiento en línea">
+    - Practica con un amigo en línea.
+    - Visualización de datos de fotogramas (frame data) en tiempo real.
+    - Ideal para probar combos específicos adaptados al lag.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota sobre la conexión en Steam">
+En la versión de Steam, las condiciones de calidad de la conexión no pueden ser ajustadas manualmente por el jugador en el menú de emparejamiento. El sistema te empareja automáticamente según el mejor ping disponible.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación previa a la partida y preguntas frecuentes">
+
+Antes de saltar a la arena, asegúrate de que tu configuración esté optimizada para el metajuego de 2026. Dado que no te enfrentarás a jugadores de otras plataformas, centrarte en los matices de hardware específicos de tu sistema elegido es clave.
+
+<Checklist
+  id="online-prep"
+  title="Lista de preparación para el juego en línea:"
+  items={[
+    "Verificar que el tipo de NAT sea Abierto o Tipo 2",
+    "Instalar el juego en un SSD para una carga de escenarios más rápida",
+    "Confirmar que las claves de desbloqueo de personajes estén activas",
+    "Actualizar a la última versión (v2.0 o superior)",
+    "Comprobar si hay descargas en segundo plano que afecten al ping"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Tiene Dead or Alive 6 juego cruzado en 2026?",
+    answer: "No, el juego cruzado de Dead or Alive 6 no es compatible entre PlayStation, Xbox y PC. Además, la versión de 2019 y la versión Last Round de 2026 utilizan servidores separados."
+  },
+  {
+    question: "¿Puedo transferir mi partida guardada de PS4 a la versión Last Round de PS5?",
+    answer: "Sí, los datos guardados, los trajes y la progresión se pueden transferir dentro de la misma familia de plataformas utilizando el almacenamiento en la nube o copias de seguridad por USB, siempre que utilices la misma cuenta."
+  },
+  {
+    question: "¿Están incluidas Mai Shiranui y Kula Diamond en Last Round?",
+    answer: "No, estos personajes invitados se gestionan como DLC separados y no forman parte del elenco estándar de 29 personajes de Dead or Alive 6 Last Round."
+  },
+  {
+    question: "¿Por qué no puedo encontrar mis trajes antiguos en la nueva versión?",
+    answer: "Debes poseer la 'Clave de desbloqueo de personaje' del luchador específico para poder usar sus trajes transferidos. Además, algunos trajes de colaboración pueden tener restricciones de licencia que impidan su transferencia."
+  }
+]} />
+
+<Callout type="tip" title="Consejo final">
+Mantén siempre una copia de seguridad de tu archivo de guardado original de 2019. Aunque la transferencia a Last Round suele ser fiable, tener un respaldo garantiza que tus años de progreso nunca se pierdan realmente en la transición a la nueva generación.
+</Callout>
+
+</Section>

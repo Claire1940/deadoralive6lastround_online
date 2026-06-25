@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para Principiantes de Dead or Alive 6: Domina el Sistema de Triángulo en 2026",
+  description: "Domina Dead or Alive 6 con nuestra guía para principiantes. Aprende el Sistema de Triángulo, los controles para todas las plataformas y los mejores personajes para nuevos jugadores en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ff4500?text=DOA6+Beginner+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Dead or Alive 6",
+  keywords: "Dead or Alive 6, guía, principiantes, sistema de triángulo, controles, personajes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía para Principiantes de Dead or Alive 6**: Céntrate en el **Sistema de Triángulo** donde los golpes vencen a los agarres, los agarres vencen a las llaves (holds), y las llaves vencen a los golpes.
+- **Actualización Last Round**: La versión de 2026 incluye **29 personajes** y soporte de hardware mejorado para PS5, Xbox Series X|S y Steam.
+- **Mejores Personajes Iniciales**: Comienza con **Kasumi**, **NiCO** o **Hitomi** por sus fundamentos equilibrados y combos fáciles de aprender.
+- **Medidor de Ruptura (Break Gauge)**: Gestiona tu barra para usar **Break Holds** (escape defensivo) y **Break Blows** (finalizadores ofensivos de gran daño).
+- **Core Fighters**: Utiliza la versión gratuita para probar las mecánicas antes de comprometerte a desbloquear la plantilla completa de personajes.
+</Callout>
+
+<Section icon={Map} title="Primeros Pasos en Dead or Alive 6 Last Round">
+
+Bienvenido a la **guía para principiantes de Dead or Alive 6**. Ya sea que estés jugando a la versión original de 2019 o a la versión actualizada de 2026 **Last Round**, el núcleo del juego sigue siendo un luchador 3D táctico y de alta velocidad. A diferencia de muchos juegos de lucha 2D que dependen en gran medida de la gestión de proyectiles, este juego enfatiza el movimiento, los peligros ambientales (Zonas de Peligro) y una filosofía de combate única basada en el piedra-papel-tijera.
+
+**Puntos Destacados del Vídeo:**
+- Resumen de las mecánicas de la versión gratuita **Core Fighters**.
+- Introducción a los nuevos personajes y las actualizaciones visuales de 2026.
+- Breve demostración del sistema **Fatal Rush** para principiantes.
+
+<YouTubeEmbed videoId="srcDEF4gLtM" title="Dead or Alive 6: Core Fighters Launch Trailer" />
+
+El lanzamiento de **Last Round** en 2026 ha unificado a la base de jugadores en el hardware de generación actual. Si eres un jugador nuevo, entender qué versión posees es fundamental para el acceso a personajes y la progresión de la historia.
+
+| Edición | Plataformas | Personajes Incluidos | Acceso a la Historia |
+| :--- | :--- | :--- | :--- |
+| **Core Fighters (Gratis)** | PS5, Xbox, Steam | Kasumi, Marie Rose, Honoka, NiCO | Solo Introducción |
+| **Standard Edition** | PS5, Xbox, Steam | 29 Personajes (Plantilla completa) | Acceso Total |
+| **Last Round Bundle** | PS5, Xbox, Steam | 29 Personajes + DLC Legado | Acceso Total |
+
+<Callout type="tip" title="Consejo Pro">
+Si no estás seguro sobre el juego, descarga primero la versión **Core Fighters**. Te permite jugar online y acceder a todos los modos de entrenamiento con una plantilla limitada, lo cual es perfecto para aprender los fundamentos sin ningún compromiso financiero.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="El Combate Principal: Entendiendo el Sistema de Triángulo">
+
+La parte más vital de cualquier **guía para principiantes de Dead or Alive 6** es el **Sistema de Triángulo**. Cada interacción en el juego se rige por esta relación de tres vías. Entender esto evitará que te limites a "machacar botones" y te pondrá en el camino de realizar "lecturas" tácticas sobre tu oponente.
+
+### El Piedra-Papel-Tijera de DOA6
+1.  **Los Golpes vencen a los Agarres**: Si un oponente intenta agarrarte mientras estás lanzando un puñetazo o patada, tu golpe impactará y causará daño de "Hi Counter".
+2.  **Los Agarres vencen a las Llaves (Holds)**: Si un oponente está esperando para hacer una "Llave" (contraatacar) a tu golpe, es vulnerable a un agarre, que inflige un daño masivo contra posturas defensivas.
+3.  **Las Llaves vencen a los Golpes**: Si predices la altura de un golpe entrante (Alta, Media o Baja), puedes realizar una Llave para atrapar la extremidad y pasar a un contraataque.
+
+| Interacción | Ganador | Efecto de Bonificación |
+| :--- | :--- | :--- |
+| **Golpe vs Agarre** | Golpe | Interrumpe el agarre, inflige daño Hi Counter |
+| **Agarre vs Llave** | Agarre | Daño máximo, castiga el uso excesivo de defensas |
+| **Llave vs Golpe** | Llave | Invierte el impulso, cambia la ventaja de frames |
+
+<Callout type="warning" title="Importante">
+No confíes únicamente en los golpes. Los jugadores nuevos a menudo son víctimas del "spam de llaves" por parte de jugadores intermedios. Si notas que tu oponente atrapa todos tus puñetazos, deja de atacar y usa un **Agarre** en su lugar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Controles Esenciales y Diseños de Plataforma">
+
+Antes de sumergirte en combos complejos, debes memorizar las cinco acciones básicas: **Puñetazo (P)**, **Patada (K)**, **Llave (H)**, **Agarre (T)** y **Especial (S)**. El botón Especial es una nueva incorporación en la sexta entrega, simplificando mecánicas de alto nivel como el desplazamiento lateral y la gestión del medidor.
+
+<CardGrid cols={3}>
+  <Card title="PlayStation (PS5)">
+    - **Puñetazo**: Triángulo
+    - **Patada**: Círculo
+    - **Llave**: Cuadrado
+    - **Agarre**: Cruz
+    - **Especial**: R1
+  </Card>
+  <Card title="Xbox Series X|S">
+    - **Puñetazo**: Y
+    - **Patada**: B
+    - **Llave**: X
+    - **Agarre**: A
+    - **Especial**: RB
+  </Card>
+  <Card title="Steam (Teclado)">
+    - **Puñetazo**: K
+    - **Patada**: L
+    - **Llave**: J
+    - **Agarre**: M
+    - **Especial**: I
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Consejo del Sistema">
+El botón **Especial (S)** te permite realizar un **Fatal Rush** al pulsarlo repetidamente. Este es un combo predefinido que inflige un daño decente y es la forma más fácil para que los principiantes sientan el flujo del combate.
+</Callout>
+
+### Defensa y Guardia
+Mantener pulsado el botón de **Llave (H)** te permite cubrirte. Debes elegir entre guardia de pie (bloquea golpes Altos y Medios) y guardia agachada (bloquea golpes Bajos y evita golpes Altos).
+
+| Tipo de Guardia | Comando | Protege Contra | Vulnerable a |
+| :--- | :--- | :--- | :--- |
+| **Guardia de Pie** | Atrás + H | Golpes Altos/Medios | Golpes Bajos, Todos los Agarres |
+| **Guardia Agachada** | Abajo-Atrás + H | Golpes Bajos | Golpes Medios, Agarres Bajos |
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Personajes para Principiantes y Tier List">
+
+Elegir al luchador adecuado es esencial para tus primeras horas. Algunos personajes requieren un complejo "baile de posturas", mientras que otros dependen de golpes directos y de alta velocidad. Para esta **guía para principiantes de Dead or Alive 6**, recomendamos personajes con alta "Ventaja de Frames" y ejecución sencilla.
+
+<Steps>
+  <Step num="1" title="Elige un Luchador Equilibrado">
+    **Kasumi** es la cara de la franquicia por una razón. Es increíblemente rápida, tiene una curva de aprendizaje lineal y su estilo "Mugen Tenshin" permite aplicar presión fácilmente.
+  </Step>
+  <Step num="2" title="Aprende Conceptos Técnicos">
+    **NiCO** utiliza Pencak Silat combinado con anillos EMF. Tiene una excelente integración con el botón "Especial" y puede teletransportarse distancias cortas para confundir a los oponentes.
+  </Step>
+  <Step num="3" title="Domina los Fundamentos">
+    **Hitomi** utiliza Karate. Sus golpes son pesados y directos. Jugar con Hitomi te enseña la importancia del tiempo y el espacio sin depender de trucos.
+  </Step>
+</Steps>
+
+### Tier List para Principiantes 2026
+Esta lista clasifica a los personajes según su **Facilidad de Uso** y **Efectividad** en el juego online de rangos bajos.
+
+| Rango | Personaje | Estilo | ¿Por qué jugarlo? |
+| :--- | :--- | :--- | :--- |
+| **S (Fácil)** | **Kasumi** | Ninjutsu | Rápida, gran alcance, Fatal Rush sencillo |
+| **S (Fácil)** | **Diego** | Luchador Callejero | Daño alto, muy resistente, combos fáciles |
+| **A (Moderado)** | **NiCO** | Pencak Silat | Buenos proyectiles, fuerte a media distancia |
+| **A (Moderado)** | **Tina** | Lucha Libre | La mejor para aprender el sistema de Agarres |
+| **B (Difícil)** | **Ayane** | Ninjutsu | Requiere alta movilidad y movimientos de giro |
+
+<Callout type="success" title="Historia de Éxito">
+Muchos jugadores de alto nivel comenzaron con **Diego**. Su "Estilo Callejero" se centra menos en el ninjutsu complejo y más en la potencia bruta y la presión contra la pared, lo que lo hace ideal para quienes vienen de juegos como Tekken o Street Fighter.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas Avanzadas: Medidor de Ruptura y Aturdimiento Fatal">
+
+A medida que superes lo básico, debes aprender a gestionar el **Medidor de Ruptura (Break Gauge)**. Esta barra azul se llena a medida que infliges y recibes daño. Es tu recurso más poderoso tanto para la ofensiva como para la defensiva.
+
+### Cómo usar el Medidor de Ruptura
+- **Break Blow (100% del Medidor)**: Adelante + Especial. Un golpe poderoso que desvía ataques entrantes e inflige un daño masivo. Si impacta, activa un final cinematográfico.
+- **Break Hold (50% del Medidor)**: Atrás + Especial. Esta es tu carta de "salida gratuita". Contraatacará **cualquier** altura de golpe (Alta, Media o Baja), permitiéndote escapar de un combo mortal.
+
+<Checklist
+  id="beginner-milestones"
+  title="Objetivos de la Primera Semana:"
+  items={[
+    "Completar las 40 lecciones del Tutorial",
+    "Superar 10 misiones de DOA Quest",
+    "Lograr realizar un Break Blow en una partida real",
+    "Ganar 3 Partidas Clasificatorias en Rango 'F'",
+    "Encontrar un personaje principal ('Main') que disfrutes"
+  ]}
+/>
+
+<Callout type="info" title="Actualización Last Round">
+En la actualización **Last Round** de 2026, el Medidor de Ruptura se llena ligeramente más rápido durante las "Llaves" exitosas, animando a los jugadores a interactuar con el Sistema de Triángulo en lugar de solo bloquear.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes (FAQ) de Dead or Alive 6">
+
+<FAQ items={[
+  {
+    question: "¿Es útil la guía de Dead or Alive 6 para la versión gratuita?",
+    answer: "¡Sí! Las mecánicas principales, el Sistema de Triángulo y los controles son idénticos entre la versión gratuita Core Fighters y el juego completo. Puedes aprender todo lo que necesitas usando los cuatro personajes gratuitos."
+  },
+  {
+    question: "¿Puedo transferir mi progreso del DOA6 original a Last Round?",
+    answer: "Sí, siempre que te mantengas dentro del mismo ecosistema de plataforma (por ejemplo, de PS4 a PS5). Tus datos de guardado, trajes y personajes desbloqueados se transferirán a la versión Last Round de 2026."
+  },
+  {
+    question: "¿Cuál es la mejor forma de practicar combos?",
+    answer: "Ve al Modo Entrenamiento y selecciona 'Reto de Combo'. Cada personaje tiene una lista de más de 20 combos que van desde cadenas básicas hasta malabares aéreos avanzados. Completarlos es la mejor manera de desarrollar memoria muscular."
+  },
+  {
+    question: "¿Necesito un fight stick para jugar a Dead or Alive 6?",
+    answer: "No. A diferencia de otros juegos de lucha, DOA6 está diseñado pensando en los mandos. El movimiento en 8 direcciones y el diseño del botón 'Especial' se sienten muy naturales en un mando estándar de PS5 o Xbox Series X."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+No tengas miedo de perder online. Esta **guía para principiantes de Dead or Alive 6** es solo el punto de partida. El verdadero aprendizaje ocurre cuando te encuentras con diferentes estilos de juego en el Lobby Clasificatorio. ¡Sigue practicando tus Llaves y estarás subiendo de rango en poco tiempo!
+</Callout>
+
+</Section>

@@ -1,1 +1,698 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "dead-or-alive-6-characters",
+        "file": "dead-or-alive-6-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-female-characters",
+        "file": "dead-or-alive-6-female-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-guest-characters",
+        "file": "dead-or-alive-6-guest-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-honoka",
+        "file": "dead-or-alive-6-honoka"
+      },
+      {
+        "slug": "dead-or-alive-6-kasumi",
+        "file": "dead-or-alive-6-kasumi"
+      },
+      {
+        "slug": "dead-or-alive-6-mai",
+        "file": "dead-or-alive-6-mai"
+      },
+      {
+        "slug": "dead-or-alive-6-minato",
+        "file": "dead-or-alive-6-minato"
+      },
+      {
+        "slug": "dead-or-alive-6-roster",
+        "file": "dead-or-alive-6-roster"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "dead-or-alive-6-core-fighters",
+        "file": "dead-or-alive-6-core-fighters"
+      },
+      {
+        "slug": "dead-or-alive-6-digital-deluxe-edition-content",
+        "file": "dead-or-alive-6-digital-deluxe-edition-content"
+      },
+      {
+        "slug": "dead-or-alive-6-dlc-costumes",
+        "file": "dead-or-alive-6-dlc-costumes"
+      },
+      {
+        "slug": "dead-or-alive-6-dlc",
+        "file": "dead-or-alive-6-dlc"
+      },
+      {
+        "slug": "dead-or-alive-6-free-characters",
+        "file": "dead-or-alive-6-free-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-free-version",
+        "file": "dead-or-alive-6-free-version"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dead-or-alive-6-beginner-guide",
+        "file": "dead-or-alive-6-beginner-guide"
+      },
+      {
+        "slug": "dead-or-alive-6-break-blow",
+        "file": "dead-or-alive-6-break-blow"
+      },
+      {
+        "slug": "dead-or-alive-6-buttons",
+        "file": "dead-or-alive-6-buttons"
+      },
+      {
+        "slug": "dead-or-alive-6-controls",
+        "file": "dead-or-alive-6-controls"
+      },
+      {
+        "slug": "dead-or-alive-6-guide",
+        "file": "dead-or-alive-6-guide"
+      },
+      {
+        "slug": "dead-or-alive-6-keyboard-controls",
+        "file": "dead-or-alive-6-keyboard-controls"
+      },
+      {
+        "slug": "dead-or-alive-6-offensive-hold",
+        "file": "dead-or-alive-6-offensive-hold"
+      },
+      {
+        "slug": "dead-or-alive-6-special-moves",
+        "file": "dead-or-alive-6-special-moves"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dead-or-alive-6-cross-play",
+        "file": "dead-or-alive-6-cross-play"
+      },
+      {
+        "slug": "dead-or-alive-6-pc",
+        "file": "dead-or-alive-6-pc"
+      },
+      {
+        "slug": "dead-or-alive-6-ps4",
+        "file": "dead-or-alive-6-ps4"
+      },
+      {
+        "slug": "dead-or-alive-6-ps5-upgrade",
+        "file": "dead-or-alive-6-ps5-upgrade"
+      },
+      {
+        "slug": "dead-or-alive-6-ps5",
+        "file": "dead-or-alive-6-ps5"
+      },
+      {
+        "slug": "dead-or-alive-6-steam-deck",
+        "file": "dead-or-alive-6-steam-deck"
+      },
+      {
+        "slug": "dead-or-alive-6-steam",
+        "file": "dead-or-alive-6-steam"
+      },
+      {
+        "slug": "dead-or-alive-6-xbox",
+        "file": "dead-or-alive-6-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dead-or-alive-6-last-round-release-date",
+        "file": "dead-or-alive-6-last-round-release-date"
+      },
+      {
+        "slug": "dead-or-alive-6-last-round-upgrade",
+        "file": "dead-or-alive-6-last-round-upgrade"
+      },
+      {
+        "slug": "dead-or-alive-6-last-round",
+        "file": "dead-or-alive-6-last-round"
+      },
+      {
+        "slug": "dead-or-alive-6-last-update",
+        "file": "dead-or-alive-6-last-update"
+      },
+      {
+        "slug": "dead-or-alive-6-release-date",
+        "file": "dead-or-alive-6-release-date"
+      },
+      {
+        "slug": "dead-or-alive-6-version-1-30",
+        "file": "dead-or-alive-6-version-1.30"
+      }
+    ],
+    "unlockables": [
+      {
+        "slug": "dead-or-alive-6-how-to-unlock-characters",
+        "file": "dead-or-alive-6-how-to-unlock-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-how-to-unlock-costumes",
+        "file": "dead-or-alive-6-how-to-unlock-costumes"
+      },
+      {
+        "slug": "dead-or-alive-6-outfits",
+        "file": "dead-or-alive-6-outfits"
+      },
+      {
+        "slug": "dead-or-alive-6-unlock-costumes",
+        "file": "dead-or-alive-6-unlock-costumes"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "dead-or-alive-6-characters",
+        "file": "dead-or-alive-6-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-female-characters",
+        "file": "dead-or-alive-6-female-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-guest-characters",
+        "file": "dead-or-alive-6-guest-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-honoka",
+        "file": "dead-or-alive-6-honoka"
+      },
+      {
+        "slug": "dead-or-alive-6-kasumi",
+        "file": "dead-or-alive-6-kasumi"
+      },
+      {
+        "slug": "dead-or-alive-6-mai",
+        "file": "dead-or-alive-6-mai"
+      },
+      {
+        "slug": "dead-or-alive-6-minato",
+        "file": "dead-or-alive-6-minato"
+      },
+      {
+        "slug": "dead-or-alive-6-roster",
+        "file": "dead-or-alive-6-roster"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "dead-or-alive-6-core-fighters",
+        "file": "dead-or-alive-6-core-fighters"
+      },
+      {
+        "slug": "dead-or-alive-6-digital-deluxe-edition-content",
+        "file": "dead-or-alive-6-digital-deluxe-edition-content"
+      },
+      {
+        "slug": "dead-or-alive-6-dlc-costumes",
+        "file": "dead-or-alive-6-dlc-costumes"
+      },
+      {
+        "slug": "dead-or-alive-6-dlc",
+        "file": "dead-or-alive-6-dlc"
+      },
+      {
+        "slug": "dead-or-alive-6-free-characters",
+        "file": "dead-or-alive-6-free-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-free-version",
+        "file": "dead-or-alive-6-free-version"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dead-or-alive-6-beginner-guide",
+        "file": "dead-or-alive-6-beginner-guide"
+      },
+      {
+        "slug": "dead-or-alive-6-break-blow",
+        "file": "dead-or-alive-6-break-blow"
+      },
+      {
+        "slug": "dead-or-alive-6-buttons",
+        "file": "dead-or-alive-6-buttons"
+      },
+      {
+        "slug": "dead-or-alive-6-controls",
+        "file": "dead-or-alive-6-controls"
+      },
+      {
+        "slug": "dead-or-alive-6-guide",
+        "file": "dead-or-alive-6-guide"
+      },
+      {
+        "slug": "dead-or-alive-6-keyboard-controls",
+        "file": "dead-or-alive-6-keyboard-controls"
+      },
+      {
+        "slug": "dead-or-alive-6-offensive-hold",
+        "file": "dead-or-alive-6-offensive-hold"
+      },
+      {
+        "slug": "dead-or-alive-6-special-moves",
+        "file": "dead-or-alive-6-special-moves"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dead-or-alive-6-cross-play",
+        "file": "dead-or-alive-6-cross-play"
+      },
+      {
+        "slug": "dead-or-alive-6-pc",
+        "file": "dead-or-alive-6-pc"
+      },
+      {
+        "slug": "dead-or-alive-6-ps4",
+        "file": "dead-or-alive-6-ps4"
+      },
+      {
+        "slug": "dead-or-alive-6-ps5-upgrade",
+        "file": "dead-or-alive-6-ps5-upgrade"
+      },
+      {
+        "slug": "dead-or-alive-6-ps5",
+        "file": "dead-or-alive-6-ps5"
+      },
+      {
+        "slug": "dead-or-alive-6-steam-deck",
+        "file": "dead-or-alive-6-steam-deck"
+      },
+      {
+        "slug": "dead-or-alive-6-steam",
+        "file": "dead-or-alive-6-steam"
+      },
+      {
+        "slug": "dead-or-alive-6-xbox",
+        "file": "dead-or-alive-6-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dead-or-alive-6-last-round-release-date",
+        "file": "dead-or-alive-6-last-round-release-date"
+      },
+      {
+        "slug": "dead-or-alive-6-last-round-upgrade",
+        "file": "dead-or-alive-6-last-round-upgrade"
+      },
+      {
+        "slug": "dead-or-alive-6-last-round",
+        "file": "dead-or-alive-6-last-round"
+      },
+      {
+        "slug": "dead-or-alive-6-last-update",
+        "file": "dead-or-alive-6-last-update"
+      },
+      {
+        "slug": "dead-or-alive-6-release-date",
+        "file": "dead-or-alive-6-release-date"
+      },
+      {
+        "slug": "dead-or-alive-6-version-1-30",
+        "file": "dead-or-alive-6-version-1.30"
+      }
+    ],
+    "unlockables": [
+      {
+        "slug": "dead-or-alive-6-how-to-unlock-characters",
+        "file": "dead-or-alive-6-how-to-unlock-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-how-to-unlock-costumes",
+        "file": "dead-or-alive-6-how-to-unlock-costumes"
+      },
+      {
+        "slug": "dead-or-alive-6-outfits",
+        "file": "dead-or-alive-6-outfits"
+      },
+      {
+        "slug": "dead-or-alive-6-unlock-costumes",
+        "file": "dead-or-alive-6-unlock-costumes"
+      }
+    ]
+  },
+  "ko": {
+    "characters": [
+      {
+        "slug": "dead-or-alive-6-characters",
+        "file": "dead-or-alive-6-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-female-characters",
+        "file": "dead-or-alive-6-female-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-guest-characters",
+        "file": "dead-or-alive-6-guest-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-honoka",
+        "file": "dead-or-alive-6-honoka"
+      },
+      {
+        "slug": "dead-or-alive-6-kasumi",
+        "file": "dead-or-alive-6-kasumi"
+      },
+      {
+        "slug": "dead-or-alive-6-mai",
+        "file": "dead-or-alive-6-mai"
+      },
+      {
+        "slug": "dead-or-alive-6-minato",
+        "file": "dead-or-alive-6-minato"
+      },
+      {
+        "slug": "dead-or-alive-6-roster",
+        "file": "dead-or-alive-6-roster"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "dead-or-alive-6-core-fighters",
+        "file": "dead-or-alive-6-core-fighters"
+      },
+      {
+        "slug": "dead-or-alive-6-digital-deluxe-edition-content",
+        "file": "dead-or-alive-6-digital-deluxe-edition-content"
+      },
+      {
+        "slug": "dead-or-alive-6-dlc-costumes",
+        "file": "dead-or-alive-6-dlc-costumes"
+      },
+      {
+        "slug": "dead-or-alive-6-dlc",
+        "file": "dead-or-alive-6-dlc"
+      },
+      {
+        "slug": "dead-or-alive-6-free-characters",
+        "file": "dead-or-alive-6-free-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-free-version",
+        "file": "dead-or-alive-6-free-version"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dead-or-alive-6-beginner-guide",
+        "file": "dead-or-alive-6-beginner-guide"
+      },
+      {
+        "slug": "dead-or-alive-6-break-blow",
+        "file": "dead-or-alive-6-break-blow"
+      },
+      {
+        "slug": "dead-or-alive-6-buttons",
+        "file": "dead-or-alive-6-buttons"
+      },
+      {
+        "slug": "dead-or-alive-6-controls",
+        "file": "dead-or-alive-6-controls"
+      },
+      {
+        "slug": "dead-or-alive-6-guide",
+        "file": "dead-or-alive-6-guide"
+      },
+      {
+        "slug": "dead-or-alive-6-keyboard-controls",
+        "file": "dead-or-alive-6-keyboard-controls"
+      },
+      {
+        "slug": "dead-or-alive-6-offensive-hold",
+        "file": "dead-or-alive-6-offensive-hold"
+      },
+      {
+        "slug": "dead-or-alive-6-special-moves",
+        "file": "dead-or-alive-6-special-moves"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dead-or-alive-6-cross-play",
+        "file": "dead-or-alive-6-cross-play"
+      },
+      {
+        "slug": "dead-or-alive-6-pc",
+        "file": "dead-or-alive-6-pc"
+      },
+      {
+        "slug": "dead-or-alive-6-ps4",
+        "file": "dead-or-alive-6-ps4"
+      },
+      {
+        "slug": "dead-or-alive-6-ps5-upgrade",
+        "file": "dead-or-alive-6-ps5-upgrade"
+      },
+      {
+        "slug": "dead-or-alive-6-ps5",
+        "file": "dead-or-alive-6-ps5"
+      },
+      {
+        "slug": "dead-or-alive-6-steam-deck",
+        "file": "dead-or-alive-6-steam-deck"
+      },
+      {
+        "slug": "dead-or-alive-6-steam",
+        "file": "dead-or-alive-6-steam"
+      },
+      {
+        "slug": "dead-or-alive-6-xbox",
+        "file": "dead-or-alive-6-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dead-or-alive-6-last-round-release-date",
+        "file": "dead-or-alive-6-last-round-release-date"
+      },
+      {
+        "slug": "dead-or-alive-6-last-round-upgrade",
+        "file": "dead-or-alive-6-last-round-upgrade"
+      },
+      {
+        "slug": "dead-or-alive-6-last-round",
+        "file": "dead-or-alive-6-last-round"
+      },
+      {
+        "slug": "dead-or-alive-6-last-update",
+        "file": "dead-or-alive-6-last-update"
+      },
+      {
+        "slug": "dead-or-alive-6-release-date",
+        "file": "dead-or-alive-6-release-date"
+      },
+      {
+        "slug": "dead-or-alive-6-version-1-30",
+        "file": "dead-or-alive-6-version-1.30"
+      }
+    ],
+    "unlockables": [
+      {
+        "slug": "dead-or-alive-6-how-to-unlock-characters",
+        "file": "dead-or-alive-6-how-to-unlock-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-how-to-unlock-costumes",
+        "file": "dead-or-alive-6-how-to-unlock-costumes"
+      },
+      {
+        "slug": "dead-or-alive-6-outfits",
+        "file": "dead-or-alive-6-outfits"
+      },
+      {
+        "slug": "dead-or-alive-6-unlock-costumes",
+        "file": "dead-or-alive-6-unlock-costumes"
+      }
+    ]
+  },
+  "ru": {
+    "characters": [
+      {
+        "slug": "dead-or-alive-6-characters",
+        "file": "dead-or-alive-6-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-female-characters",
+        "file": "dead-or-alive-6-female-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-guest-characters",
+        "file": "dead-or-alive-6-guest-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-honoka",
+        "file": "dead-or-alive-6-honoka"
+      },
+      {
+        "slug": "dead-or-alive-6-kasumi",
+        "file": "dead-or-alive-6-kasumi"
+      },
+      {
+        "slug": "dead-or-alive-6-mai",
+        "file": "dead-or-alive-6-mai"
+      },
+      {
+        "slug": "dead-or-alive-6-minato",
+        "file": "dead-or-alive-6-minato"
+      },
+      {
+        "slug": "dead-or-alive-6-roster",
+        "file": "dead-or-alive-6-roster"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "dead-or-alive-6-core-fighters",
+        "file": "dead-or-alive-6-core-fighters"
+      },
+      {
+        "slug": "dead-or-alive-6-digital-deluxe-edition-content",
+        "file": "dead-or-alive-6-digital-deluxe-edition-content"
+      },
+      {
+        "slug": "dead-or-alive-6-dlc-costumes",
+        "file": "dead-or-alive-6-dlc-costumes"
+      },
+      {
+        "slug": "dead-or-alive-6-dlc",
+        "file": "dead-or-alive-6-dlc"
+      },
+      {
+        "slug": "dead-or-alive-6-free-characters",
+        "file": "dead-or-alive-6-free-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-free-version",
+        "file": "dead-or-alive-6-free-version"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dead-or-alive-6-beginner-guide",
+        "file": "dead-or-alive-6-beginner-guide"
+      },
+      {
+        "slug": "dead-or-alive-6-break-blow",
+        "file": "dead-or-alive-6-break-blow"
+      },
+      {
+        "slug": "dead-or-alive-6-buttons",
+        "file": "dead-or-alive-6-buttons"
+      },
+      {
+        "slug": "dead-or-alive-6-controls",
+        "file": "dead-or-alive-6-controls"
+      },
+      {
+        "slug": "dead-or-alive-6-guide",
+        "file": "dead-or-alive-6-guide"
+      },
+      {
+        "slug": "dead-or-alive-6-keyboard-controls",
+        "file": "dead-or-alive-6-keyboard-controls"
+      },
+      {
+        "slug": "dead-or-alive-6-offensive-hold",
+        "file": "dead-or-alive-6-offensive-hold"
+      },
+      {
+        "slug": "dead-or-alive-6-special-moves",
+        "file": "dead-or-alive-6-special-moves"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dead-or-alive-6-cross-play",
+        "file": "dead-or-alive-6-cross-play"
+      },
+      {
+        "slug": "dead-or-alive-6-pc",
+        "file": "dead-or-alive-6-pc"
+      },
+      {
+        "slug": "dead-or-alive-6-ps4",
+        "file": "dead-or-alive-6-ps4"
+      },
+      {
+        "slug": "dead-or-alive-6-ps5-upgrade",
+        "file": "dead-or-alive-6-ps5-upgrade"
+      },
+      {
+        "slug": "dead-or-alive-6-ps5",
+        "file": "dead-or-alive-6-ps5"
+      },
+      {
+        "slug": "dead-or-alive-6-steam-deck",
+        "file": "dead-or-alive-6-steam-deck"
+      },
+      {
+        "slug": "dead-or-alive-6-steam",
+        "file": "dead-or-alive-6-steam"
+      },
+      {
+        "slug": "dead-or-alive-6-xbox",
+        "file": "dead-or-alive-6-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dead-or-alive-6-last-round-release-date",
+        "file": "dead-or-alive-6-last-round-release-date"
+      },
+      {
+        "slug": "dead-or-alive-6-last-round-upgrade",
+        "file": "dead-or-alive-6-last-round-upgrade"
+      },
+      {
+        "slug": "dead-or-alive-6-last-round",
+        "file": "dead-or-alive-6-last-round"
+      },
+      {
+        "slug": "dead-or-alive-6-last-update",
+        "file": "dead-or-alive-6-last-update"
+      },
+      {
+        "slug": "dead-or-alive-6-release-date",
+        "file": "dead-or-alive-6-release-date"
+      },
+      {
+        "slug": "dead-or-alive-6-version-1-30",
+        "file": "dead-or-alive-6-version-1.30"
+      }
+    ],
+    "unlockables": [
+      {
+        "slug": "dead-or-alive-6-how-to-unlock-characters",
+        "file": "dead-or-alive-6-how-to-unlock-characters"
+      },
+      {
+        "slug": "dead-or-alive-6-how-to-unlock-costumes",
+        "file": "dead-or-alive-6-how-to-unlock-costumes"
+      },
+      {
+        "slug": "dead-or-alive-6-outfits",
+        "file": "dead-or-alive-6-outfits"
+      },
+      {
+        "slug": "dead-or-alive-6-unlock-costumes",
+        "file": "dead-or-alive-6-unlock-costumes"
+      }
+    ]
+  }
+}

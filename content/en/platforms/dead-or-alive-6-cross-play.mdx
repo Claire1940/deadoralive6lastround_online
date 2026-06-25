@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dead or Alive 6 Cross Play: Platform Limits & Setup Guide",
+  description: "Explore Dead or Alive 6 cross play status, platform compatibility for Last Round, and a complete guide to save data transfer for PS5, Xbox, and Steam.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=DOA6+Cross+Play+Guide",
+  date: "2026-06-25",
+  author: "dead or alive 6 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dead or Alive 6 cross play** is currently not supported between different platforms or between the original 2019 version and the 2026 Last Round release.
+- **Save data transfer** is available within the same platform ecosystem (e.g., PS4 to PS5) using cloud storage or local backups.
+- **Last Round Edition** (2026) is the current standard for PS5, Xbox Series X|S, and Steam, featuring 29 standard fighters.
+- **DLC Carry-over** allows most purchased costumes to move to the new version, provided you own the character unlock key on the same account.
+- **Online Capacity** supports up to 16 players in lobby matches for the Last Round version on current-gen consoles.
+</Callout>
+
+<Section icon={Shield} title="Dead or Alive 6 Cross Play and Platform Compatibility">
+
+The landscape of competitive fighting games often hinges on the ability to challenge players across different systems, but **dead or alive 6 cross play** remains limited by strict platform boundaries. As of the 2026 release of Dead or Alive 6 Last Round, Team NINJA has confirmed that cross-platform play is not supported. This means PlayStation 5 users cannot match with Xbox Series X|S or Steam players. Furthermore, there is a distinct network split between the original 2019 release and the updated Last Round version; players on the legacy version cannot enter the same matchmaking pool as those on the current-gen update.
+
+Understanding these restrictions is vital for players looking to maintain their rank or join specific community tournaments. While the lack of cross-play might seem like a hurdle, the Last Round update consolidates the player base on modern hardware, ensuring better performance and stability for those within the same ecosystem.
+
+| Feature | Original DOA6 (2019) | DOA6 Last Round (2026) |
+| :--- | :--- | :--- |
+| **Platforms** | PS4, Xbox One, Steam | PS5, Xbox Series X|S, Steam |
+| **Cross-Platform Play** | Not Supported | Not Supported |
+| **Cross-Version Play** | Not Supported | Not Supported |
+| **Online Player Cap** | Up to 8 (Lobby) | Up to 16 (Lobby) |
+| **Network API** | DirectX 11 | DirectX 12 (Steam) |
+
+<Callout type="warning" title="Network Split Warning">
+Be aware that purchasing DLC for the 2026 Last Round version will not make that content available if you switch back to the original 2019 version of the game. The ecosystems are treated as separate entities.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Platform Availability and Version Differences">
+
+Choosing the right version of the game is the first step toward a consistent online experience. Since the original Dead or Alive 6 has been delisted from the Steam store, new players should focus on the Last Round edition. This version is optimized for current-gen hardware, offering faster load times and the new Photo Mode.
+
+The "Core Fighters" version remains a popular entry point, offering a free-to-play model that allows participation in ranked matches. However, the starting roster differs significantly between the original Core Fighters and the Last Round Core Fighters.
+
+| Edition | Price Model | Included Characters | Key Features |
+| :--- | :--- | :--- | :--- |
+| **Original Core Fighters** | Free-to-Play | Kasumi, Hitomi, Diego, Bass | Basic online access, limited Story |
+| **Last Round Core Fighters** | Free-to-Play | Kasumi, Marie Rose, Honoka, NiCO | Photo Mode, Online, No Story |
+| **Last Round Full Version** | Paid | 29 Characters (incl. Momiji, Rachel) | Full Story, All Base DLC Fighters |
+
+<CardGrid cols={2}>
+  <Card title="PlayStation 5 Strategy">
+    - **Physical/Digital**: Digital release only for Last Round.
+    - **Subscription**: PS Plus required for online play.
+    - **Transfer**: Supports PS4 save data migration via Cloud or USB.
+  </Card>
+  <Card title="Steam (PC) Strategy">
+    - **Hardware**: SSD required for Last Round version.
+    - **API**: Requires DirectX 12 for modern features.
+    - **Transfer**: Manual folder move or Steam Cloud support.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip: Character Unlocks">
+If you are a Core Fighters player, you can use any character in Tutorial and DOA Quest modes even if you haven't purchased their individual unlock keys. This is the best way to test a fighter before buying.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Save Data Transfer and DLC Carry-over Rules">
+
+While **dead or alive 6 cross play** isn't an option, the developers have provided a robust "Carry-over" system for those upgrading within the same platform family. This is essential for players who spent years unlocking costumes or climbing the ranks in the original release. Most progression items, including DOA Quest stars, Encyclopedia entries, and purchased costumes, can be moved to the Last Round version.
+
+However, there are critical exceptions to this rule. Guest characters from the King of Fighters series, specifically Mai Shiranui and Kula Diamond, require new unlock keys in the Last Round version due to licensing updates.
+
+| Transferable Items | Non-Transferable Items |
+| :--- | :--- |
+| Most Costume Unlocks | Mai Shiranui/Kula Diamond DLC |
+| Story & Quest Progression | Premium Tickets (PS4) |
+| Owner Points & Wardrobe | Ranking Points (RP) |
+| Tutorial & Training Data | Fighter Level & Fight Records |
+| Encyclopedia & Trivia | Hair Color Change Data |
+
+<Callout type="success" title="Migration Success">
+Successfully transferring your data will grant you immediate access to your previously earned Owner Points, allowing you to buy the new Last Round Team NINJA themed costumes for Kasumi and Ayane right away.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: How to Migrate Your Progress">
+
+If you are moving from the 2019 version to the 2026 Last Round update, follow these steps to ensure your data is correctly recognized. Note that you must use the same account (PSN, Xbox Live, or Steam) for the transfer to function.
+
+<Steps>
+  <Step num="1" title="Backup Original Data">
+    Ensure your original Dead or Alive 6 save data is uploaded to the cloud (PS Plus/Xbox Network) or backed up locally on your PC.
+  </Step>
+  <Step num="2" title="Install Last Round">
+    Download and install Dead or Alive 6 Last Round on your new hardware. Do not create a new save file manually if prompted.
+  </Step>
+  <Step num="3" title="Initiate Transfer">
+    Launch the game. The system should automatically detect the legacy save data. Select "Yes" when asked to import previous progress.
+  </Step>
+  <Step num="4" title="Verify DLC Licenses">
+    Go to the in-game Wardrobe. Check if your previously owned costumes are available. If some are missing, you may need to re-download the "Character Unlock Keys" from the store.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Step">
+If you have already started a new game in Last Round and wish to import old data, you must delete the existing Last Round save file from your system settings first. The import only triggers if no current-gen save is present.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Online Modes and Performance Requirements">
+
+The online experience in the 2026 version has been enhanced to support larger lobbies and better stability. Since **dead or alive 6 cross play** is absent, the quality of your matches depends entirely on the local player base and your hardware configuration. For PC players, the jump to DirectX 12 and the requirement of an SSD are mandatory for a smooth online experience.
+
+| Requirement | Minimum (720p/60fps) | Recommended (1080p/60fps) |
+| :--- | :--- | :--- |
+| **OS** | Windows 11 | Windows 11 |
+| **CPU** | Intel Core i5-8400 | Intel Core i7-8700 |
+| **RAM** | 8 GB | 16 GB |
+| **GPU** | GTX 1060 (6GB) | GTX 1070 (8GB) |
+| **Storage** | 80 GB SSD | 80 GB SSD |
+
+<CardGrid cols={3}>
+  <Card title="Ranked Match">
+    - Skill-based matchmaking.
+    - Gain/Loss of Grade Points.
+    - Connection filters available on PS5.
+  </Card>
+  <Card title="Lobby Match">
+    - Up to 16 players per room.
+    - Custom rules and spectator mode.
+    - No impact on Grade Points.
+  </Card>
+  <Card title="Online Training">
+    - Practice with a friend online.
+    - Real-time frame data display.
+    - Ideal for testing lag-specific combos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Steam Connection Note">
+On the Steam version, connection quality conditions cannot be manually adjusted by the player in the matchmaking menu. The system automatically pairs you based on the best available ping.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pre-Match Checklist and FAQ">
+
+Before jumping into the arena, ensure your setup is optimized for the 2026 meta. Since you won't be encountering players from other platforms, focusing on the specific hardware nuances of your chosen system is key.
+
+<Checklist
+  id="online-prep"
+  title="Online Readiness Checklist:"
+  items={[
+    "Verify NAT Type is Open or Type 2",
+    "Install game on SSD for faster stage loading",
+    "Confirm Character Unlock Keys are active",
+    "Update to the latest version (v2.0 or higher)",
+    "Check for background downloads that impact ping"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Does Dead or Alive 6 have cross play in 2026?",
+    answer: "No, Dead or Alive 6 cross play is not supported between PlayStation, Xbox, and PC. Additionally, the 2019 version and the 2026 Last Round version use separate servers."
+  },
+  {
+    question: "Can I transfer my PS4 save to the PS5 Last Round version?",
+    answer: "Yes, save data, costumes, and progression can be transferred within the same platform family using cloud storage or USB backups, provided you use the same account."
+  },
+  {
+    question: "Are Mai Shiranui and Kula Diamond included in Last Round?",
+    answer: "No, these guest characters are handled as separate DLC and are not part of the 29-character standard roster for Dead or Alive 6 Last Round."
+  },
+  {
+    question: "Why can't I find my old costumes in the new version?",
+    answer: "You must own the 'Character Unlock Key' for the specific fighter to use their carried-over costumes. Also, some collaboration costumes may have licensing restrictions that prevent transfer."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Always keep a backup of your original 2019 save file. While the transfer to Last Round is generally reliable, having a fallback ensures your years of progress are never truly lost in the transition to the new generation.
+</Callout>
+
+</Section>
