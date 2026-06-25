@@ -28,6 +28,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Dead or Alive 6 模块导航图标（仅 tools.cards 通过 DynamicIcon 消费）
+  Calendar: LucideIcons.Calendar,
+  Swords: LucideIcons.Swords,
+  ScrollText: LucideIcons.ScrollText,
+  Shirt: LucideIcons.Shirt,
+  Gift: LucideIcons.Gift,
+  Cpu: LucideIcons.Cpu,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
