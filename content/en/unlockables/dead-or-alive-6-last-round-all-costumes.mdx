@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dead or Alive 6 Last Round All Costumes: Carry-Over Guide",
+  description: "Learn how to transfer your Dead or Alive 6 Last Round all costumes, DLC, and save data across PlayStation, Xbox, and Steam with this guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Costume+Transfer+Guide",
+  date: "2026-06-28",
+  author: "dead or alive 6 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **dead or alive 6 last round all costumes**: Most previously purchased outfits can be transferred to the upgraded edition.
+- **Account requirement**: You must use the identical account profile on your chosen platform to carry over any content.
+- **Save progression**: Key campaign data, quest logs, and training records migrate seamlessly to the new version.
+- **Licensing exceptions**: Crossover cosmetic content and specific collaboration fighters are excluded from the transfer.
+- **System overwrite**: Existing save data on the target version must be deleted to trigger the migration prompt.
+</Callout>
+
+<Section icon={Shield} title="Dead or Alive 6 Last Round All Costumes Transfer Rules">
+
+Transitioning to the upgraded edition of the fighting game requires a clear understanding of how cosmetic licenses are handled. The developers have established a robust system that allows players to retain the vast majority of their cosmetic purchases. However, due to licensing agreements and regional storefront rules, certain restrictions apply.
+
+Standard outfits purchased for the base roster are fully eligible for migration. When you move your profile to the updated version, the system verifies your purchase history against the platform database to unlock the corresponding items. It is important to note that you must own the character unlock keys in the upgraded version to utilize any carried-over cosmetics. If a character is locked, their associated outfits remain inaccessible until the fighter is unlocked.
+
+| Item Type | Carry-Over Status | Notes and Requirements |
+| :--- | :--- | :--- |
+| Standard DLC Costumes | Supported | Requires owned character unlock keys |
+| Collaboration Costumes | Not Supported | Mai Shiranui and Kula Diamond costumes excluded |
+| Additional Characters | Not Supported | Standard version includes 29 base characters |
+| Premium Tickets | Not Supported | PS4 Premium Tickets cannot transfer to Last Round |
+| Hair Color Changes | Not Supported | Custom hair color options do not carry over |
+
+<CardGrid cols={3}>
+  <Card title="Same Account Restriction">
+    You must use the exact same account profile on PlayStation Network, Xbox Network, or Steam. Cross-account transfers are strictly prohibited.
+  </Card>
+  <Card title="Active Connection">
+    An active network connection is mandatory during the initial boot of the upgraded edition to verify and authenticate your cosmetic licenses.
+  </Card>
+  <Card title="One-Way Migration">
+    Data migration is strictly one-way. Any progress made or DLC purchased in the upgraded version cannot be transferred back to the base version.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Collaboration Licensing Exception">
+Cosmetic DLC and outfits designed for collaboration characters, specifically Mai Shiranui and Kula Diamond, are completely excluded from the transfer system. These items must be repurchased or unlocked under separate licensing terms due to intellectual property agreements with external publishers.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Costume Transfer Guide">
+
+Migrating your cosmetic library requires a specific sequence of actions to ensure the platform servers correctly register your ownership. Failing to update the base game or launching the upgraded version prematurely can result in verification errors. 
+
+The integration process relies on cloud-based license verification. By updating your software to the latest patch, you allow the game to generate a secure handshake file that the upgraded edition can read upon its first launch. 
+
+| Platform | Connection Required | Import Method | Key Requirement |
+| :--- | :--- | :--- | :--- |
+| PlayStation 5 | PlayStation Network | Cloud or USB Import | Base game updated to Ver. 1.23 |
+| Xbox Series X/S | Xbox Network | Automatic Cloud Sync | Install base DLC prior to boot |
+| Steam (PC) | Steam Cloud / Local | Automatic or Manual | Same Steam account required |
+
+<Steps>
+  <Step num="1" title="Update the Base Software">
+    Before initiating any transfer, launch your base game and ensure it is updated to the latest version. For PlayStation players, the software must be updated to Ver. 1.23. This update contains the necessary code to prepare your cosmetic licenses for migration.
+  </Step>
+  <Step num="2" title="Upload DLC and Save Data">
+    Log into your platform network profile. Launch the base game and navigate to the main menu. The system will automatically prepare and upload your cosmetic ownership profile to the platform cloud database.
+  </Step>
+  <Step num="3" title="Initialize the Upgraded Edition">
+    Close the base game and launch the upgraded edition while signed into the identical network account. The upgraded edition will automatically scan the cloud database, detect your licenses, and unlock your qualified outfits.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Physical Disc Workaround">
+If you no longer possess the physical disc for the base PlayStation 4 version, you can download the free-to-play Core Fighters edition from the PlayStation Store. This digital version can be used to log in, access your purchase history, and upload your cosmetic data to the cloud for transfer.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Save Data and Progression Transfer Rules">
+
+Beyond unlocking outfits, preserving your gameplay progress is vital for maintaining your achievements, training records, and single-player completion status. The migration utility supports transferring story progression, challenge completions, and unlocked gallery items. 
+
+However, competitive multiplayer data, local system configurations, and custom closet setups are excluded from the transfer. This separation ensures that leaderboard integrity is maintained on the new platform while sparing players from repeating tedious single-player challenges.
+
+| Data Category | Transfer Status | Items Included |
+| :--- | :--- | :--- |
+| Progression | Supported | Story Mode, DOA Quest, Tutorial, Command Training |
+| Cosmetics | Supported | Unlocked Costumes, Hairstyles, Glasses, BGMs |
+| Titles | Limited | Standard titles transfer; collaboration titles excluded |
+| User Records | Not Supported | Fighter Level, Fighter Points, Player Points, Rankings |
+| System Settings | Not Supported | Option settings, Closet custom settings, Replays |
+
+<Checklist
+  id="pre-transfer-checklist"
+  title="Pre-Transfer Checklist:"
+  items={[
+    "Verify the base game is updated to the latest official patch",
+    "Ensure you are logged into the identical network profile on both versions",
+    "Confirm your platform cloud storage has synchronized the latest save file",
+    "Backup local files manually if you are migrating on Steam",
+    "Unlock any desired base game achievements that yield in-game titles"
+  ]}
+/>
+
+<Callout type="warning" title="Existing Save Overwrite Warning">
+The automatic transfer prompt will only appear on your first boot of the upgraded edition. If you have already created a new save file in the upgraded version, the game will bypass the migration check. To resolve this, you must delete any existing save data for the upgraded version from your system storage before restarting the application.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Platform-Specific Save Migration Methods">
+
+Each gaming platform utilizes a distinct architecture for handling cloud saves and local directory storage. Understanding the nuances of your specific console or PC environment is essential to prevent data corruption or lost progress during the migration process.
+
+For PlayStation users, cloud storage via PlayStation Plus is the most reliable method, though physical USB drives remain a viable option for legacy hardware transfers. Xbox users benefit from a fully automated cloud infrastructure that synchronizes data silently in the background. PC players on Steam have the added flexibility of manual file manipulation, allowing them to copy raw save directories directly.
+
+| Platform | Cloud Method | USB Method | Recommended Option |
+| :--- | :--- | :--- | :--- |
+| PS5 (Same Console) | Auto-detects local save | Not applicable | Local auto-detection |
+| PS5 (New Console) | PlayStation Plus Cloud | Not supported for PS5 to PS5 | PlayStation Plus Cloud |
+| Xbox Series X/S | Xbox Network Auto-sync | Not supported | Xbox Network Cloud |
+| Steam (PC) | Steam Cloud Sync | Manual folder copy to KoeiTecmo path | Steam Cloud Sync |
+
+To manually transfer your files on PC, navigate to the local directory where your save data is stored. Copy the entire folder located at:
+`\Users\(Your Username)\Documents\KoeiTecmo\DEADORALIVE6`
+Paste this folder into the identical directory path on your new PC before launching the upgraded edition. Ensure Steam Cloud is enabled in your Steam client settings to prevent the platform from overwriting your manual files with an empty cloud save.
+
+According to the [official Team NINJA product documentation](https://teamninja-studio.com/doa6/lastround/us/productinfo/), cross-play and cross-platform save transfers are not supported. You cannot move save files or purchased DLC between PlayStation, Xbox, and Steam.
+
+<Callout type="info" title="Network Connection Required">
+An active, stable connection to your platform network (PlayStation Network, Xbox Network, or Steam) is mandatory throughout the entire transfer process. Offline profile verification is not supported, and attempting to transfer files while offline may result in corrupted save states.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+Review these common questions regarding cosmetic transfers, platform compatibility, and troubleshooting steps for your migration.
+
+<FAQ items={[
+  {
+    question: "Do dead or alive 6 last round all costumes transfer automatically?",
+    answer: "Yes, standard DLC costumes transfer automatically when you launch the upgraded edition using the same network account, provided you have updated your base game to the latest version and successfully uploaded your license data to the cloud."
+  },
+  {
+    question: "Can I transfer my purchased Premium Tickets to the upgraded edition?",
+    answer: "No, Premium Tickets purchased in the legacy PlayStation 4 version are locked to that specific platform and software version. They cannot be transferred or redeemed in the upgraded edition."
+  },
+  {
+    question: "What happens if I lose my physical disc for the base game?",
+    answer: "If you no longer have the physical disc, you can download the free-to-play Core Fighters edition from your console store. Logging into this version allows you to upload your save data and cosmetic licenses to the cloud for migration."
+  },
+  {
+    question: "Why are my collaboration costumes missing after the transfer?",
+    answer: "Collaboration costumes, such as those for Mai Shiranui and Kula Diamond, are excluded from the transfer system due to licensing restrictions. These items must be acquired separately within the upgraded edition."
+  }
+]} />
+
+<Callout type="success" title="Migration Complete">
+Once you have successfully executed these steps, your cosmetic library and single-player achievements will be fully integrated into the upgraded version. You can now enjoy the enhanced visual fidelity, improved performance, and expanded feature set without losing your hard-earned progress.
+</Callout>
+
+</Section>

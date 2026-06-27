@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Todos los atuendos de Dead or Alive 6 Last Round: Guía de transferencia",
+  description: "Aprende cómo transferir todos tus atuendos, DLC y datos de guardado de Dead or Alive 6 Last Round en PlayStation, Xbox y Steam con esta guía.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Costume+Transfer+Guide",
+  date: "2026-06-28",
+  author: "Equipo de Wiki de Dead or Alive 6",
+  keywords: "dead or alive 6, last round, atuendos, transferencia de datos, DLC, guía"
+}
+
+<Callout type="info" title="Guía rápida">
+- **dead or alive 6 last round todos los atuendos**: La mayoría de los trajes comprados anteriormente pueden transferirse a la edición mejorada.
+- **Requisito de cuenta**: Debes usar el mismo perfil de cuenta en la plataforma elegida para transferir cualquier contenido.
+- **Progresión del guardado**: Los datos clave de la campaña, los registros de misiones y los registros de entrenamiento se migran sin problemas a la nueva versión.
+- **Excepciones de licencia**: El contenido cosmético de crossover y los luchadores de colaboración específicos están excluidos de la transferencia.
+- **Sobrescritura del sistema**: Los datos de guardado existentes en la versión de destino deben eliminarse para activar el aviso de migración.
+</Callout>
+
+<Section icon={Shield} title="Reglas de transferencia de todos los atuendos de Dead or Alive 6 Last Round">
+
+La transición a la edición mejorada de este juego de lucha requiere una comprensión clara de cómo se manejan las licencias cosméticas. Los desarrolladores han establecido un sistema robusto que permite a los jugadores conservar la gran mayoría de sus compras de cosméticos. Sin embargo, debido a los acuerdos de licencia y las reglas de las tiendas regionales, se aplican ciertas restricciones.
+
+Los atuendos estándar comprados para el elenco base son totalmente elegibles para la migración. Cuando mueves tu perfil a la versión actualizada, el sistema verifica tu historial de compras contra la base de datos de la plataforma para desbloquear los artículos correspondientes. Es importante tener en cuenta que debes poseer las llaves de desbloqueo de personajes en la versión mejorada para utilizar cualquier cosmético transferido. Si un personaje está bloqueado, sus atuendos asociados permanecerán inaccesibles hasta que el luchador sea desbloqueado.
+
+| Tipo de artículo | Estado de transferencia | Notas y requisitos |
+| :--- | :--- | :--- |
+| Atuendos DLC estándar | Compatible | Requiere llaves de desbloqueo de personajes |
+| Atuendos de colaboración | No compatible | Atuendos de Mai Shiranui y Kula Diamond excluidos |
+| Personajes adicionales | No compatible | La versión estándar incluye 29 personajes base |
+| Boletos Premium | No compatible | Los Boletos Premium de PS4 no pueden transferirse a Last Round |
+| Cambios de color de pelo | No compatible | Las opciones personalizadas de color de pelo no se transfieren |
+
+<CardGrid cols={3}>
+  <Card title="Restricción de misma cuenta">
+    Debes usar exactamente el mismo perfil de cuenta en PlayStation Network, Xbox Network o Steam. Las transferencias entre cuentas están estrictamente prohibidas.
+  </Card>
+  <Card title="Conexión activa">
+    Es obligatoria una conexión de red activa durante el arranque inicial de la edición mejorada para verificar y autenticar tus licencias cosméticas.
+  </Card>
+  <Card title="Migración unidireccional">
+    La migración de datos es estrictamente unidireccional. Cualquier progreso realizado o DLC comprado en la versión mejorada no puede transferirse de vuelta a la versión base.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Excepción de licencia por colaboración">
+El DLC cosmético y los atuendos diseñados para personajes de colaboración, específicamente Mai Shiranui y Kula Diamond, están completamente excluidos del sistema de transferencia. Estos artículos deben volver a comprarse o desbloquearse bajo términos de licencia separados debido a acuerdos de propiedad intelectual con editores externos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para la transferencia de atuendos">
+
+Migrar tu biblioteca de cosméticos requiere una secuencia específica de acciones para asegurar que los servidores de la plataforma registren correctamente tu propiedad. No actualizar el juego base o lanzar la versión mejorada prematuramente puede resultar en errores de verificación.
+
+El proceso de integración se basa en la verificación de licencias en la nube. Al actualizar tu software al último parche, permites que el juego genere un archivo de enlace seguro que la edición mejorada puede leer en su primer lanzamiento.
+
+| Plataforma | Conexión requerida | Método de importación | Requisito clave |
+| :--- | :--- | :--- | :--- |
+| PlayStation 5 | PlayStation Network | Importación por nube o USB | Juego base actualizado a la Ver. 1.23 |
+| Xbox Series X/S | Xbox Network | Sincronización automática en la nube | Instalar DLC base antes del arranque |
+| Steam (PC) | Steam Cloud / Local | Automático o manual | Se requiere la misma cuenta de Steam |
+
+<Steps>
+  <Step num="1" title="Actualizar el software base">
+    Antes de iniciar cualquier transferencia, inicia tu juego base y asegúrate de que esté actualizado a la última versión. Para los jugadores de PlayStation, el software debe estar actualizado a la Ver. 1.23. Esta actualización contiene el código necesario para preparar tus licencias cosméticas para la migración.
+  </Step>
+  <Step num="2" title="Cargar DLC y datos de guardado">
+    Inicia sesión en tu perfil de red de la plataforma. Inicia el juego base y navega hasta el menú principal. El sistema preparará y cargará automáticamente tu perfil de propiedad cosmética a la base de datos en la nube de la plataforma.
+  </Step>
+  <Step num="3" title="Inicializar la edición mejorada">
+    Cierra el juego base e inicia la edición mejorada mientras estás conectado a la misma cuenta de red. La edición mejorada escaneará automáticamente la base de datos en la nube, detectará tus licencias y desbloqueará tus atuendos calificados.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Solución para disco físico">
+Si ya no posees el disco físico para la versión base de PlayStation 4, puedes descargar la edición gratuita Core Fighters de la PlayStation Store. Esta versión digital se puede usar para iniciar sesión, acceder a tu historial de compras y cargar tus datos cosméticos a la nube para la transferencia.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Reglas de transferencia de datos de guardado y progresión">
+
+Más allá de desbloquear atuendos, preservar tu progreso en el juego es vital para mantener tus logros, registros de entrenamiento y el estado de finalización para un solo jugador. La utilidad de migración admite la transferencia de progresión de la historia, desafíos completados y artículos de la galería desbloqueados.
+
+Sin embargo, los datos del multijugador competitivo, las configuraciones locales del sistema y las configuraciones personalizadas del armario están excluidos de la transferencia. Esta separación garantiza que la integridad de las clasificaciones se mantenga en la nueva plataforma, al tiempo que ahorra a los jugadores repetir tediosos desafíos para un solo jugador.
+
+| Categoría de datos | Estado de transferencia | Elementos incluidos |
+| :--- | :--- | :--- |
+| Progresión | Compatible | Modo Historia, DOA Quest, Tutorial, Entrenamiento de comandos |
+| Cosméticos | Compatible | Atuendos desbloqueados, Peinados, Gafas, BGMs |
+| Títulos | Limitado | Se transfieren títulos estándar; títulos de colaboración excluidos |
+| Registros de usuario | No compatible | Nivel de luchador, Puntos de luchador, Puntos de jugador, Rankings |
+| Ajustes del sistema | No compatible | Ajustes de opciones, ajustes personalizados del armario, Repeticiones |
+
+<Checklist
+  id="pre-transfer-checklist"
+  title="Lista de verificación previa a la transferencia:"
+  items={[
+    "Verificar que el juego base esté actualizado al último parche oficial",
+    "Asegurarse de haber iniciado sesión en el mismo perfil de red en ambas versiones",
+    "Confirmar que el almacenamiento en la nube de tu plataforma haya sincronizado el último archivo de guardado",
+    "Realizar una copia de seguridad manual de los archivos locales si estás migrando en Steam",
+    "Desbloquear cualquier logro deseado del juego base que otorgue títulos dentro del juego"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de sobrescritura de guardado existente">
+El aviso de transferencia automática solo aparecerá en tu primer arranque de la edición mejorada. Si ya has creado un nuevo archivo de guardado en la versión mejorada, el juego omitirá la verificación de migración. Para resolver esto, debes eliminar cualquier dato de guardado existente para la versión mejorada del almacenamiento de tu sistema antes de reiniciar la aplicación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Métodos de migración de guardado específicos por plataforma">
+
+Cada plataforma de juego utiliza una arquitectura distinta para manejar los guardados en la nube y el almacenamiento en directorios locales. Comprender los matices de tu entorno específico de consola o PC es esencial para evitar la corrupción de datos o la pérdida de progreso durante el proceso de migración.
+
+Para los usuarios de PlayStation, el almacenamiento en la nube a través de PlayStation Plus es el método más confiable, aunque las unidades USB físicas siguen siendo una opción viable para transferencias de hardware antiguo. Los usuarios de Xbox se benefician de una infraestructura en la nube totalmente automatizada que sincroniza los datos silenciosamente en segundo plano. Los jugadores de PC en Steam tienen la flexibilidad adicional de la manipulación manual de archivos, lo que les permite copiar directorios de guardado sin procesar directamente.
+
+| Plataforma | Método en la nube | Método USB | Opción recomendada |
+| :--- | :--- | :--- | :--- |
+| PS5 (Misma consola) | Detecta guardado local | No aplicable | Detección automática local |
+| PS5 (Nueva consola) | PlayStation Plus Cloud | No compatible de PS5 a PS5 | PlayStation Plus Cloud |
+| Xbox Series X/S | Auto-sincronización Xbox | No compatible | Xbox Network Cloud |
+| Steam (PC) | Sincronización Steam Cloud | Copia manual a ruta KoeiTecmo | Sincronización Steam Cloud |
+
+Para transferir manualmente tus archivos en PC, navega al directorio local donde se almacenan tus datos de guardado. Copia la carpeta completa ubicada en:
+`\Users\(Tu nombre de usuario)\Documents\KoeiTecmo\DEADORALIVE6`
+Pega esta carpeta en la misma ruta de directorio en tu nuevo PC antes de iniciar la edición mejorada. Asegúrate de que Steam Cloud esté habilitado en los ajustes de tu cliente de Steam para evitar que la plataforma sobrescriba tus archivos manuales con un guardado en la nube vacío.
+
+Según la [documentación oficial del producto de Team NINJA](https://teamninja-studio.com/doa6/lastround/us/productinfo/), el juego cruzado y las transferencias de guardado entre plataformas no son compatibles. No puedes mover archivos de guardado ni DLC comprados entre PlayStation, Xbox y Steam.
+
+<Callout type="info" title="Conexión de red requerida">
+Es obligatoria una conexión activa y estable a la red de tu plataforma (PlayStation Network, Xbox Network o Steam) durante todo el proceso de transferencia. La verificación de perfiles sin conexión no es compatible, y el intento de transferir archivos mientras estás desconectado puede resultar en estados de guardado corruptos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Revisa estas preguntas comunes sobre transferencias de cosméticos, compatibilidad de plataformas y pasos de solución de problemas para tu migración.
+
+<FAQ items={[
+  {
+    question: "¿Se transfieren automáticamente todos los atuendos de Dead or Alive 6 Last Round?",
+    answer: "Sí, los atuendos DLC estándar se transfieren automáticamente cuando inicias la edición mejorada usando la misma cuenta de red, siempre que hayas actualizado tu juego base a la última versión y hayas cargado con éxito tus datos de licencia a la nube."
+  },
+  {
+    question: "¿Puedo transferir mis Boletos Premium comprados a la edición mejorada?",
+    answer: "No, los Boletos Premium comprados en la versión antigua de PlayStation 4 están bloqueados a esa plataforma y versión de software específica. No pueden transferirse ni canjearse en la edición mejorada."
+  },
+  {
+    question: "¿Qué pasa si pierdo mi disco físico del juego base?",
+    answer: "Si ya no tienes el disco físico, puedes descargar la edición gratuita Core Fighters de la tienda de tu consola. Iniciar sesión en esta versión te permite cargar tus datos de guardado y licencias cosméticas a la nube para la migración."
+  },
+  {
+    question: "¿Por qué faltan mis atuendos de colaboración después de la transferencia?",
+    answer: "Los atuendos de colaboración, como los de Mai Shiranui y Kula Diamond, están excluidos del sistema de transferencia debido a restricciones de licencia. Estos artículos deben adquirirse por separado dentro de la edición mejorada."
+  }
+]} />
+
+<Callout type="success" title="Migración completa">
+Una vez que hayas ejecutado con éxito estos pasos, tu biblioteca cosmética y tus logros para un solo jugador estarán plenamente integrados en la versión mejorada. Ahora puedes disfrutar de la fidelidad visual mejorada, el rendimiento optimizado y el conjunto de características expandido sin perder tu progreso ganado con tanto esfuerzo.
+</Callout>
+
+</Section>
