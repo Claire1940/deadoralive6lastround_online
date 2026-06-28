@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Juego cruzado en Dead Or Alive 6 Last Round: Guía de configuración y consejos de transferencia",
+  description: "Aprende todo sobre las limitaciones del juego cruzado en Dead Or Alive 6 Last Round, los pasos para transferir DLC y la migración de datos guardados para PS5, Xbox y Steam en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOA6+Last+Round+Crossplay+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Dead or Alive 6",
+  keywords: "dead or alive 6 last round, juego cruzado, crossplay, dlc, ps5, xbox, steam"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **juego cruzado (crossplay) de Dead Or Alive 6 Last Round** no es compatible entre diferentes plataformas (por ejemplo, PS5 no puede jugar con Xbox o Steam).
+- También existen **restricciones de emparejamiento (matchmaking)** entre el Dead Or Alive 6 original y la edición Last Round; se tratan como títulos independientes.
+- La **migración de datos** es posible dentro del mismo ecosistema (de PS4 a PS5, de Xbox One a Series X|S) utilizando el almacenamiento local o en la nube.
+- Los **trajes de DLC** generalmente se transfieren, pero los personajes de colaboración como Mai Shiranui y Kula Diamond quedan excluidos debido a cuestiones de licencia.
+- La **actualización Ver.1.23** es obligatoria para el juego original antes de intentar cualquier transferencia de datos a la versión Last Round.
+</Callout>
+
+<Section icon={Swords} title="Juego cruzado en Dead Or Alive 6 Last Round: Datos esenciales de conectividad">
+
+La comunidad de juegos de lucha suele priorizar la funcionalidad multiplataforma para mantener una base de jugadores saludable. Sin embargo, para los jugadores que buscan información sobre el **juego cruzado de dead or alive 6 last round**, la realidad es bastante restrictiva. A partir de 2026, Team Ninja ha mantenido un entorno estrictamente bloqueado por plataforma para el emparejamiento. Esto significa que si juegas en Steam, no puedes desafiar a jugadores en PlayStation o Xbox. Además, la edición "Last Round" es técnicamente distinta del juego base, lo que significa que las salas de emparejamiento están separadas incluso en la misma marca de consola si las versiones no coinciden.
+
+**Puntos clave del video:**
+- Preocupaciones detalladas sobre la falta de un código de red (netcode) actualizado en el relanzamiento de Last Round.
+- Discusión sobre la estrategia de monetización "Full Greed" (codicia total) y su impacto en la comunidad de jugadores.
+- Perspectivas sobre la ausencia de los personajes de colaboración de SNK (Mai y Kula) en la nueva versión.
+- Análisis del regreso de los juegos de lucha en 3D y dónde encaja DOA6 en el meta actual.
+
+<YouTubeEmbed videoId="IAuebsSyxYE" title="DEAD OR ALIVE 6 Last Round me tiene preocupado" />
+
+| Función | Estado de Soporte | Notas |
+| :--- | :--- | :--- |
+| **Juego Multiplataforma** | No compatible | Sin PC vs Consola o PS vs Xbox |
+| **DOA6 vs DOA6 Last Round** | No compatible | Las versiones no pueden jugar entre sí |
+| **Juego Intergeneracional** | Compatible | PS4 vs PS5 / Xbox One vs Series X|S |
+| **Tipo de Código de Red** | Basado en retraso (Delay-Based) | No se ha implementado código de red rollback |
+| **Bloqueo de Región** | Bloqueo suave (Soft Lock) | El emparejamiento prioriza el ping local |
+
+<Callout type="warning" title="Alerta de emparejamiento">
+Incluso si posees ambas versiones en la misma consola, debes asegurarte de que tus amigos estén en la misma edición exacta (Estándar vs. Last Round) para invitarlos a una sala privada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ecosistemas de plataformas y restricciones multijugador">
+
+Comprender los límites de cada plataforma es crucial para los jugadores competitivos. Aunque el **juego cruzado de dead or alive 6 last round** está ausente entre marcas, el juego ofrece soporte intergeneracional dentro de los ecosistemas de Sony y Microsoft. Esto garantiza que la transición a un hardware más nuevo no deje atrás a la base de jugadores existente, incluso si no cierra la brecha entre competidores.
+
+<CardGrid cols={3}>
+  <Card title="Ecosistema PlayStation">
+    - **PS4 y PS5 Intergeneracional**
+    - Requiere PS Plus para jugar en línea
+    - Transferencia de DLC a través de PSN
+  </Card>
+  <Card title="Ecosistema Xbox">
+    - **Xbox One y Series X|S**
+    - Requiere Xbox Game Pass
+    - Soporte para Smart Delivery
+  </Card>
+  <Card title="Steam (PC)">
+    - **Base de jugadores aislada**
+    - Steam Cloud para partidas guardadas
+    - Sin interacción con consolas
+  </Card>
+</CardGrid>
+
+| Pareja de Plataformas | Compatibilidad | Calidad de Conexión |
+| :--- | :--- | :--- |
+| **De PS5 a PS4** | Alta | Estable dentro de la misma región |
+| **De Xbox Series a Xbox One** | Alta | Excelente a través de Xbox Network |
+| **De Steam a PS5** | Ninguna | No es posible |
+| **De Steam a Xbox** | Ninguna | No es posible |
+
+<Callout type="info" title="Estabilidad de la red">
+Dado que el juego utiliza un código de red basado en retraso en lugar de rollback, se recomienda encarecidamente una conexión a internet por cable Ethernet para minimizar las fluctuaciones (jitter) durante los combates de alta intensidad.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía paso a paso para la migración de datos">
+
+Si estás actualizando de la edición estándar a la versión Last Round, no tienes que empezar desde cero. Team Ninja has proporcionado una vía para transferir tu progreso acumulado con tanto esfuerzo y tus costosas colecciones de trajes. Sigue estos pasos detenidamente para asegurarte de que tu experiencia de **juego cruzado en dead or alive 6 last round** comience con todos tus elementos intactos.
+
+<Steps>
+  <Step num="1" title="Actualiza el juego base">
+    Asegúrate de que tu copia original de Dead Or Alive 6 esté actualizada a la **Versión 1.23**. Esta versión incluye la función "Cargar" (Upload) en el menú principal, necesaria para la vinculación con Last Round.
+  </Step>
+  <Step num="2" title="Sube los datos guardados">
+    Inicia el juego original, navega al Menú Principal y selecciona la opción para subir tu DLC y datos de guardado a la nube (PSN, Xbox Network o Steam Cloud).
+  </Step>
+  <Step num="3" title="Prepara la consola de destino">
+    En tu nueva consola (por ejemplo, PS5), asegúrate de haber iniciado sesión en la **misma cuenta exacta** utilizada para la compra original. Los datos no se pueden transferir entre diferentes ID de usuario.
+  </Step>
+  <Step num="4" title="Inicia Last Round">
+    Inicia Dead Or Alive 6 Last Round. Al llegar a la pantalla de título, el juego detectará automáticamente los datos de la nube y te mostrará un mensaje de "Transferencia" (Transfer).
+  </Step>
+  <Step num="5" title="Verifica el contenido">
+    Revisa el "Armario" (Closet) y el "Modo Historia" para confirmar que tus trajes y progreso se hayan migrado correctamente. Ten en cuenta que algunos elementos, como los Puntos de Clasificación (Ranking Points), se restablecerán.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Ruta de la carpeta en PC">
+Para los usuarios de Steam que se muden a una nueva PC, pueden realizar una copia de seguridad manual de su carpeta de guardado ubicada en: `\Users\(Nombre de usuario)\Documents\KoeiTecmo\DEADORALIVE6`.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Transferencia de contenido: Trajes y progreso">
+
+No todo da el salto a la edición Last Round. Mientras que los artículos "Estándar" están seguros, los acuerdos de licencia para el contenido de colaboración a menudo expiran o están restringidos a versiones específicas. Esta es una consideración vital para los jugadores que gastaron cantidades significativas en DLC.
+
+| Categoría | Estado de Transferencia | Notas Críticas |
+| :--- | :--- | :--- |
+| **Trajes Estándar** | **Completo** | Requiere la clave de desbloqueo del personaje |
+| **Progreso de la Historia** | **Completo** | Incluye el progreso de DOA Quest |
+| **DLC de Mai Shiranui** | **Ninguno** | Restricción de licencia (SNK) |
+| **DLC de Kula Diamond** | **Ninguno** | Restricción de licencia (SNK) |
+| **Clasificación / Puntos** | **Ninguno** | El nivel de luchador y los puntos se restablecen |
+| **Boletos Premium** | **Ninguno** | Los boletos de PS4 no se transfieren |
+
+<Checklist
+  id="migration-checklist"
+  title="Requisitos previos a la migración:"
+  items={[
+    "Juego original actualizado a la Ver.1.23",
+    "Sesión iniciada en la misma cuenta de PSN/Xbox/Steam",
+    "Conexión a internet activa durante el primer inicio",
+    "Almacenamiento en la nube habilitado en la configuración del sistema",
+    "Claves de desbloqueo compradas para personajes específicos"
+  ]}
+/>
+
+<Callout type="success" title="Consejo sobre trajes">
+Los peinados, gafas y títulos adquiridos generalmente se transfieren sin problemas, lo que te permite mantener la estética personalizada de tu personaje en la nueva versión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos técnicos y estabilidad de la red">
+
+Para maximizar tu experiencia ante la ausencia de **juego cruzado en dead or alive 6 last round**, debes concentrarte en optimizar tu configuración local y de red. Los juegos de lucha dependen de los fotogramas (frames), y un retraso mínimo puede arruinar un combo o un contraataque (counter-hold).
+
+| Requisito | Configuración Recomendada | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Tipo de Conexión** | Ethernet por cable | Reduce la pérdida de paquetes y el lag |
+| **Modo de Pantalla** | Modo Juego (TV) | Minimiza la latencia de entrada |
+| **Almacenamiento** | SSD interno | Tiempos de carga más rápidos entre asaltos |
+| **Versión de Actualización** | Última disponible | Garantiza la compatibilidad y la corrección de errores |
+
+<Callout type="warning" title="Sobrescritura de datos guardados">
+No puedes transferir datos guardados si ya has creado un nuevo archivo de guardado en Dead Or Alive 6 Last Round. Si ya has comenzado, debes eliminar los datos guardados de Last Round antes de que vuelva a aparecer el aviso de transferencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar con juego cruzado en Dead Or Alive 6 Last Round entre PS5 y PC?",
+    answer: "No, el juego cruzado entre PlayStation 5 y PC (Steam) no es compatible. El emparejamiento está restringido al ecosistema de la plataforma específica en la que estés jugando."
+  },
+  {
+    question: "¿Por qué no se transfirieron mis DLC de Mai Shiranui y Kula Diamond?",
+    answer: "Debido a los acuerdos de licencia entre Koei Tecmo y SNK, los personajes de colaboración y sus trajes asociados no pueden transferirse a la edición Last Round."
+  },
+  {
+    question: "¿Tengo que pagar por el servicio de transferencia?",
+    answer: "No, el proceso de transferencia de datos es gratuito, siempre que poseas ambas versiones del juego y utilices la misma cuenta en la misma familia de consolas."
+  },
+  {
+    question: "¿Puedo transferir mi progreso de Steam a PlayStation?",
+    answer: "No, la migración de datos solo es posible dentro de la misma familia de plataformas (por ejemplo, de PS4 a PS5). No puedes transferir partidas guardadas entre Steam y consolas."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+La edición "Last Round" está diseñada para ser la forma definitiva de jugar, pero la falta de juego cruzado significa que la comunidad sigue fragmentada. Comprueba siempre el número de jugadores activos en tu plataforma específica antes de comprometerte con el juego competitivo.
+</Callout>
+
+</Section>
