@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos del sistema de Dead or Alive 6 Last Round: Guía de configuración para PC",
+  description: "Consulta los requisitos del sistema de Dead or Alive 6 Last Round. Obtén información sobre las especificaciones mínimas y recomendadas para PC, pruebas de rendimiento de GPU y consejos de optimización para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOA6+System+Requirements",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de Dead or Alive 6"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los requisitos del sistema de Dead or Alive 6 last round** exigen un procesador y un sistema operativo de 64 bits para un rendimiento estable.
+- **La GPU mínima** comienza en el nivel de NVIDIA GeForce GTX 770 para manejar las físicas del Soft Engine 2.0.
+- **La memoria RAM recomendada** es de 16 GB para garantizar transiciones fluidas y texturas de alta resolución durante los combates intensos.
+- **Se requiere un espacio de almacenamiento** de al menos 50 GB para el juego base y las actualizaciones esenciales.
+- **DirectX 11** es la API obligatoria para ejecutar los efectos de iluminación avanzados y de partículas del juego.
+</Callout>
+
+<Section icon={Shield} title="Resumen oficial de las especificaciones de hardware">
+
+Comprender los **requisitos del sistema de Dead or Alive 6 last round** es el primer paso para lograr una ventaja competitiva. El juego utiliza el Soft Engine 2.0, que enfatiza el renderizado realista de la piel y la destrucción de la ropa, lo que supone una carga significativa tanto para la CPU como para la GPU. Aunque el juego es accesible en hardware más antiguo, alcanzar el objetivo de 60 FPS (fotogramas por segundo) no es negociable en los juegos de lucha, donde los datos de los fotogramas determinan la victoria.
+
+| Componente | Requisito mínimo | Especificación recomendada |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 (64 bits) | Windows 10/11 (64 bits) |
+| **Procesador** | Intel Core i5-4690 o equivalente | Intel Core i7-8700 / AMD Ryzen 5 3600 |
+| **Memoria** | 8 GB de RAM | 16 GB de RAM |
+| **Gráficos** | NVIDIA GeForce GTX 770 (2 GB) | NVIDIA GeForce GTX 1060 (6 GB) |
+| **DirectX** | Versión 11 | Versión 11 |
+| **Almacenamiento** | 50 GB de espacio disponible | Se prefiere SSD de 50 GB |
+| **Tarjeta de sonido** | Compatible con DirectX 11 | Compatible con DirectX 11 |
+
+<Callout type="success" title="Hito de rendimiento">
+Alcanzar las especificaciones recomendadas permite una resolución de 1080p a 60 FPS estables con ajustes altos, proporcionando la fidelidad visual prevista para los modelos de personajes y los escenarios dinámicos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Análisis detallado de componentes para jugadores de PC">
+
+Al evaluar tu equipo frente a los **requisitos del sistema de Dead or Alive 6 last round**, ciertos componentes tienen más peso que otros. El motor de lucha es muy sensible a los microtirones, que a menudo son causados por una VRAM insuficiente o procesos de la CPU en segundo plano.
+
+<CardGrid cols={3}>
+  <Card title="Impacto de la CPU">
+    - **Procesamiento de físicas**: Maneja el movimiento de la ropa y el cabello.
+    - **Multihilo**: Se beneficia de más de 6 núcleos para las transiciones de escenario.
+    - **Velocidad de reloj**: Un alto rendimiento de un solo núcleo evita el retraso de entrada.
+  </Card>
+  <Card title="Necesidad de GPU">
+    - **Uso de VRAM**: 2 GB es el mínimo; 6 GB es ideal para texturas 4K.
+    - **Sombreadores**: La iluminación avanzada requiere una arquitectura moderna.
+    - **Resolución**: GTX 1060 maneja 1080p; serie RTX para 4K.
+  </Card>
+  <Card title="Memoria y almacenamiento">
+    - **RAM del sistema**: 8 GB es suficiente para el juego por sí solo.
+    - **Multitarea**: 16 GB permite transmitir o grabar.
+    - **SSD vs HDD**: Un SSD reduce significativamente los tiempos de carga entre rondas.
+  </Card>
+</CardGrid>
+
+El motor del juego escala moderadamente bien, pero los jugadores que utilicen los requisitos mínimos deben esperar tener que reducir la calidad de las sombras y desactivar ciertos efectos de postprocesamiento como el desenfoque de movimiento o la profundidad de campo para mantener la estabilidad.
+
+<Callout type="warning" title="Limitación de VRAM">
+Si tu tarjeta gráfica tiene menos de 2 GB de VRAM, es posible que experimentes una aparición repentina de texturas o caídas del juego durante escenarios con una gran destrucción ambiental.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimización y configuración gráfica">
+
+Una vez que hayas confirmado que tu PC cumple con los **requisitos del sistema de Dead or Alive 6 last round**, el siguiente paso es ajustar la configuración interna del juego. Dead or Alive 6 ofrece una variedad de opciones que pueden ayudar a los sistemas de gama baja a alcanzar el estándar de oro de 60 FPS.
+
+| Configuración | Impacto en el rendimiento | Recomendado para gama media |
+| :--- | :--- | :--- |
+| **Renderizado de resolución** | Alto | 100% (Nativo) |
+| **Calidad de sombras** | Medio | Bajo o Medio |
+| **Efectos de Soft Engine** | Alto | Activado |
+| **Anti-aliasing** | Medio | FXAA o SMAA |
+| **Detalle de objetos** | Bajo | Medio |
+| **Destrucción de escenario** | Medio | Activado |
+
+<Callout type="tip" title="Optimización profesional">
+Reducir la \"Calidad de sombras\" es la forma más rápida de ganar entre 10 y 15 FPS en GPU más antiguas sin degradar significativamente el aspecto de los modelos de personajes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Instalación y configuración paso a paso">
+
+Para garantizar que el juego funcione correctamente después de verificar los **requisitos del sistema de Dead or Alive 6 last round**, sigue este procedimiento de configuración estandarizado. Esto asegura que tus controladores y el entorno del sistema estén optimizados para el motor de lucha.
+
+<Steps>
+  <Step num="1" title="Actualizar controladores gráficos">
+    Visita el sitio web de NVIDIA o AMD para descargar los controladores más recientes (se recomiendan de la versión 2026.05 o posterior). Es preferible una instalación limpia para evitar conflictos de registro.
+  </Step>
+  <Step num="2" title="Configurar el plan de energía de Windows">
+    Establece tu PC en el modo de \"Alto rendimiento\" en el Panel de control. Esto evita que la CPU reduzca su velocidad durante las partidas, lo que puede provocar caídas de fotogramas.
+  </Step>
+  <Step num="3" title="Ajustar el panel de control de NVIDIA/AMD">
+    Fuerza el \"Modo de control de energía\" a \"Preferir rendimiento máximo\" y asegúrate de que la \"Sincronización vertical\" esté configurada en \"Utilizar la configuración de la aplicación 3D\" para evitar la latencia de entrada.
+  </Step>
+  <Step num="4" title="Verificar los archivos del juego">
+    Si lo descargas a través de Steam, haz clic derecho en el juego, selecciona Propiedades > Archivos locales > Verificar integridad de los archivos del juego para asegurarte de que no se haya corrompido ningún dato durante la descarga de 50 GB.
+  </Step>
+</Steps>
+
+<Callout type="info" title="DirectX Runtime">
+Asegúrate de que tus DirectX End-User Runtimes estén actualizados. Aunque Windows 10/11 incluye DX12, el juego depende de bibliotecas DX11 específicas que pueden requerir una actualización manual en instalaciones limpias del sistema operativo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de preparación del sistema">
+
+Antes de lanzarte a una Partida igualada o al Modo historia, utiliza esta lista de verificación para confirmar que tu entorno está listo para Dead or Alive 6.
+
+<Checklist
+  id="system-ready"
+  title="Comprobación de hardware previa al vuelo:"
+  items={[
+    "Confirmado 50 GB de espacio libre en una unidad de alta velocidad",
+    "Verificada la instalación de Windows 10/11 de 64 bits",
+    "Actualizados los controladores de la GPU a la última versión de 2026",
+    "Cerradas las aplicaciones en segundo plano (Chrome, Discord) para liberar RAM",
+    "Configurada la frecuencia de actualización del juego para que coincida con la frecuencia nativa del monitor"
+  ]}
+/>
+
+<Callout type="success" title="Listo para el combate">
+Si has marcado todos los elementos anteriores y cumples con las especificaciones recomendadas, estás preparado para una experiencia de alta fidelidad sin cuellos de botella técnicos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a Dead or Alive 6 en una computadora portátil?",
+    answer: "Sí, siempre que la computadora portátil tenga una GPU dedicada. Los gráficos integrados como Intel UHD o Iris Xe pueden tener dificultades para mantener 30 FPS incluso a una resolución de 720p."
+  },
+  {
+    question: "¿El juego es compatible con la resolución 4K?",
+    answer: "Sí, Dead or Alive 6 es compatible con 4K. Sin embargo, necesitarás al menos una NVIDIA RTX 3060 o AMD RX 6700 XT para mantener 60 FPS a esta resolución."
+  },
+  {
+    question: "¿Se requiere conexión a Internet para cumplir con los requisitos del sistema?",
+    answer: "Aunque el juego tiene un Modo historia sin conexión, se requiere una conexión de banda ancha estable para descargar los 50 GB de datos y para participar en el multijugador en línea."
+  },
+  {
+    question: "¿Cuál es la parte más importante de los requisitos del sistema de Dead or Alive 6 last round?",
+    answer: "La GPU y la VRAM son fundamentales. Debido al enfoque del Soft Engine 2.0 en el detalle de los personajes, se recomienda encarecidamente tener al menos 4 GB de VRAM para una experiencia fluida."
+  }
+]} />
+
+<Callout type="tip" title="Consejo final">
+Para obtener la mejor experiencia, utiliza una conexión Ethernet por cable para jugar en línea. Incluso si tu PC cumple con los requisitos de hardware, la inestabilidad de la conexión Wi-Fi puede arruinar el timing perfecto necesario para contras y combos.
+</Callout>
+
+</Section>

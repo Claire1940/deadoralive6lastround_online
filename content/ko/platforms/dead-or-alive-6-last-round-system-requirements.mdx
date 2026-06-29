@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "데드 오어 얼라이브 6 라스트 라운드 시스템 사양: PC 설정 가이드",
+  description: "데드 오어 얼라이브 6 라스트 라운드 시스템 사양을 확인하세요. 최소 및 권장 PC 사양, GPU 벤치마크 및 2026년 최적화 팁을 알아보세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOA6+System+Requirements",
+  date: "2026-06-30",
+  author: "데드 오어 얼라이브 6 위키 팀",
+  keywords: "데드 오어 얼라이브 6, 시스템 사양, PC 가이드, 최소 사양, 권장 사양, DOA6 최적화"
+}
+
+<Callout type="info" title="퀵 가이드">
+- **데드 오어 얼라이브 6 라스트 라운드 시스템 사양**은 안정적인 성능을 위해 64비트 프로세서와 운영체제를 요구합니다.
+- **최소 GPU**는 소프트 엔진 2.0(Soft Engine 2.0)의 물리 효과를 처리하기 위해 NVIDIA GeForce GTX 770 수준에서 시작합니다.
+- **권장 RAM**은 16GB로, 격렬한 전투 중 부드러운 전환과 고해상도 텍스처를 보장합니다.
+- **저장 공간**은 기본 게임과 필수 업데이트를 위해 최소 50GB가 필요합니다.
+- **DirectX 11**은 게임의 고급 조명 및 파티클 효과를 실행하기 위한 필수 API입니다.
+</Callout>
+
+<Section icon={Shield} title="공식 하드웨어 사양 개요">
+
+**데드 오어 얼라이브 6 라스트 라운드 시스템 사양**을 이해하는 것은 경쟁 우위를 확보하기 위한 첫 번째 단계입니다. 이 게임은 사실적인 피부 렌더링과 의상 파괴를 강조하는 소프트 엔진 2.0을 사용하여 CPU와 GPU 모두에 상당한 부하를 줍니다. 구형 하드웨어에서도 실행은 가능하지만, 프레임 데이터가 승패를 결정하는 격투 게임 특성상 60 FPS(초당 프레임) 목표 달성은 필수적입니다.
+
+| 구성 요소 | 최소 사양 | 권장 사양 |
+| :--- | :--- | :--- |
+| **운영체제** | Windows 10 (64비트) | Windows 10/11 (64비트) |
+| **프로세서** | Intel Core i5-4690 또는 동급 사양 | Intel Core i7-8700 / AMD Ryzen 5 3600 |
+| **메모리** | 8 GB RAM | 16 GB RAM |
+| **그래픽** | NVIDIA GeForce GTX 770 (2GB) | NVIDIA GeForce GTX 1060 (6GB) |
+| **DirectX** | 버전 11 | 버전 11 |
+| **저장 공간** | 50 GB 이상의 여유 공간 | 50 GB SSD 권장 |
+| **사운드 카드** | DirectX 11 호환 | DirectX 11 호환 |
+
+<Callout type="success" title="성능 목표">
+권장 사양을 충족하면 1080p 해상도에서 '높음' 설정으로 60 FPS를 고정할 수 있으며, 캐릭터 모델과 다이내믹한 스테이지의 의도된 시각적 퀄리티를 경험할 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="PC 플레이어를 위한 상세 부품 분석">
+
+**데드 오어 얼라이브 6 라스트 라운드 시스템 사양**을 기준으로 자신의 PC를 평가할 때, 특정 부품이 다른 부품보다 더 큰 비중을 차지합니다. 격투 엔진은 VRAM 부족이나 백그라운드 CPU 프로세스로 인해 발생하는 미세한 끊김(마이크로 스터터링)에 매우 민감합니다.
+
+<CardGrid cols={3}>
+  <Card title="CPU 영향">
+    - **물리 연산**: 의상과 머리카락의 움직임을 처리합니다.
+    - **멀티 스레딩**: 스테이지 전환 시 6개 이상의 코어가 유리합니다.
+    - **클럭 속도**: 높은 싱글 코어 성능은 입력 지연을 방지합니다.
+  </Card>
+  <Card title="GPU 필요성">
+    - **VRAM 사용량**: 2GB가 최소이며, 4K 텍스처에는 6GB가 이상적입니다.
+    - **셰이더**: 고급 조명 효과는 현대적인 아키텍처를 요구합니다.
+    - **해상도**: GTX 1060은 1080p를 처리하며, 4K는 RTX 시리즈가 필요합니다.
+  </Card>
+  <Card title="메모리 및 저장 공간">
+    - **시스템 RAM**: 게임 단독 실행에는 8GB로 충분합니다.
+    - **멀티태스킹**: 스트리밍이나 녹화를 하려면 16GB가 필요합니다.
+    - **SSD vs HDD**: SSD는 라운드 사이의 로딩 시간을 크게 단축합니다.
+  </Card>
+</CardGrid>
+
+게임 엔진의 확장성은 적당한 편이지만, 최소 사양 사용자는 안정성을 유지하기 위해 그림자 품질을 낮추고 모션 블러나 피사체 심도(Depth of Field)와 같은 일부 포스트 프로세싱 효과를 비활성화해야 합니다.
+
+<Callout type="warning" title="VRAM 제한">
+그래픽 카드의 VRAM이 2GB 미만인 경우, 환경 파괴가 심한 스테이지에서 텍스처 팝업 현상이나 충돌이 발생할 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="최적화 및 그래픽 설정">
+
+PC가 **데드 오어 얼라이브 6 라스트 라운드 시스템 사양**을 충족하는지 확인했다면, 다음 단계는 게임 내 설정을 미세 조정하는 것입니다. 데드 오어 얼라이브 6는 저사양 시스템이 60 FPS 표준에 도달할 수 있도록 돕는 다양한 옵션을 제공합니다.
+
+| 설정 | 성능 영향 | 중급 사양 권장값 |
+| :--- | :--- | :--- |
+| **해상도 렌더링** | 높음 | 100% (네이티브) |
+| **그림자 품질** | 중간 | 낮음 또는 중간 |
+| **소프트 엔진 효과** | 높음 | 켬 (On) |
+| **안티앨리어싱** | 중간 | FXAA 또는 SMAA |
+| **오브젝트 디테일** | 낮음 | 중간 |
+| **스테이지 파괴** | 중간 | 켬 (On) |
+
+<Callout type="tip" title="프로 최적화 팁">
+"그림자 품질"을 낮추는 것은 캐릭터 모델의 외형을 크게 손상시키지 않으면서 구형 GPU에서 10-15 FPS를 얻을 수 있는 가장 빠른 방법입니다.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="단계별 설치 및 설정">
+
+**데드 오어 얼라이브 6 라스트 라운드 시스템 사양**을 확인한 후 게임이 올바르게 실행되도록 하려면 다음 표준 설정 절차를 따르십시오. 이를 통해 드라이버와 시스템 환경이 격투 엔진에 최적화됩니다.
+
+<Steps>
+  <Step num="1" title="그래픽 드라이버 업데이트">
+    NVIDIA 또는 AMD 웹사이트를 방문하여 최신 드라이버(2026.05 버전 이상 권장)를 다운로드하십시오. 레지스트리 충돌을 피하기 위해 '새로 설치'를 권장합니다.
+  </Step>
+  <Step num="2" title="Windows 전원 관리 옵션 구성">
+    제어판에서 PC를 "고성능" 모드로 설정하십시오. 이는 경기 중 CPU 클럭이 낮아져 프레임 드랍이 발생하는 것을 방지합니다.
+  </Step>
+  <Step num="3" title="NVIDIA/AMD 제어판 조정">
+    전원 관리 모드에서 "최고 성능 선호"를 강제 설정하고, 입력 지연을 피하기 위해 "수직 동기"를 "3D 응용 프로그램 설정 사용"으로 설정되어 있는지 확인하십시오.
+  </Step>
+  <Step num="4" title="게임 파일 무결성 검사">
+    Steam을 통해 다운로드하는 경우, 게임을 마우스 오른쪽 버튼으로 클릭하고 속성 > 로컬 파일 > 게임 파일 무결성 검사를 선택하여 50GB 다운로드 중 데이터가 손상되지 않았는지 확인하십시오.
+  </Step>
+</Steps>
+
+<Callout type="info" title="DirectX 런타임">
+DirectX 최종 사용자 런타임이 최신 상태인지 확인하십시오. Windows 10/11에는 DX12가 포함되어 있지만, 이 게임은 운영체제를 새로 설치했을 때 수동 업데이트가 필요할 수 있는 특정 DX11 라이브러리에 의존합니다.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="시스템 준비 상태 체크리스트">
+
+랭크 매치나 스토리 모드를 시작하기 전에 이 체크리스트를 사용하여 환경이 데드 오어 얼라이브 6를 위한 준비가 되었는지 확인하십시오.
+
+<Checklist
+  id="system-ready"
+  title="하드웨어 사전 점검:"
+  items={[
+    "고속 드라이브에 50GB의 여유 공간 확인",
+    "64비트 Windows 10/11 설치 확인",
+    "GPU 드라이버를 최신 2026 릴리스로 업데이트",
+    "RAM 확보를 위해 백그라운드 애플리케이션(Chrome, Discord 등) 종료",
+    "게임 내 재생 빈도를 모니터 기본 주파수와 일치하도록 설정"
+  ]}
+/>
+
+<Callout type="success" title="전투 준비 완료">
+위의 모든 항목을 확인하고 권장 사양을 충족한다면, 기술적인 병목 현상 없이 고화질 경험을 즐길 준비가 된 것입니다.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="자주 묻는 질문 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "노트북에서 데드 오어 얼라이브 6를 실행할 수 있나요?",
+    answer: "네, 노트북에 외장 GPU가 있다면 가능합니다. Intel UHD 또는 Iris Xe와 같은 내장 그래픽은 720p 해상도에서도 30 FPS를 유지하는 데 어려움을 겪을 수 있습니다."
+  },
+  {
+    question: "이 게임은 4K 해상도를 지원하나요?",
+    answer: "네, 데드 오어 얼라이브 6는 4K를 지원합니다. 하지만 이 해상도에서 60 FPS를 유지하려면 최소 NVIDIA RTX 3060 또는 AMD RX 6700 XT 이상의 그래픽 카드가 필요합니다."
+  },
+  {
+    question: "시스템 사양 외에 인터넷 연결이 필수인가요?",
+    answer: "게임에 오프라인 스토리 모드가 있긴 하지만, 50GB의 데이터를 다운로드하고 온라인 멀티플레이어에 참여하려면 안정적인 광대역 인터넷 연결이 필요합니다."
+  },
+  {
+    question: "데드 오어 얼라이브 6 라스트 라운드 시스템 사양에서 가장 중요한 부분은 무엇인가요?",
+    answer: "GPU와 VRAM이 가장 중요합니다. 캐릭터 디테일에 집중하는 소프트 엔진 2.0의 특성상, 부드러운 경험을 위해 최소 4GB 이상의 VRAM을 갖추는 것을 적극 권장합니다."
+  }
+]} />
+
+<Callout type="tip" title="마지막 조언">
+최상의 경험을 위해 온라인 플레이 시 유선 이더넷 연결을 사용하십시오. PC가 하드웨어 요구 사항을 충족하더라도 Wi-Fi 지터(Jitter)는 카운터와 콤보에 필요한 정확한 프레임 타이밍을 망칠 수 있습니다.
+</Callout>
+
+</Section>

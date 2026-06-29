@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, RefreshCw } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dead or Alive 6 Last Round: Data & DLC Transfer Guide",
+  description: "Learn how to transfer your DLC and save data for Dead or Alive 6 Last Round across platforms with this step-by-step guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Data+Transfer+Guide",
+  date: "2026-06-30",
+  author: "dead or alive 6 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dead or Alive 6 Last Round** allows players to carry over most DLC costumes and saved game progression.
+- **Data transfer** requires using the same account on both the original game and the new version.
+- **Cross-platform play** is not supported, so focus on matching your specific console or PC environment.
+- **DLC costumes** for specific collaboration characters like Mai Shiranui and Kula Diamond are excluded from transfer.
+</Callout>
+
+<Section icon={RefreshCw} title="Understanding Data Compatibility">
+
+Transitioning to the updated experience requires a clear understanding of what carries over. Whether you are moving from the standard version or the free-to-play Core Fighters edition, most of your hard-earned items will make the jump, provided you follow the account-linking requirements.
+
+**Video Highlights:**
+- Verifying your game version for compatibility
+- Account-specific data requirements
+- Troubleshooting common transfer blocks
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Dead or Alive 6 Last Round Transfer Overview" />
+
+The following table outlines the compatibility status for various items when moving your data:
+
+| Item Category | Transfer Status | Notes |
+| :--- | :--- | :--- |
+| DLC Costumes | Supported | Excluding collaboration characters |
+| Game Progression | Supported | Story, Tutorials, and Training modes |
+| Character Unlock Keys | Required | Needed to use carried-over costumes |
+| Premium Tickets | Not Supported | Cannot be used in the new title |
+| User Ranking Data | Not Supported | Includes Fighter Level and Points |
+
+<Callout type="tip" title="Pro Tip">
+Always ensure your original Dead or Alive 6 game is updated to the latest version (Ver.1.23) before attempting to upload your data for transfer to the new version.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Transferring DLC Costumes">
+
+Transferring your collection of costumes requires an active network connection. You do not need to manually install the previous DLC files; the system will recognize your ownership via your account history on the PlayStation Network, XBOX Network, or Steam.
+
+<Steps>
+  <Step num="1" title="Update Original Game">
+    Ensure your base game version is updated to 1.23 to enable data upload functionality.
+  </Step>
+  <Step num="2" title="Upload DLC Data">
+    Sign in to your account, launch the original game, and navigate to the main menu to trigger the upload process.
+  </Step>
+  <Step num="3" title="Initialize New Version">
+    Launch the new game version using the same account. The system will automatically detect and link your previously purchased content.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Requirement">
+If you no longer have access to the physical copy of the original game, you can use the free-to-play Dead or Alive 6: Core Fighters application to upload your DLC data effectively.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Migrating Saved Data">
+
+Saved data migration varies slightly depending on your platform. Below is a comparison of the methods required for different console and PC environments to ensure your progression is preserved.
+
+<CardGrid cols={3}>
+  <Card title="PlayStation 5">
+    - Uses cloud storage via PS Plus
+    - Supports USB transfer from PS4
+    - Auto-detects local saved files
+  </Card>
+  <Card title="XBOX Series X|S">
+    - Automatic via XBOX Network
+    - Requires same account login
+    - Seamless cloud synchronization
+  </Card>
+  <Card title="Steam PC">
+    - Requires Steam Cloud enabled
+    - Manual folder copy supported
+    - Located in Documents/KoeiTecmo
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Data Integrity">
+Before starting the transfer, ensure no existing saved data exists for the new game. If it does, you must delete it first to allow the transfer process to detect and import your original files.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Platform-Specific Data Requirements">
+
+Different platforms have unique file management structures. Use this reference to ensure your files are placed in the correct locations or synced through the appropriate services.
+
+| Platform | Transfer Method | Key Requirement |
+| :--- | :--- | :--- |
+| PlayStation 5 | Cloud/USB | Must be same account |
+| XBOX Series | Network Sync | Active network connection |
+| Steam | Cloud/Manual | Path: Documents\KoeiTecmo\DEADORALIVE6 |
+
+<Callout type="info" title="System Note">
+You cannot transfer saved data from the new title back to the original game. Always keep a backup of your original save files before initiating any migration process.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Successful Transfer">
+
+Follow this checklist to confirm you have covered all necessary steps before starting your journey in the new version.
+
+<Checklist
+  id="transfer-checklist"
+  title="Final Preparation Steps:"
+  items={[
+    "Verify your base game is updated to version 1.23",
+    "Confirm you are signed into the identical network account",
+    "Delete any existing save data on the new game version",
+    "Check for stable internet connection during sync",
+    "Verify that required character unlock keys are active"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I transfer data from Dead or Alive 6 Last Round to the original game?",
+    answer: "No, data transfer is one-way only, moving from the original game to the new version."
+  },
+  {
+    question: "What happens to my collaboration character DLCs?",
+    answer: "DLC costumes for collaboration characters like Mai Shiranui and Kula Diamond cannot be carried over."
+  },
+  {
+    question: "Is there crossplay between the two versions?",
+    answer: "No, there is no crossplay support between the original game and the new version."
+  },
+  {
+    question: "How do I move my Steam save files manually?",
+    answer: "You can copy the folder located in Documents/KoeiTecmo/DEADORALIVE6 to the same location on your new PC."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, RefreshCw } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dead or Alive 6 Last Round: Guía de transferencia de datos y DLC",
+  description: "Aprende cómo transferir tu DLC y datos de guardado para Dead or Alive 6 Last Round entre plataformas con esta guía paso a paso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Data+Transfer+Guide",
+  date: "2026-06-30",
+  author: "Equipo de Wiki de Dead or Alive 6"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Dead or Alive 6 Last Round** permite a los jugadores transferir la mayoría de los atuendos DLC y el progreso de la partida guardada.
+- La **transferencia de datos** requiere usar la misma cuenta tanto en el juego original como en la nueva versión.
+- El **juego cruzado** no es compatible, así que concéntrate en emparejar tu entorno específico de consola o PC.
+- Los **atuendos DLC** de personajes de colaboración específicos como Mai Shiranui y Kula Diamond están excluidos de la transferencia.
+</Callout>
+
+<Section icon={RefreshCw} title="Comprender la compatibilidad de datos">
+
+La transición a la experiencia actualizada requiere una comprensión clara de lo que se transfiere. Ya sea que te mudes desde la versión estándar o la edición gratuita Core Fighters, la mayoría de tus artículos ganados con esfuerzo darán el salto, siempre que cumplas con los requisitos de vinculación de cuentas.
+
+**Puntos destacados del video:**
+- Verificar la compatibilidad de tu versión del juego
+- Requisitos de datos específicos de la cuenta
+- Resolución de problemas comunes de bloqueo de transferencia
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Resumen de transferencia de Dead or Alive 6 Last Round" />
+
+La siguiente tabla detalla el estado de compatibilidad de varios elementos al transferir tus datos:
+
+| Categoría de artículo | Estado de transferencia | Notas |
+| :--- | :--- | :--- |
+| Atuendos DLC | Compatible | Excluyendo personajes de colaboración |
+| Progreso del juego | Compatible | Modos Historia, Tutoriales y Entrenamiento |
+| Claves de desbloqueo de personajes | Requerido | Necesario para usar los atuendos transferidos |
+| Boletos Premium | No compatible | No se pueden usar en el nuevo título |
+| Datos de clasificación de usuario | No compatible | Incluye el nivel de luchador y los puntos |
+
+<Callout type="tip" title="Consejo profesional">
+Asegúrate siempre de que tu juego Dead or Alive 6 original esté actualizado a la última versión (Ver.1.23) antes de intentar cargar tus datos para transferirlos a la nueva versión.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Transferir atuendos DLC">
+
+Transferir tu colección de atuendos requiere una conexión de red activa. No necesitas instalar manualmente los archivos DLC anteriores; el sistema reconocerá tu propiedad a través de tu historial de cuentas en PlayStation Network, XBOX Network o Steam.
+
+<Steps>
+  <Step num="1" title="Actualizar juego original">
+    Asegúrate de que la versión de tu juego base esté actualizada a la 1.23 para habilitar la función de carga de datos.
+  </Step>
+  <Step num="2" title="Cargar datos de DLC">
+    Inicia sesión en tu cuenta, abre el juego original y navega al menú principal para iniciar el proceso de carga.
+  </Step>
+  <Step num="3" title="Inicializar nueva versión">
+    Inicia la nueva versión del juego usando la misma cuenta. El sistema detectará y vinculará automáticamente tu contenido adquirido previamente.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisito importante">
+Si ya no tienes acceso a la copia física del juego original, puedes usar la aplicación gratuita Dead or Alive 6: Core Fighters para cargar tus datos de DLC de manera efectiva.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Migrar datos de guardado">
+
+La migración de datos de guardado varía ligeramente según tu plataforma. A continuación, se presenta una comparación de los métodos requeridos para diferentes entornos de consola y PC para garantizar que se conserve tu progreso.
+
+<CardGrid cols={3}>
+  <Card title="PlayStation 5">
+    - Utiliza almacenamiento en la nube a través de PS Plus
+    - Admite transferencia por USB desde PS4
+    - Detecta automáticamente archivos de guardado locales
+  </Card>
+  <Card title="XBOX Series X|S">
+    - Automático a través de XBOX Network
+    - Requiere iniciar sesión con la misma cuenta
+    - Sincronización en la nube fluida
+  </Card>
+  <Card title="Steam PC">
+    - Requiere tener activado Steam Cloud
+    - Admite copia manual de carpetas
+    - Ubicado en Documents/KoeiTecmo
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Integridad de los datos">
+Antes de comenzar la transferencia, asegúrate de que no existan datos de guardado previos para el nuevo juego. Si existen, debes eliminarlos primero para que el proceso de transferencia pueda detectar e importar tus archivos originales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de datos específicos de la plataforma">
+
+Las diferentes plataformas tienen estructuras de gestión de archivos únicas. Utiliza esta referencia para asegurarte de que tus archivos estén colocados en las ubicaciones correctas o sincronizados a través de los servicios adecuados.
+
+| Plataforma | Método de transferencia | Requisito clave |
+| :--- | :--- | :--- |
+| PlayStation 5 | Nube/USB | Debe ser la misma cuenta |
+| XBOX Series | Sincronización de red | Conexión de red activa |
+| Steam | Nube/Manual | Ruta: Documents\KoeiTecmo\DEADORALIVE6 |
+
+<Callout type="info" title="Nota del sistema">
+No puedes transferir datos de guardado desde el nuevo título de vuelta al juego original. Realiza siempre una copia de seguridad de tus archivos de guardado originales antes de iniciar cualquier proceso de migración.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para una transferencia exitosa">
+
+Sigue esta lista de verificación para confirmar que has cubierto todos los pasos necesarios antes de comenzar tu viaje en la nueva versión.
+
+<Checklist
+  id="transfer-checklist"
+  title="Pasos de preparación final:"
+  items={[
+    "Verifica que tu juego base esté actualizado a la versión 1.23",
+    "Confirma que has iniciado sesión en la misma cuenta de red",
+    "Elimina cualquier dato de guardado existente en la nueva versión del juego",
+    "Comprueba que tienes una conexión a internet estable durante la sincronización",
+    "Verifica que las claves de desbloqueo de personajes requeridas estén activas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo transferir datos de Dead or Alive 6 Last Round al juego original?",
+    answer: "No, la transferencia de datos es unidireccional, es decir, solo se realiza desde el juego original a la nueva versión."
+  },
+  {
+    question: "¿Qué pasa con los DLC de personajes de colaboración?",
+    answer: "Los atuendos DLC de personajes de colaboración como Mai Shiranui y Kula Diamond no se pueden transferir."
+  },
+  {
+    question: "¿Existe juego cruzado entre las dos versiones?",
+    answer: "No, no hay soporte de juego cruzado entre el juego original y la nueva versión."
+  },
+  {
+    question: "¿Cómo muevo mis archivos de guardado de Steam manualmente?",
+    answer: "Puedes copiar la carpeta ubicada en Documents/KoeiTecmo/DEADORALIVE6 a la misma ubicación en tu nueva PC."
+  }
+]} />
+
+</Section>

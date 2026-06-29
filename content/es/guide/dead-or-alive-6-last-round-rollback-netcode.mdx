@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "dead or alive 6 last round rollback netcode: Guía de Configuración y Transferencia",
+  description: "Explora el estado del rollback netcode en dead or alive 6 last round y aprende cómo transferir DLC y datos guardados entre plataformas en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOA6+Last+Round+Netcode+Guide",
+  date: "2026-06-30",
+  author: "Equipo de Wiki de dead or alive 6",
+  keywords: "dead or alive 6, last round, rollback netcode, transferencia de datos, dlc, guía, ps5, xbox, steam"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estado del Netcode**: El **rollback netcode oficial de dead or alive 6 last round** sigue siendo una de las principales peticiones de la comunidad; el juego utiliza actualmente un sistema optimizado basado en retardo (delay-based).
+- **Migración de Datos**: Los jugadores pueden transferir la mayoría de los DLC y datos guardados de la versión base a la edición **Last Round** en PlayStation, Xbox y Steam.
+- **Especificaciones por Plataforma**: PS5 y Xbox Series X|S ofrecen detección automática de archivos de guardado antiguos, siempre que se utilice la misma cuenta de red.
+- **Contenido Excluido**: Los DLC de colaboración, específicamente personajes como **Mai Shiranui** y **Kula Diamond**, no pueden transferirse a la versión actualizada.
+- **Requisitos Online**: Es obligatoria una conexión de red estable (PSN, Xbox Network o Steam) para validar y sincronizar las licencias de los DLC.
+</Callout>
+
+<Section icon={Shield} title="El estado del rollback netcode de dead or alive 6 last round">
+
+El panorama de los juegos de lucha competitivos en 2026 ha experimentado un cambio masivo hacia la integración del rollback. Para los jugadores que investigan el **rollback netcode de dead or alive 6 last round**, es esencial comprender la arquitectura técnica actual del juego. Aunque muchos títulos modernos han adaptado el rollback, Dead or Alive 6 Last Round continúa dependiendo de un sistema de netcode refinado basado en retardo. Este sistema calcula el retraso de entrada en función del ping entre dos jugadores, lo que funciona mejor en regiones localizadas o mediante conexiones Ethernet por cable.
+
+<Callout type="warning" title="Estabilidad de la Red">
+Debido a que el juego no cuenta con rollback netcode nativo, el uso de una conexión Wi-Fi aumenta significativamente la probabilidad de "jitter" y tirones de frames durante combates de alta intensidad.
+</Callout>
+
+Para maximizar su experiencia ante la falta de una solución de rollback completa, los jugadores deben centrarse en optimizar su hardware local y la configuración de red. La actualización Last Round introduce varias correcciones de estabilidad que ayudan a mitigar las debilidades inherentes de los sistemas basados en retardo, asegurando que los datos de los frames se mantengan lo más consistentes posible durante el juego clasificado.
+
+| Característica | Basado en Retardo (Actual) | Rollback (Deseado) |
+| :--- | :--- | :--- |
+| **Sensación de Entrada** | Varía con la latencia | Constante y predecible |
+| **Visuales** | Fluido pero puede ralentizarse | "Teletransportes" ocasionales con lag |
+| **Requisito de Conexión** | Alta estabilidad obligatoria | Más tolerante a picos menores |
+| **Mejor Caso de Uso** | Juego Local/Regional | Juego a larga distancia/Internacional |
+
+</Section>
+
+<Section icon={Sparkles} title="Reglas de Transferencia y Compatibilidad de DLC">
+
+La transición a la versión Last Round permite a los jugadores traer consigo sus extensas bibliotecas de trajes. Sin embargo, el proceso de transferencia para los entornos de **rollback netcode de dead or alive 6 last round** está estrictamente regulado por licencias vinculadas a la cuenta. No se puede transferir contenido entre diferentes ecosistemas (por ejemplo, de PlayStation a Steam).
+
+<Callout type="success" title="Verificación de Licencia">
+Asegúrate de haber iniciado sesión en la misma cuenta de PlayStation Network, Xbox Network o Steam utilizada para el juego original para activar la sincronización automática de DLC.
+</Callout>
+
+| Plataforma | Método de Transferencia | Requisito |
+| :--- | :--- | :--- |
+| **PlayStation 5** | Subida mediante Ver. 1.23 | Inicio en PSN / Actualización Ver. 1.23 |
+| **Xbox Series X|S** | Detección Automática | El DLC debe instalarse primero |
+| **Steam** | Detección Automática | Misma cuenta de Steam |
+
+**Restricciones Importantes:**
+- Los DLC comprados para la versión Last Round **no pueden** devolverse a la versión estándar.
+- Los personajes de colaboración (Mai Shiranui y Kula Diamond) están excluidos del proceso de transferencia debido al vencimiento de las licencias.
+- Debes poseer la **Llave de Desbloqueo** de un personaje para usar cualquier traje transferido para ese luchador específico.
+
+</Section>
+
+<Section icon={Map} title="Migración de Datos Guardados Paso a Paso">
+
+Mover tu progresión, incluyendo la finalización del modo historia y las estrellas de DOA Quest, es un proceso sencillo si se realiza correctamente. El juego está diseñado para detectar archivos antiguos al iniciar por primera vez la aplicación Last Round.
+
+<Callout type="tip" title="Advertencia de Inicio desde Cero">
+Si ya has creado un nuevo archivo de guardado en la versión Last Round, el juego no te pedirá que realices la transferencia. Debes eliminar los nuevos datos de guardado para que aparezca de nuevo el aviso de transferencia.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Preparar los Datos de Origen">
+    Asegúrate de que tus datos de guardado originales de Dead or Alive 6 estén almacenados en el almacenamiento local de tu consola o sincronizados en la nube. Para transferencias de PS4 a PS5, utiliza una unidad USB o el almacenamiento en la nube de PS Plus.
+  </Step>
+  <Step num="2" title="Iniciar Last Round">
+    Inicia la aplicación del juego. Al llegar a la pantalla de título, aparecerá un mensaje del sistema: "¿Deseas transferir los datos guardados?"
+  </Step>
+  <Step num="3" title="Confirmar Transferencia">
+    Selecciona **Transferir**. El sistema verificará los archivos e integrará tu progresión, objetos y ajustes en la nueva versión.
+  </Step>
+  <Step num="4" title="Verificar Objetos">
+    Entra en el Armario o en el DOA Central para confirmar que tus títulos, trajes y entradas de la enciclopedia se han trasladado correctamente.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Qué se Transfiere: Lista de Objetos">
+
+No todos los datos son elegibles para el traslado a la versión Last Round. Mientras que los objetos cosméticos y el progreso de un solo jugador suelen estar seguros, los datos competitivos como las clasificaciones y los niveles de luchador se reinician para garantizar un campo de juego nivelado en el entorno online actualizado.
+
+<Callout type="info" title="Reinicio Competitivo">
+Los puntos de clasificación y los niveles de luchador no se transfieren. Esto tiene como objetivo refrescar las tablas de clasificación para la temporada competitiva de 2026.
+</Callout>
+
+| Categoría de Objeto | Estado de Transferencia | Notas |
+| :--- | :--- | :--- |
+| **Trajes** | Compatible | Excluye objetos de colaboración de Mai/Kula |
+| **Progreso de Historia** | Compatible | Todos los capítulos y cinemáticas desbloqueados |
+| **Misiones DOA** | Compatible | Calificaciones de estrellas y misiones completadas |
+| **Títulos de Jugador** | Limitado | Algunos títulos de colaboración están excluidos |
+| **Puntos de Jugador** | No Compatible | Gástalos primero en el juego original |
+| **Clasificación/RP** | No Compatible | Todos los jugadores comienzan en rango F |
+| **Repeticiones** | No Compatible | Incompatible con las nuevas actualizaciones del motor |
+
+<Checklist
+  id="transfer-prep"
+  title="Lista de Verificación Pre-Transferencia:"
+  items={[
+    "Actualizar el juego base a la Ver. 1.23 (PlayStation)",
+    "Sincronizar todos los guardados en la nube con el dispositivo actual",
+    "Asegurarse de que todos los DLC comprados estén realmente instalados",
+    "Hacer una copia de seguridad de los datos de guardado existentes en una unidad externa",
+    "Verificar la conexión a Internet para la validación de licencias"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Matices de Transferencia por Plataforma">
+
+Cada ecosistema de hardware maneja la transición de manera diferente. Ya sea que estés en PC o consola, seguir estas rutas específicas evitará la corrupción de datos o la pérdida de contenido.
+
+<CardGrid cols={3}>
+  <Card title="PlayStation 5">
+    - **Método**: Utiliza el parche Ver. 1.23 para "Subir" datos.
+    - **Opción Gratuita**: Si perdiste tu disco, usa la versión **Core Fighters** para subir los datos.
+    - **Almacenamiento**: Soporta migración por USB y nube de PS Plus.
+  </Card>
+  <Card title="Xbox Series X|S">
+    - **Método**: Totalmente automatizado a través de Xbox Network.
+    - **Requisito**: **Debes** instalar los archivos DLC manualmente antes de iniciar.
+    - **Cross-Gen**: Mueve datos sin problemas desde las versiones de Xbox One.
+  </Card>
+  <Card title="Steam (PC)">
+    - **Método**: Detección de archivos locales o Steam Cloud.
+    - **Ruta de Archivos**: Documents\KoeiTecmo\DEADORALIVE6.
+    - **Nube**: Asegúrate de que "Activar Steam Cloud" esté marcado en los ajustes del cliente.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Limitaciones de Juego Cruzado">
+No existe **juego cruzado (crossplay)** entre el Dead or Alive 6 original y la versión Last Round. Los jugadores deben estar en la misma versión para poder jugar juntos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Existe el rollback netcode de dead or alive 6 last round en la actualización de 2026?",
+    answer: "No, el juego sigue utilizando un netcode refinado basado en retardo. Aunque está altamente optimizado para hardware moderno, no utiliza el sistema de rollback predictivo que se encuentra en otros juegos de lucha."
+  },
+  {
+    question: "¿Puedo transferir mi DLC de Mai Shiranui o Kula Diamond?",
+    answer: "Lamentablemente, no. Debido al vencimiento de las licencias de colaboración, estos personajes y sus trajes asociados no se pueden transferir a la versión Last Round."
+  },
+  {
+    question: "¿Qué debo hacer si mi DLC no aparece después de la transferencia?",
+    answer: "Primero, asegúrate de que el DLC esté instalado en tu hardware. En Xbox, esto debe hacerse antes de iniciar el juego. En PlayStation, verifica tus licencias en los ajustes del sistema y asegúrate de estar usando la misma cuenta de PSN."
+  },
+  {
+    question: "¿Puedo jugar contra amigos que tengan la versión estándar de DOA6?",
+    answer: "No. La versión Last Round y la versión estándar se tratan como entidades separadas para el emparejamiento. Ambos deben estar en la misma versión para jugar online juntos."
+  }
+]} />
+
+</Section>
