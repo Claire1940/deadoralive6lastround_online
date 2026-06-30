@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dead or Alive 6 Last Round Gameplay: Combat Guide & Systems",
+  description: "Master Dead or Alive 6 Last Round gameplay with our comprehensive guide on the Triangle System, Break Gauge mechanics, holds, and character archetypes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gameplay+Guide",
+  date: "2026-06-30",
+  author: "dead or alive 6 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Combat Loop**: Mastering **dead or alive 6 last round gameplay** requires understanding the core combat triangle of strikes, throws, and holds.
+- **Break Gauge Utility**: Utilize the Break Gauge for powerful Break Blows and lifesaving Break Holds during high-pressure situations.
+- **Defensive Hold System**: Memorize the four-way hold inputs to counter opponent strikes based on height and strike type.
+- **Character Selection**: Choose a fighter that matches your execution comfort level, ranging from rushdown strikers to heavy grapplers.
+</Callout>
+
+<Section icon={Swords} title="Understanding Dead or Alive 6 Last Round Gameplay">
+
+Developing a deep understanding of **dead or alive 6 last round gameplay** involves mastering fast-paced decision making and precise defensive timing. The core combat engine relies on a rock-paper-scissors mechanic known as the Triangle System. Every action you take—whether attacking, grabbing, or countering—falls into one of three categories: strikes, throws, or holds. 
+
+Strikes beat throws by interrupting the startup frames of a grab. Throws beat holds by catching defensive parry windows and dealing massive Hi-Counter damage. Holds beat strikes by catching incoming attacks and turning the opponent's momentum against them. Understanding this relationship is essential for climbing the competitive ranks.
+
+| Action | Beats | Vulnerable To | Counter Multiplier |
+| :--- | :--- | :--- | :--- |
+| Strike | Throw | Hold | 1.2x to 1.5x |
+| Throw | Hold | Strike | Up to 1.6x Hi-Counter |
+| Hold | Strike | Throw | Varies by character |
+
+When you interrupt an opponent's move with a counter-attribute, you trigger a Counter or Hi-Counter state. This not only increases the damage of your move but also alters the hit stun, allowing for longer follow-up combos.
+
+<Callout type="tip" title="Triangle Strategy">
+Observe your opponent's defensive habits. If they frequently attempt defensive holds under pressure, delay your attack and use a high-damage throw to secure a Hi-Counter.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Break Gauge and Fatal Rush Mechanics">
+
+The Break Gauge is a central mechanic in modern gameplay, adding a layer of resource management to every match. This meter fills as you land attacks, take damage, or successfully execute holds. Having a full meter allows you to perform game-changing maneuvers that can turn the tide of a match.
+
+The Fatal Rush is a simplified combo string executed by pressing the Special button repeatedly. When it connects, it inflicts a unique stun state called Fatal Stun. During Fatal Stun, the defender cannot execute normal holds, leaving them completely vulnerable to the rest of the combo.
+
+<CardGrid cols={3}>
+  <Card title="Break Blow">
+    - **High damage output**
+    - Consumes 100% Break Gauge
+    - Features armored startup frames
+  </Card>
+  <Card title="Break Hold">
+    - **Ultimate defensive escape**
+    - Consumes 50% Break Gauge
+    - Counters any strike level
+  </Card>
+  <Card title="Fatal Rush">
+    - **Easy execution combo**
+    - Requires zero gauge to start
+    - Sets up Fatal Stun states
+  </Card>
+</CardGrid>
+
+Managing this meter determines how safely you can play. Spending your entire gauge on an offensive Break Blow leaves you without a defensive safety net for the rest of the round.
+
+| Mechanic | Gauge Cost | Input Command | Primary Function |
+| :--- | :--- | :--- | :--- |
+| Fatal Rush | 0% | S, S, S, S | Initiates Fatal Stun and combos |
+| Break Blow | 100% | Forward + S | Armored strike that deflects attacks |
+| Break Hold | 50% | Back + S | Universal counter for all strike levels |
+
+<Callout type="warning" title="Gauge Management">
+Avoid spending your entire Break Gauge on a raw Break Blow unless it guarantees a round win. Keeping 50% meter for a defensive Break Hold provides a safety net against deadly combos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensive Maneuvers and the Hold System">
+
+Defense in this system is highly active. Simply holding back to block is safe against basic strikes, but it leaves you open to command throws and chip damage from environmental hazards. To truly defend yourself, you must learn to use the active Hold System.
+
+The Hold System is split into a four-way input configuration. You must correctly predict the height and type of the incoming strike to execute a successful counter. Whiffing a hold leaves you in a counter-stun state, allowing the opponent to land their most damaging combos.
+
+<Steps>
+  <Step num="1" title="Identify Attack Height">
+    Observe the opponent's string patterns to determine if they favor high, mid, or low strikes.
+  </Step>
+  <Step num="2" title="Input the Correct Hold Direction">
+    Execute the precise directional input along with the guard button to initiate the parry window.
+  </Step>
+  <Step num="3" title="Differentiate Mid Attacks">
+    Distinguish between mid punches and mid kicks, as they require distinct inputs to successfully deflect.
+  </Step>
+  <Step num="4" title="Capitalize on the Counter">
+    Use the frame advantage gained from a successful hold to launch your own offensive pressure.
+  </Step>
+</Steps>
+
+| Hold Type | Input Command | Target Strike | Risk Level |
+| :--- | :--- | :--- | :--- |
+| High Hold | Up-Back + Guard | High strikes and high kicks | Moderate |
+| Mid Punch Hold | Back + Guard | Mid-level punches only | High |
+| Mid Kick Hold | Forward-Down-Back | Mid-level kicks only | High |
+| Low Hold | Down-Back + Guard | Low strikes and low kicks | Moderate |
+
+<Callout type="info" title="Mid Strike Distinction">
+Remember that mid punches and mid kicks have separate inputs. Mixing up these inputs is a common mistake that leads to punishing counter hits.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Character Archetypes and Playstyles">
+
+The roster features a wide variety of fighters, each utilizing the core mechanics in unique ways. Finding the right character depends on your preferred playstyle, whether you enjoy fast-paced rushdown, heavy grappling, or defensive counter-play.
+
+Speed characters rely on rapid strike strings to overwhelm opponents and force mistakes. Grapplers focus on putting opponents in situations where they are forced to guess between blocking and holding, exploiting this with high-damage command throws. Balanced characters offer a mix of solid defense and reliable strike options.
+
+| Character | Archetype | Key Strength | Execution Difficulty |
+| :--- | :--- | :--- | :--- |
+| Kasumi | Speed Striker | Fast frame data, teleport mixups | Low to Moderate |
+| Bass Armstrong | Heavy Grappler | High-damage command throws | Moderate |
+| Helena Douglas | Stance Evasion | Low-profile stance transitions | High |
+| Jann Lee | Offensive Rushdown | Strong linear strikes, dragon kicks | Low |
+
+Choosing a character that fits your execution level allows you to focus more on reading your opponent's habits rather than fighting your own inputs.
+
+<Callout type="success" title="Beginner Recommendation">
+New players should start with Kasumi or Jann Lee. Their straightforward strike sequences make it easier to focus on learning defensive timing.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Environmental Hazards and Danger Zones">
+
+Stages are more than just visual backdrops; they are active components of the battle. Danger Zones are specific areas of a stage that trigger explosions, floor collapses, or crowd interactions when a character is knocked into them. 
+
+Using the environment to extend combos is a key skill. Knocking an opponent into a wall or an explosive barrel causes an environmental bounce, resetting their hit stun and allowing you to continue your offensive string for extra damage.
+
+| Stage | Hazard Type | Damage Potential | Tactical Use |
+| :--- | :--- | :--- | :--- |
+| The Throwdown | Ring Ropes / Crowd | Low | Resets positioning |
+| Unforgettable | Museum Dinosaurs | High | Triggers high-damage wall bounces |
+| Forbidden Fortune | Ship Wreckage / Fire | High | Breaks floors for stage transitions |
+
+Positioning yourself so that your back is not against a hazard is just as important as pushing your opponent toward one. Always keep track of your position relative to the stage boundaries.
+
+<Callout type="warning" title="Wall Pressure">
+When trapped against a wall, avoid using slow high strikes. Opponents will look to counter your escape attempts with high-damage mid holds or wall throws.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Training Routines and Frequently Asked Questions">
+
+To build the muscle memory required for competitive play, you should establish a structured training routine. Utilizing the built-in Free Training and Command Training modes helps you understand character-specific frame data and combo routes.
+
+<Checklist
+  id="doa6-training-milestones"
+  title="Daily Training Milestones:"
+  items={[
+    "Complete the full Command Training for your selected character",
+    "Practice executing high, mid, and low holds against CPU records",
+    "Rehearse the Fatal Rush combo transitions into Break Blows",
+    "Test throw setups against blocking opponents in Free Training"
+  ]}
+/>
+
+<Callout type="tip" title="Use Frame Data Display">
+Enable the frame data display in Free Training. This tool shows your advantage or disadvantage on block, helping you identify safe moves.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How does dead or alive 6 last round gameplay handle blocking compared to holds?",
+    answer: "Blocking is executed by holding back or down-back, protecting you from strikes but leaving you vulnerable to throws. Holds require active directional inputs to parry strikes, offering higher rewards but risking counter damage if guessed incorrectly."
+  },
+  {
+    question: "What is the difference between a Break Blow and a Break Hold?",
+    answer: "A Break Blow is an offensive, armored strike that costs 100% of the Break Gauge and deals heavy damage. A Break Hold is a defensive maneuver that costs 50% of the gauge, allowing you to escape any strike stun state."
+  },
+  {
+    question: "How do you counter opponents who constantly use holds?",
+    answer: "If an opponent frequently uses holds, use throws. Throws beat holds in the combat triangle, and executing a throw against an active hold results in a Hi-Counter throw, dealing massive damage."
+  },
+  {
+    question: "Is the Fatal Rush combo safe to use in competitive matches?",
+    answer: "While Fatal Rush is easy to execute and inflicts Fatal Stun, it is highly linear and can be sidestepped or countered by experienced players. Use it selectively rather than relying on it constantly."
+  }
+]} />
+
+</Section>

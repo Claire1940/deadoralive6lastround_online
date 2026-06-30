@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jugabilidad de Dead or Alive 6 Last Round: Guía de Combate y Sistemas",
+  description: "Domina la jugabilidad de Dead or Alive 6 Last Round con nuestra guía completa sobre el Sistema del Triángulo, las mecánicas del Break Gauge, los holds y los arquetipos de personajes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gameplay+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de dead or alive 6",
+  keywords: "dead or alive 6 last round, jugabilidad, guía de combate, sistema del triángulo, break gauge, holds, personajes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Bucle de Combate Principal**: Dominar la **jugabilidad de dead or alive 6 last round** requiere comprender el triángulo de combate principal de golpes, agarres y llaves (holds).
+- **Utilidad del Break Gauge**: Utiliza el Break Gauge para realizar potentes Break Blows y Break Holds salvavidas durante situaciones de alta presión.
+- **Sistema de Holds Defensivos**: Memoriza las direcciones de hold de cuatro vías para contrarrestar los golpes del oponente según la altura y el tipo de ataque.
+- **Selección de Personajes**: Elige un luchador que se adapte a tu nivel de comodidad de ejecución, desde atacantes rápidos (rushdown) hasta pesados especialistas en agarres (grapplers).
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo la Jugabilidad de Dead or Alive 6 Last Round">
+
+Desarrollar una comprensión profunda de la **jugabilidad de dead or alive 6 last round** implica dominar la toma de decisiones rápidas y la precisión en el tiempo defensivo. El motor de combate principal se basa en una mecánica de piedra, papel o tijera conocida como el Sistema del Triángulo. Cada acción que realizas, ya sea atacar, agarrar o contrarrestar, cae en una de tres categorías: golpes (strikes), agarres (throws) o llaves (holds). 
+
+Los golpes vencen a los agarres al interrumpir los fotogramas de inicio (startup frames) de una captura. Los agarres vencen a los holds al atrapar las ventanas de parry defensivo y causar un daño masivo de Hi-Counter. Los holds vencen a los golpes al atrapar los ataques entrantes y volver el impulso del oponente en su contra. Comprender esta relación es esencial para subir en los rangos competitivos.
+
+| Acción | Vence A | Vulnerable A | Multiplicador de Counter |
+| :--- | :--- | :--- | :--- |
+| Golpe | Agarre | Hold | 1.2x a 1.5x |
+| Agarre | Hold | Golpe | Hasta 1.6x Hi-Counter |
+| Hold | Golpe | Agarre | Varía según el personaje |
+
+Cuando interrumpes el movimiento de un oponente con un atributo de contraataque, activas un estado de Counter o Hi-Counter. Esto no solo aumenta el daño de tu movimiento, sino que también altera el aturdimiento por golpe (hit stun), permitiendo combos de seguimiento más largos.
+
+<Callout type="tip" title="Estrategia del Triángulo">
+Observa los hábitos defensivos de tu oponente. Si intentan con frecuencia hacer holds defensivos bajo presión, retrasa tu ataque y usa un agarre de gran daño para asegurar un Hi-Counter.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Break Gauge y las Mecánicas de Fatal Rush">
+
+El Break Gauge es una mecánica central en la jugabilidad moderna, que añade una capa de gestión de recursos a cada combate. Este medidor se llena a medida que conectas ataques, recibes daño o ejecutas holds con éxito. Tener el medidor lleno te permite realizar maniobras que pueden cambiar el rumbo de una partida.
+
+El Fatal Rush es una cadena de combos simplificada que se ejecuta presionando repetidamente el botón Especial. Cuando conecta, inflige un estado de aturdimiento único llamado Fatal Stun. Durante el Fatal Stun, el defensor no puede ejecutar holds normales, lo que lo deja completamente vulnerable al resto del combo.
+
+<CardGrid cols={3}>
+  <Card title="Break Blow">
+    - **Alto daño infligido**
+    - Consume el 100% del Break Gauge
+    - Cuenta con fotogramas de inicio con armadura (armored)
+  </Card>
+  <Card title="Break Hold">
+    - **Escape defensivo definitivo**
+    - Consume el 50% del Break Gauge
+    - Contrarresta cualquier nivel de golpe
+  </Card>
+  <Card title="Fatal Rush">
+    - **Combo de fácil ejecución**
+    - Requiere cero barra para comenzar
+    - Prepara estados de Fatal Stun
+  </Card>
+</CardGrid>
+
+Gestionar este medidor determina qué tan seguro puedes jugar. Gastar toda tu barra en un Break Blow ofensivo te deja sin una red de seguridad defensiva para el resto del asalto.
+
+| Mecánica | Costo de Barra | Comando de Entrada | Función Principal |
+| :--- | :--- | :--- | :--- |
+| Fatal Rush | 0% | S, S, S, S | Inicia el Fatal Stun y combos |
+| Break Blow | 100% | Adelante + S | Golpe con armadura que desvía ataques |
+| Break Hold | 50% | Atrás + S | Contraataque universal para todos los niveles de golpes |
+
+<Callout type="warning" title="Gestión de la Barra">
+Evita gastar todo tu Break Gauge en un Break Blow directo a menos que garantice la victoria del asalto. Mantener el 50% de la barra para un Break Hold defensivo proporciona una red de seguridad contra combos mortales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maniobras Defensivas y el Sistema de Holds">
+
+La defensa en este sistema es muy activa. Simplemente mantener presionado hacia atrás para bloquear es seguro contra golpes básicos, pero te deja expuesto a agarres de comando y al daño por chip de los peligros del escenario. Para defenderte de verdad, debes aprender a usar el Sistema de Holds activo.
+
+El Sistema de Holds se divide en una configuración de entrada de cuatro vías. Debes predecir correctamente la altura y el tipo de golpe entrante para ejecutar un contraataque exitoso. Fallar (whiff) un hold te deja en un estado de counter-stun, lo que permite al oponente conectar sus combos más dañinos.
+
+<Steps>
+  <Step num="1" title="Identificar la Altura del Ataque">
+    Observa los patrones de cadenas del oponente para determinar si prefiere golpes altos, medios o bajos.
+  </Step>
+  <Step num="2" title="Introducir la Dirección de Hold Correcta">
+    Ejecuta la dirección precisa junto con el botón de guardia para iniciar la ventana de parry.
+  </Step>
+  <Step num="3" title="Diferenciar Ataques Medios">
+    Distingue entre puñetazos medios y patadas medias, ya que requieren comandos diferentes para desviarse con éxito.
+  </Step>
+  <Step num="4" title="Aprovechar el Contraataque">
+    Usa la ventaja de fotogramas (frame advantage) obtenida de un hold exitoso para lanzar tu propia presión ofensiva.
+  </Step>
+</Steps>
+
+| Tipo de Hold | Comando de Entrada | Golpe Objetivo | Nivel de Riesgo |
+| :--- | :--- | :--- | :--- |
+| Hold Alto | Arriba-Atrás + Guardia | Golpes altos y patadas altas | Moderado |
+| Hold de Puñetazo Medio | Atrás + Guardia | Solo puñetazos de nivel medio | Alto |
+| Hold de Patada Media | Adelante-Abajo-Atrás | Solo patadas de nivel medio | Alto |
+| Hold Bajo | Abajo-Atrás + Guardia | Golpes bajos y patadas bajas | Moderado |
+
+<Callout type="info" title="Distinción de Golpes Medios">
+Recuerda que los puñetazos medios y las patadas medias tienen comandos distintos. Confundir estas entradas es un error común que resulta en castigos por golpes de contraataque.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Arquetipos de Personajes y Estilos de Juego">
+
+La plantilla cuenta con una gran variedad de luchadores, cada uno utilizando las mecánicas principales de formas únicas. Encontrar el personaje adecuado depende de tu estilo de juego preferido, ya sea que disfrutes del juego ofensivo rápido (rushdown), agarres pesados o juego defensivo de contraataque.
+
+Los personajes de velocidad dependen de cadenas de golpes rápidas para abrumar a los oponentes y forzar errores. Los grapplers se enfocan en poner a los oponentes en situaciones donde se ven obligados a adivinar entre bloquear y hacer hold, explotando esto con agarres de comando de gran daño. Los personajes equilibrados ofrecen una mezcla de defensa sólida y opciones de golpes confiables.
+
+| Personaje | Arquetipo | Fortaleza Clave | Dificultad de Ejecución |
+| :--- | :--- | :--- | :--- |
+| Kasumi | Atacante Veloz | Datos de fotogramas rápidos, mixups con teletransporte | Baja a Moderada |
+| Bass Armstrong | Grappler Pesado | Agarres de comando de gran daño | Moderada |
+| Helena Douglas | Evasión por Posturas | Transiciones de postura de bajo perfil | Alta |
+| Jann Lee | Rushdown Ofensivo | Golpes lineales fuertes, patadas de dragón | Baja |
+
+Elegir un personaje que se adapte a tu nivel de ejecución te permite concentrarte más en leer los hábitos de tu oponente en lugar de luchar contra tus propios comandos.
+
+<Callout type="success" title="Recomendación para Principiantes">
+Los jugadores nuevos deberían comenzar con Kasumi o Jann Lee. Sus secuencias directas de golpes facilitan el enfoque en aprender el tiempo defensivo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Peligros Ambientales y Zonas de Peligro">
+
+Los escenarios son más que simples fondos visuales; son componentes activos de la batalla. Las Zonas de Peligro (Danger Zones) son áreas específicas de un escenario que activan explosiones, colapsos del suelo o interacciones con el público cuando un personaje es lanzado contra ellas. 
+
+Usar el entorno para extender combos es una habilidad clave. Lanzar a un oponente contra una pared o un barril explosivo causa un rebote ambiental, restableciendo su aturdimiento por golpe y permitiéndote continuar tu cadena ofensiva para obtener daño adicional.
+
+| Escenario | Tipo de Peligro | Potencial de Daño | Uso Táctico |
+| :--- | :--- | :--- | :--- |
+| The Throwdown | Cuerdas del Ring / Público | Bajo | Restablece el posicionamiento |
+| Unforgettable | Dinosaurios del Museo | Alto | Activa rebotes contra la pared de gran daño |
+| Forbidden Fortune | Restos de Barco / Fuego | Alto | Rompe el suelo para transiciones de escenario |
+
+Posicionarte de manera que tu espalda no esté contra un peligro es tan importante como empujar a tu oponente hacia uno. Siempre ten en cuenta tu posición respecto a los límites del escenario.
+
+<Callout type="warning" title="Presión contra la Pared">
+Cuando estés atrapado contra una pared, evita usar golpes altos lentos. Los oponentes buscarán contrarrestar tus intentos de escape con holds medios de gran daño o agarres contra la pared.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rutinas de Entrenamiento y Preguntas Frecuentes">
+
+Para desarrollar la memoria muscular requerida para el juego competitivo, debes establecer una rutina de entrenamiento estructurada. Utilizar los modos integrados de Entrenamiento Libre y Entrenamiento de Comandos te ayuda a comprender los datos de fotogramas específicos de cada personaje y las rutas de combos.
+
+<Checklist
+  id="doa6-training-milestones"
+  title="Hitos de Entrenamiento Diario:"
+  items={[
+    "Completa el Entrenamiento de Comandos completo para tu personaje seleccionado",
+    "Practica la ejecución de holds altos, medios y bajos contra grabaciones de la CPU",
+    "Ensaya las transiciones del combo Fatal Rush a Break Blows",
+    "Prueba configuraciones de agarres contra oponentes que bloquean en el Entrenamiento Libre"
+  ]}
+/>
+
+<Callout type="tip" title="Usa la Pantalla de Datos de Fotogramas">
+Activa la visualización de datos de fotogramas en el Entrenamiento Libre. Esta herramienta muestra tu ventaja o desventaja al bloquear, ayudándote a identificar movimientos seguros.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo maneja la jugabilidad de dead or alive 6 last round el bloqueo en comparación con los holds?",
+    answer: "El bloqueo se ejecuta manteniendo presionado hacia atrás o abajo-atrás, protegiéndote de los golpes pero dejándote vulnerable a los agarres. Los holds requieren comandos direccionales activos para desviar los golpes, ofreciendo mayores recompensas pero con el riesgo de recibir daño de contraataque si se adivina incorrectamente."
+  },
+  {
+    question: "¿Cuál es la diferencia entre un Break Blow y un Break Hold?",
+    answer: "Un Break Blow es un golpe ofensivo con armadura que cuesta el 100% del Break Gauge y causa un gran daño. Un Break Hold es una maniobra defensiva que cuesta el 50% de la barra, lo que te permite escapar de cualquier estado de aturdimiento por golpe."
+  },
+  {
+    question: "¿Cómo contrarrestar a los oponentes que usan holds constantemente?",
+    answer: "Si un oponente usa holds con frecuencia, utiliza agarres. Los agarres vencen a los holds en el triángulo de combate, y ejecutar un agarre contra un hold activo resulta en un agarre de Hi-Counter, causando un daño masivo."
+  },
+  {
+    question: "¿Es seguro usar el combo Fatal Rush en combates competitivos?",
+    answer: "Aunque el Fatal Rush es fácil de ejecutar e inflige Fatal Stun, es muy lineal y los jugadores experimentados pueden esquivarlo lateralmente o contrarrestarlo. Úsalo de manera selectiva en lugar de depender de él constantemente."
+  }
+]} />
+
+</Section>
