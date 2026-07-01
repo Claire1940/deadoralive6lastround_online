@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mods de Dead or Alive 6 Last Round: Configuración y mejores opciones",
+  description: "Mejora tu juego con los mejores mods de Dead or Alive 6 Last Round. Aprende a instalar REDELBE, reshades y modelos de personajes personalizados.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOA6+Last+Round+Mods",
+  date: "2026-07-01",
+  author: "Equipo de Wiki de Dead or Alive 6"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque principal**: Aprende a instalar y gestionar de forma segura los **mods de Dead or Alive 6 Last Round** utilizando herramientas de inyección modernas.
+- **Utilidad principal**: Utiliza el framework **REDELBE** para cargar modelos de personajes y texturas personalizados sin sobrescribir los archivos base del juego.
+- **Mejores modificaciones**: Descubre populares intercambios de personajes, trajes cruzados (crossover), ajustes preestablecidos visuales y estilos de lucha personalizados.
+- **Regla de respaldo**: Crea siempre copias de tus archivos de guardado originales y directorios del juego antes de aplicar cualquier configuración personalizada.
+</Callout>
+
+<Section icon={Sparkles} title="Primeros pasos con los mods de Dead or Alive 6 Last Round">
+
+La escena de personalización impulsada por la comunidad para Dead or Alive 6 sigue estando muy activa en 2026, ofreciendo a los jugadores una amplia gama de mejoras visuales, reemplazos de personajes y mejoras técnicas. El uso de **mods de Dead or Alive 6 Last Round** permite a los jugadores personalizar a sus luchadores favoritos, modernizar el motor de renderizado del juego e introducir estilos de lucha completamente nuevos. Dado que el soporte oficial posterior al lanzamiento del título ha concluido, estas modificaciones de la comunidad se han convertido en el método principal para que los jugadores renueven el contenido del juego, eviten costosos paquetes cosméticos y mantengan el ciclo de juego atractivo.
+
+La mayoría de las modificaciones modernas se basan en inyectores en tiempo de ejecución en lugar de sobrescribir archivos de manera destructiva. Este enfoque garantiza que los archivos principales del juego permanezcan intactos, lo que reduce la probabilidad de corrupción de archivos o errores de validación de Steam. El centro principal de estas creaciones es Nexus Mods, donde los desarrolladores suben desde simples cambios de color de texturas hasta complejos intercambios de modelos.
+
+<Callout type="tip" title="Plataforma de mods">
+Obtén siempre tus archivos de creadores verificados en la plataforma Nexus Mods. Descargar desde foros externos no confiables puede provocar archivos de juego dañados o riesgos de seguridad.
+</Callout>
+
+| Categoría del mod | Propósito principal | Tipos de archivo comunes |
+| :--- | :--- | :--- |
+| **Intercambio de modelos** | Reemplaza cabezas, cabello o mallas de cuerpo completo de personajes | .obj, .fbx, carpetas REDELBE |
+| **Ajustes de Reshade** | Mejora la iluminación, la profundidad de color y el contraste general | .ini, shaders de Reshade |
+| **Conjuntos de movimientos** | Modifica las animaciones de los personajes y las propiedades de ataque | Archivos de script personalizados |
+| **Superposiciones de texturas** | Cambia los colores de los trajes, el maquillaje y los detalles faciales | .dds, .png |
+
+</Section>
+
+<Section icon={Map} title="Cómo instalar mods de Dead or Alive 6 Last Round">
+
+La instalación de recursos personalizados requiere un enfoque estructurado para garantizar que el motor del juego reconozca los nuevos archivos sin colgarse. El método más confiable para gestionar estas modificaciones es a través de la utilidad REDELBE. REDELBE actúa como un inyector de datos en tiempo real, cargando recursos personalizados directamente en la memoria del juego durante el tiempo de ejecución. Esto elimina la necesidad de modificar de forma permanente los archivos internos del juego, lo que te permite activar y desactivar las modificaciones con facilidad.
+
+Antes de continuar, asegúrate de que tu juego esté actualizado a la última versión en Steam. Ejecutar versiones desactualizadas del juego puede causar problemas de compatibilidad con las herramientas de inyección modernas.
+
+<Steps>
+  <Step num="1" title="Descargar y extraer REDELBE">
+    Descarga la última versión de la utilidad REDELBE. Extrae el contenido del archivo directamente en el directorio principal de tu juego, donde se encuentra el archivo ejecutable.
+  </Step>
+  <Step num="2" title="Preparar el directorio Layer2">
+    Localiza la carpeta llamada **Layer2** dentro del directorio principal del juego. Si esta carpeta no existe, créala manualmente. Este directorio albergará todas tus carpetas de personajes y texturas personalizadas.
+  </Step>
+  <Step num="3" title="Instalar archivos de mods">
+    Descarga el mod de personaje o traje que hayas elegido. Extrae los archivos en una subcarpeta dedicada dentro del directorio **Layer2**, manteniendo la estructura de carpetas especificada por el creador del mod.
+  </Step>
+  <Step num="4" title="Configurar y lanzar">
+    Inicia el juego a través de Steam. Usa las teclas de acceso rápido designadas en el juego (generalmente F2 o F3) durante la pantalla de selección de personajes para alternar y cargar tus modelos personalizados recién instalados.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Compatibilidad con Steam">
+Si usas mods que alteran las mecánicas de juego, los conjuntos de movimientos de los personajes o los datos de fotogramas (frame data), configura tu cliente de Steam para que se ejecute en modo desconectado para evitar penalizaciones en tu cuenta durante el emparejamiento.
+</Callout>
+
+| Problema | Causa potencial | Solución recomendada |
+| :--- | :--- | :--- |
+| **El juego se cierra al iniciar** | Versión de inyector incompatible | Actualiza REDELBE a la versión más reciente que coincida con tu compilación de Steam. |
+| **El mod no se carga** | Estructura de directorio incorrecta | Verifica que los archivos del mod estén colocados directamente dentro de la carpeta **Layer2**. |
+| **Texturas faltantes o en blanco** | Archivos de textura dañados | Vuelve a descargar el archivo del mod y reemplaza los archivos en el directorio. |
+| **Las teclas rápidas no funcionan** | Conflicto de asignación de teclas | Revisa el archivo de configuración para reasignar las teclas de activación del mod. |
+
+</Section>
+
+<Section icon={Swords} title="Mejores mods estéticos y de personajes">
+
+La variedad de personalizaciones de personajes es un gran atractivo para los jugadores que utilizan **mods de Dead or Alive 6 Last Round**. Los creadores han desarrollado de todo, desde retoques cosméticos menores hasta modelos cruzados (crossovers) de otras franquicias de videojuegos populares. Estas modificaciones te permiten reemplazar los modelos predeterminados con alternativas muy detalladas, lo que le da un aspecto renovado al elenco de luchadores.
+
+Por ejemplo, los jugadores pueden cambiar la cabeza predeterminada de Kasumi por un modelo de estilo gótico, un aspecto inspirado en Winter de Aespa o un modelo de Kairi Sane. Los mods de crossover también traen a la arena a personajes de las series Yakuza, Nioh 2 y Stranger of Paradise.
+
+<CardGrid cols={3}>
+  <Card title="Intercambios de cabeza">
+    - **Aspecto gótico de Kasumi**: Añade una estética oscura y estilizada a Kasumi.
+    - **Cabeza de Kairi Sane**: Reemplaza la cabeza de Kasumi con un modelo de luchadora personalizado.
+    - **Lei Fang Yakuza**: Le da a Lei Fang una estética de Yakuza que encaja con el lore.
+  </Card>
+  <Card title="Reemplazos completos">
+    - **Regreso de Gen Fu**: Reintroduce al personaje clásico Gen Fu en el juego.
+    - **Saori Shirosaki**: Reemplaza los modelos de Eliot y Phase 4 con el personaje de Yakuza.
+    - **Hattori Hanzo**: Cambia el equipo predeterminado de Ryu Hayabusa por la armadura ninja de Nioh 2.
+  </Card>
+  <Card title="Crossovers de jugabilidad">
+    - **Movimientos personalizados de Christie**: Añade un estilo de lucha personalizado y un traje oriental.
+    - **Ryu Hayabusa MGS3**: Cambia la cabeza de Ryu por una máscara de soldado al estilo de Metal Gear Solid.
+    - **Jack Strangers of Paradise**: Reemplaza a Hayabusa con la estética de Jack Garland.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recomendación destacada">
+El mod del personaje Gen Fu es muy recomendable para los fans veteranos que desean recuperar el estilo de lucha tradicional y el modelo del personaje clásico.
+</Callout>
+
+| Nombre del mod | Personaje objetivo | Características clave | Tamaño del archivo |
+| :--- | :--- | :--- | :--- |
+| **Cabeza de Kairi Sane** | Kasumi | Texturas personalizadas de cabello y rostro | **38.7 MB** |
+| **Mod de personaje Gen Fu** | Gen Fu (Ranura personalizada) | Restauración completa del modelo de personaje | **3.1 MB** |
+| **Traje de Hattori Hanzo** | Ryu Hayabusa | Variante de armadura ninja negra de Nioh 2 | **27.2 MB** |
+| **Saori Shirosaki** | Eliot y Phase 4 | Integración del modelo de la serie Yakuza | **9.6 MB** |
+| **Cabeza de Yakuza** | Lei Fang | Ajuste de intercambio de cabeza acorde al lore | **17.0 MB** |
+
+</Section>
+
+<Section icon={Shield} title="Mejoras visuales y optimización del rendimiento">
+
+Más allá de los modelos de personajes, los mejoradores visuales desempeñan un papel fundamental en la mejora de la presentación general del juego. Los ajustes preestablecidos como el "per plux reshade preset" ajustan la iluminación, la saturación del color y los niveles de brillo del juego para ofrecer imágenes más vívidas. Estas modificaciones ayudan a modernizar el motor de renderizado del juego, haciendo que los entornos de combate se vean más nítidos y dinámicos sin causar caídas significativas en la tasa de fotogramas.
+
+Mantener unos 60 FPS estables es fundamental para los juegos de lucha, ya que las caídas de fotogramas pueden afectar negativamente la precisión de los comandos y la sincronización de los combos. Al configurar los mejoradores visuales, es importante equilibrar las mejoras estéticas con el rendimiento del sistema.
+
+<Checklist
+  id="visual-optimization-steps"
+  title="Tareas de configuración visual:"
+  items={[
+    "Descargar el framework ReShade desde el sitio web oficial",
+    "Instalar ReShade apuntando al archivo ejecutable del juego",
+    "Aplicar el archivo ini del ajuste preestablecido per plux reshade",
+    "Ajustar el brillo del juego para que coincida con los requisitos del ajuste preestablecido",
+    "Verificar la estabilidad de la tasa de fotogramas en escenarios con alta carga gráfica"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de rendimiento">
+Si experimentas tirones de rendimiento (stuttering) después de aplicar los ajustes de Reshade, intenta desactivar los efectos pesados como la oclusión ambiental (ambient occlusion) o la profundidad de campo (depth of field) en el menú de superposición de Reshade.
+</Callout>
+
+| Ajuste | Valor recomendado | Impacto esperado |
+| :--- | :--- | :--- |
+| **Luces vívidas** | Activado (Ajuste preestablecido) | Mejora las fuentes de luz ambiental y de neón. |
+| **Colores vívidos** | Saturación media | Mejora la profundidad del color sin sobresaturar los tonos de piel. |
+| **Ajuste de brillo** | Ajustado por monitor | Equilibra las sombras oscuras y los brillos intensos. |
+| **Antialiasing** | SMAA (Reshade) | Suaviza los bordes dentados con un costo de rendimiento mínimo. |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Para ayudarte a navegar por la instalación y el uso de estos recursos personalizados, hemos recopilado respuestas a las preguntas más comunes sobre el ecosistema de mods del juego.
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo descargar de forma segura los mods de Dead or Alive 6 Last Round?",
+    answer: "El lugar más seguro para descargar mods es el sitio web de Nexus Mods. Alberga archivos verificados, incluidos modelos de personajes, paquetes de texturas y herramientas como REDELBE."
+  },
+  {
+    question: "¿Me banearán de Steam por usar estos mods?",
+    answer: "Los mods cosméticos utilizados en modo desconectado generalmente no provocan baneos. Sin embargo, usar en línea mods que alteren las mecánicas de juego o los conjuntos de movimientos puede marcar tu cuenta. Se recomienda jugar desconectado cuando uses mods activos."
+  },
+  {
+    question: "¿Qué es REDELBE y por qué es necesario?",
+    answer: "REDELBE es una herramienta de carga de mods que inyecta texturas y modelos personalizados en el juego de forma dinámica. Evita que tengas que sobrescribir los archivos originales del juego, lo que hace que la gestión de mods sea mucho más segura y sencilla."
+  },
+  {
+    question: "¿Cómo soluciono un mod que aparece como una textura blanca o faltante?",
+    answer: "Esto suele suceder cuando faltan archivos de textura o se colocan en el directorio equivocado. Asegúrate de que todos los archivos .dds estén extraídos en la carpeta correcta dentro del directorio Layer2."
+  }
+]} />
+
+<Callout type="warning" title="Nota final">
+Recuerda siempre hacer una copia de seguridad de tus datos de guardado originales y de los directorios del juego antes de instalar cualquier modificación de software.
+</Callout>
+
+</Section>
